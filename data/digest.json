@@ -1,14 +1,14 @@
 {
   "schema": 2,
   "date": "2026-11-05",
-  "generatedAt": "2026-11-05T00:25:33+08:00",
+  "generatedAt": "2026-11-05T09:30:03+08:00",
   "generator": "ai-radar pipeline 0.2 (zero-token)",
   "stats": {
-    "fetched": 1646,
-    "kept": 50,
-    "droppedIrrelevant": 113,
+    "fetched": 1649,
+    "kept": 53,
+    "droppedIrrelevant": 112,
     "droppedBlacklist": 0,
-    "droppedOld": 1483,
+    "droppedOld": 1484,
     "droppedDuplicate": 0,
     "sourcesOk": 12,
     "sourcesFailed": 1,
@@ -17,17 +17,15 @@
   },
   "news": [
     {
-      "title": "Ask HN: What's your current AI agentic setup?",
-      "url": "https://news.ycombinator.com/item?id=50366117",
-      "publishedAt": "2026-11-04T14:37:22+00:00",
-      "summary": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying for? (Claude, ChatGPT/Codex, Cursor, etc) - Which tiers? - Have you purchased multiple subscriptions from the same prov",
-      "source": "Hacker News",
-      "id": "793baf0e54",
-      "relevance": 82,
+      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
+      "url": "http://www.geekpark.net/news/373494",
+      "publishedAt": "2026-11-05T08:45:25+08:00",
+      "summary": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一 11 月 4 日，Apple 智能伴随 iOS 27.3 的 Developer Beta 向中国大陆用户开放测试，并计划于 12 月随 iOS 27.3 正式版推出。与此同时，苹果也确认与阿里巴巴达成合作，将千问接入 Siri、写作工具及视觉智能，让中国用户能够通过系统直接调用国内大模型的能力。 不过，这一次上线的并不是完整版 Apple 智能。首批功能主要包括实时翻译、写作工具、视觉智能、照片消除、智绘表情、通知摘要等，而苹果此前展示的新一代 Siri AI，以及 WWDC26 公布的部分下一代 AI 能力，仍然不在此次更新范围内。 当日，苹果 (AAPL.US) 大涨超 6%，报 353.05 美元，总市值再度突破 5 万亿美元，重返美股市值第一。(来源：格隆汇) OpenAI 升级 ChatGPT 图片能力，支持直接生成",
+      "source": "极客公园",
+      "id": "0e81ab36cc",
+      "relevance": 91,
       "category": "model",
-      "tags": [
-        "Agentic"
-      ]
+      "tags": []
     },
     {
       "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
@@ -43,29 +41,15 @@
       ]
     },
     {
-      "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
-      "url": "http://www.geekpark.net/news/373252",
-      "publishedAt": "2026-11-02T08:27:02+08:00",
-      "summary": "苹果 CEO：不会为了做 AI 而做产品 苹果 CEO 约翰&middot;特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护。过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线。 特努斯是苹果资深高管，9 月初正式出任 CEO。他承认「每个人都有自己的看法」，但坚称：「我对我们现在所处的阶段很满意。」 特努斯补充，苹果一定会在新产品中运用人工智能，但他表示：「我们不想为了做 AI 而推出 AI。如果我们做得好，用户不会去思考这个功能到底是 AI 实现的，还是传统软件实现的。重点在于，我们是否打造出用户真正喜爱的产品。」（来源：环球市场播报） OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准 11 月 1 日消息，OpenAI、谷歌、微软以及 Anthropic 近日宣布将采用一项新标准",
-      "source": "极客公园",
-      "id": "827d91bf40",
-      "relevance": 59,
+      "title": "早报｜苹果收紧员工Token预算/手机越卖越贵，全球手机出货量降19%/雷军：小米机器人在工厂「实习」8小时",
+      "url": "https://www.ifanr.com/1687750?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-05T00:15:59+00:00",
+      "summary": "· 彭博调查：69% 中国受访者至少等到明年才换手机 · ChatGPT 新增 GIF 生成，可调播放速度、逐帧修改 · 近七成汽车经销商试用 AI，部分已设智能体专员 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "8d787e467c",
+      "relevance": 67,
       "category": "model",
       "tags": []
-    },
-    {
-      "title": "OpenAI says ChatGPT is catching up to Google in search",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
-      "publishedAt": "2026-11-03T13:38:47-05:00",
-      "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a press event on Monday. He said […]",
-      "source": "The Verge AI",
-      "id": "662bf89dbf",
-      "relevance": 56,
-      "category": "model",
-      "tags": [
-        "OpenAI",
-        "ChatGPT"
-      ]
     },
     {
       "title": "GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨",
@@ -79,6 +63,19 @@
       "tags": [
         "GPT",
         "Qwen"
+      ]
+    },
+    {
+      "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
+      "url": "https://sspai.com/post/118498",
+      "publishedAt": "2026-11-05T08:16:27+08:00",
+      "summary": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ... 查看全文",
+      "source": "少数派",
+      "id": "2e2ee958cc",
+      "relevance": 52,
+      "category": "model",
+      "tags": [
+        "混元"
       ]
     },
     {
@@ -119,6 +116,44 @@
       ]
     },
     {
+      "title": "8点1氪丨张雪回应“校招年薪10万起被嫌低”；A股史诗级大涨；“iPhone显示下周五多地-30℃”，苹果致歉",
+      "url": "https://36kr.com/p/4056098541425801?f=rss",
+      "publishedAt": "",
+      "summary": "今日热点导览 中国微短剧有了英文名：Duanju 京东外卖赛道负责人郭庆离职 科创板史上单次最大回购要来了 马斯克回应美国中期选举 卫龙换帅，“90后”余风接任CEO 瑞幸发布三季报，第三季度省了11亿元配送费 TOP 3 大新闻 校招10万起薪被嫌低，张雪：选择是双向的 张雪机车创始人张雪在重庆大学校招开出研发岗10万起的年薪，引发学生质疑，对比当地车企薪资被认为竞争力不足。张雪回应称招聘是双向选择，不能强制企业抬高薪资。本次校招计划招百人，研发岗占七成，配套宿舍、涨薪等福利，同时设立专项招录通道，懂机车、会实操的应届生薪资可上浮30%-40%。公司正推进年产50万辆摩托车扩产项目，急需大量研发人才。（界面新闻） A股史诗级大涨：超百股涨停，科技暴力反弹 36氪获悉，11月4日，指数午后持续拉升，科创50指数涨超10%，创业板指涨近7%，深成指涨超4%，上证指数涨近2%，北证50涨超4%",
+      "source": "36氪",
+      "id": "691bdf5474",
+      "relevance": 48,
+      "category": "job",
+      "tags": [
+        "校招"
+      ]
+    },
+    {
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "url": "https://www.ricursive.com/ripple",
+      "publishedAt": "2026-11-04T18:53:29+00:00",
+      "summary": "Article URL: https://www.ricursive.com/ripple Comments URL: https://news.ycombinator.com/item?id=50369925 Points: 216 # Comments: 76",
+      "source": "Hacker News",
+      "id": "0f35e299c9",
+      "relevance": 47,
+      "category": "agent",
+      "tags": [
+        "Agentic",
+        "SOTA"
+      ]
+    },
+    {
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "url": "https://news.ycombinator.com/item?id=50368804",
+      "publishedAt": "2026-11-04T17:31:53+00:00",
+      "summary": "Hi HN! I'm Luke from Kino ( https://kino.ai ). Kino lets you make great videos with your agents and your teammates. Storage of footage and assets, a rich video editor, and review links for teammates are all bundled into one. Your colleagues and Codex / Claude Code can work on the same timeline with review notes and footage all in one place. See a basic overview at https://kino.ai/walkthrough-video",
+      "source": "Hacker News",
+      "id": "2b5f926b26",
+      "relevance": 46,
+      "category": "model",
+      "tags": []
+    },
+    {
       "title": "Heimstaden is changing residential real estate management with AI",
       "url": "https://openai.com/index/heimstaden",
       "publishedAt": "2026-11-03T08:00:00+00:00",
@@ -128,6 +163,19 @@
       "relevance": 46,
       "category": "model",
       "tags": []
+    },
+    {
+      "title": "ChatGPT will now make you animated GIFs",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026474/openai-chatgpt-animated-gifs-images-2-6",
+      "publishedAt": "2026-11-04T14:02:40-05:00",
+      "summary": "ChatGPT can now create GIFs using a prompt or a photo uploaded to the AI chatbot. The update, which is rolling out alongside OpenAI's new Images 2.6 model, allows you to adjust the GIF's animation speed, edit individual frames, and share it with others. Before this change, ChatGPT couldn't natively generate GIFs in a single […]",
+      "source": "The Verge AI",
+      "id": "026e4ebd40",
+      "relevance": 45,
+      "category": "model",
+      "tags": [
+        "ChatGPT"
+      ]
     },
     {
       "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
@@ -143,25 +191,25 @@
       ]
     },
     {
+      "title": "腾讯混元Hy4上线，TokenHub调用限时2.5折起",
+      "url": "https://36kr.com/newsflashes/4056155946849414?f=rss",
+      "publishedAt": "",
+      "summary": "11月4日，腾讯混元Hy4正式上线，首次引入视觉理解，可操作电脑完成跨应用任务，综合表现跻身最强开源模型之列。Hy4已上线腾讯云TokenHub，每百万Tokens输入最低0.3元。即日起至12月31日，通过TokenHub按量调用享5折；11月18日前通过Token Plan接入享2.5折，全球新老用户同享。",
+      "source": "36氪",
+      "id": "f9519031df",
+      "relevance": 45,
+      "category": "model",
+      "tags": [
+        "混元"
+      ]
+    },
+    {
       "title": "Anthropic is working on a system to prove AI models’ identity",
       "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
       "publishedAt": "2026-11-03T22:41:03+00:00",
       "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
       "source": "TechCrunch AI",
       "id": "f901cc10a3",
-      "relevance": 43,
-      "category": "model",
-      "tags": [
-        "Anthropic"
-      ]
-    },
-    {
-      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
-      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
-      "publishedAt": "2026-11-02T22:14:50+00:00",
-      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
-      "source": "TechCrunch AI",
-      "id": "55dd7e97ce",
       "relevance": 43,
       "category": "model",
       "tags": [
@@ -258,29 +306,16 @@
       ]
     },
     {
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "publishedAt": "2026-11-02T00:00:00+00:00",
-      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "source": "OpenAI News",
-      "id": "598c6194c0",
-      "relevance": 37,
-      "category": "aitools",
-      "tags": [
-        "Codex"
-      ]
-    },
-    {
-      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
-      "url": "https://news.ycombinator.com/item?id=50363461",
-      "publishedAt": "2026-11-04T10:10:27+00:00",
-      "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn not to enter confidential inform",
-      "source": "Hacker News",
-      "id": "150a39b9eb",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "publishedAt": "2026-11-04T21:25:44+00:00",
+      "summary": "OpenAI’s Chris Lehane wants AI to define the 2028 election, proposing a new social contract that could benefit Americans while also advancing the AI giant’s own business interests.",
+      "source": "TechCrunch AI",
+      "id": "6050c43be0",
       "relevance": 34,
       "category": "model",
       "tags": [
-        "Gemini"
+        "OpenAI"
       ]
     },
     {
@@ -297,19 +332,6 @@
       ]
     },
     {
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "publishedAt": "2026-11-02T00:00:00+00:00",
-      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "source": "OpenAI News",
-      "id": "ff138f709a",
-      "relevance": 34,
-      "category": "model",
-      "tags": [
-        "OpenAI"
-      ]
-    },
-    {
       "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
       "url": "https://www.qbitai.com/2026/11/507586.html",
       "publishedAt": "2026-11-04T10:08:38+00:00",
@@ -318,17 +340,6 @@
       "id": "68d6e2cfb5",
       "relevance": 33,
       "category": "model",
-      "tags": []
-    },
-    {
-      "title": "Alphabet豪掷150亿美元扩建马来西亚AI数据中心",
-      "url": "https://36kr.com/newsflashes/4055396228289666?f=rss",
-      "publishedAt": "",
-      "summary": "谷歌母公司Alphabet表示，计划投资150亿美元，扩大位于马来西亚的AI数据中心和传统云计算相关业务，凸显出史无前例的人工智能应用热潮正在推动AI算力资源需求以及数字化基础设施需求加速增长。据了解，马来西亚已经成为东南亚主要的数据中心枢纽，吸引了甲骨文、亚马逊、阿里巴巴集团和字节跳动等公司。（财联社）",
-      "source": "36氪",
-      "id": "75f3cef5c5",
-      "relevance": 32,
-      "category": "company",
       "tags": []
     },
     {
@@ -382,16 +393,16 @@
       ]
     },
     {
-      "title": "Pierre Computer is being acquired by OpenAI",
-      "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
-      "publishedAt": "2026-11-04T15:21:21+00:00",
-      "summary": "Article URL: https://twitter.com/pierrecomputer/status/2117999036175188183 Comments URL: https://news.ycombinator.com/item?id=50366863 Points: 24 # Comments: 6",
-      "source": "Hacker News",
-      "id": "bac6032ee6",
+      "title": "Gemini for Home now plugs into AT&T’s smart security system",
+      "url": "https://www.theverge.com/tech/1026787/att-gemini-for-home-connected-life-security-system",
+      "publishedAt": "2026-11-04T15:23:24-05:00",
+      "summary": "AT&T's smart home security system now integrates with Gemini for Home. The company says its Connected Life system is the \"first\" home security product to integrate with Google Home Premium, enabling a bunch of Gemini-powered features that can summarize home events, search your video history, and more. With the update, Gemini for Home can provide […]",
+      "source": "The Verge AI",
+      "id": "b6ceabf91c",
       "relevance": 28,
       "category": "model",
       "tags": [
-        "OpenAI"
+        "Gemini"
       ]
     },
     {
@@ -405,6 +416,19 @@
       "category": "model",
       "tags": [
         "Claude"
+      ]
+    },
+    {
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "publishedAt": "2026-11-04T00:00:00+00:00",
+      "summary": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "source": "OpenAI News",
+      "id": "bf25be8f87",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "GPT"
       ]
     },
     {
@@ -458,6 +482,17 @@
       "tags": []
     },
     {
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "url": "https://www.qbitai.com/2026/11/507647.html",
+      "publishedAt": "2026-11-04T16:13:23+00:00",
+      "summary": "连路人都有自己的想法",
+      "source": "量子位",
+      "id": "f46bd8b988",
+      "relevance": 27,
+      "category": "embodied",
+      "tags": []
+    },
+    {
       "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
       "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
       "publishedAt": "2026-11-03T21:26:32+00:00",
@@ -482,6 +517,30 @@
       ]
     },
     {
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "publishedAt": "2026-11-04T21:56:01+00:00",
+      "summary": "During its busiest week last quarter, Uber said only four people booked a ride using an AI agent.",
+      "source": "TechCrunch AI",
+      "id": "f3f4f56858",
+      "relevance": 25,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "Kimi K3.1 Pro model weights are out",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "publishedAt": "2026-11-04T15:30:30+00:00",
+      "summary": "Article URL: https://huggingface.co/moonshotai/Kimi-K3.1-Pro Comments URL: https://news.ycombinator.com/item?id=50366999 Points: 361 # Comments: 98",
+      "source": "Hacker News",
+      "id": "7838c87736",
+      "relevance": 25,
+      "category": "model",
+      "tags": [
+        "Kimi"
+      ]
+    },
+    {
       "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
       "url": "https://www.qbitai.com/2026/11/507533.html",
       "publishedAt": "2026-11-04T02:49:02+00:00",
@@ -501,19 +560,6 @@
       "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
       "source": "DeepMind Blog",
       "id": "7b04a568c5",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "Agentic"
-      ]
-    },
-    {
-      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
-      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-03T15:40:16+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "e2de3c5598",
       "relevance": 25,
       "category": "agent",
       "tags": [
@@ -554,19 +600,6 @@
       "tags": []
     },
     {
-      "title": "Letting users trust their own MCP clients, without opening a phishing hole",
-      "url": "https://streamvessel.com/blog/mcp-trusted-redirect-uris",
-      "publishedAt": "2026-11-04T15:30:57+00:00",
-      "summary": "Article URL: https://streamvessel.com/blog/mcp-trusted-redirect-uris Comments URL: https://news.ycombinator.com/item?id=50367004 Points: 8 # Comments: 1",
-      "source": "Hacker News",
-      "id": "cfea5628a6",
-      "relevance": 22,
-      "category": "agent",
-      "tags": [
-        "MCP"
-      ]
-    },
-    {
       "title": "Linux内核也能造了？Codex 11天写出13.9万行新内核，Rocky Linux 10跑起来了",
       "url": "https://www.infoq.cn/article/OiyNEtFwV05opvsLTcvK?utm_source=rss&utm_medium=article",
       "publishedAt": "2026-11-04T15:30:50+00:00",
@@ -591,17 +624,15 @@
       "tags": []
     },
     {
-      "title": "豆包工作接入抖音生活服务经营等官方插件",
-      "url": "https://36kr.com/newsflashes/4055439067993217?f=rss",
+      "title": "恒指开盘涨1.66%，恒生科技指数涨1.43%",
+      "url": "https://36kr.com/newsflashes/4056182950925184?f=rss",
       "publishedAt": "",
-      "summary": "11月4日，豆包工作宣布接入抖音生活服务经营、巨量本地推、TikTok for Business三款官方插件。据介绍，完成相应账户授权后，用自然语言查询门店数据、做经营复盘、拿建议，减少报表搬运和重复整理，也无需在多个后台之间反复切换。（界面）",
+      "summary": "36氪获悉，恒指开盘涨1.66%，恒生科技指数涨1.43%；零售、有色金属、传媒板块领涨，赤峰黄金涨超5%，腾讯音乐涨超4%，美团涨超3%，阿里巴巴涨超2%；石油石化、半导体、硬件设备板块跌幅居前，中际旭创跌超7%，华虹宏力跌超5%，山东墨龙跌超4%。",
       "source": "36氪",
-      "id": "3d8a32d980",
+      "id": "2f5efbbcad",
       "relevance": 22,
-      "category": "model",
-      "tags": [
-        "豆包"
-      ]
+      "category": "company",
+      "tags": []
     },
     {
       "title": "Google will let schools skip AI tools, but they have to give up search, too",
@@ -615,13 +646,13 @@
       "tags": []
     },
     {
-      "title": "Apple restricts dating apps and AI companions to users 18 and up",
-      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
-      "publishedAt": "2026-11-03T15:38:27+00:00",
-      "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
-      "source": "TechCrunch AI",
-      "id": "f9c0c715ee",
-      "relevance": 21,
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "publishedAt": "2026-11-04T00:00:00+00:00",
+      "summary": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "source": "OpenAI News",
+      "id": "0a437d67f2",
+      "relevance": 20,
       "category": "model",
       "tags": []
     },
@@ -719,7 +750,7 @@
         "Claude",
         "Anthropic"
       ],
-      "todayCount": 6
+      "todayCount": 5
     },
     {
       "id": "grok",
@@ -853,7 +884,7 @@
         "Kimi",
         "月之暗面"
       ],
-      "todayCount": 0
+      "todayCount": 1
     },
     {
       "id": "qwen",
@@ -1112,7 +1143,7 @@
     {
       "name": "ccch1mneyyy/dsh-Go",
       "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "stars": 9180,
+      "stars": 9553,
       "language": "Dart",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "topic": "llm"
@@ -1120,7 +1151,7 @@
     {
       "name": "wangzan101/Mika",
       "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "stars": 6543,
+      "stars": 6653,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "topic": "llm"
@@ -1128,31 +1159,39 @@
     {
       "name": "modelflare-ai/AnyModelBot",
       "desc": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla",
-      "stars": 2696,
+      "stars": 2701,
       "language": "Python",
       "url": "https://github.com/modelflare-ai/AnyModelBot",
       "topic": "llm"
     },
     {
-      "name": "sahenjp/RustXNG",
-      "desc": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
-      "stars": 813,
-      "language": "Rust",
-      "url": "https://github.com/sahenjp/RustXNG",
+      "name": "N1nEmAn/sapper-v2",
+      "desc": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defe",
+      "stars": 865,
+      "language": "Python",
+      "url": "https://github.com/N1nEmAn/sapper-v2",
       "topic": "llm"
     },
     {
       "name": "jackwener/DSH-Android",
       "desc": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
-      "stars": 811,
+      "stars": 822,
       "language": "Kotlin",
       "url": "https://github.com/jackwener/DSH-Android",
       "topic": "llm"
     },
     {
+      "name": "zgsfsec/Full-Chain-Sentinel-System",
+      "desc": "全链哨兵，是集Web 渗透、安卓 App 安全测试、iOS APP安全厕所、攻防批量打点、自动化应急响应、开源漏洞监测为一体的网络安全 Agent，用于安全服务交付自动化辅助，禁止用于非法用途。",
+      "stars": 670,
+      "language": "TypeScript",
+      "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+      "topic": "agent"
+    },
+    {
       "name": "looplj/reveric",
       "desc": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
-      "stars": 617,
+      "stars": 631,
       "language": "Dart",
       "url": "https://github.com/looplj/reveric",
       "topic": "agent"
@@ -1160,17 +1199,9 @@
     {
       "name": "langchain-ai/design-agent",
       "desc": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep",
-      "stars": 558,
+      "stars": 561,
       "language": "JavaScript",
       "url": "https://github.com/langchain-ai/design-agent",
-      "topic": "agent"
-    },
-    {
-      "name": "aa1143/NamiAgent",
-      "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
-      "stars": 329,
-      "language": "Python",
-      "url": "https://github.com/aa1143/NamiAgent",
       "topic": "agent"
     }
   ],
@@ -1178,21 +1209,21 @@
     {
       "name": "wanghao-SunSky/cs329z-chinese",
       "desc": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Mark",
-      "stars": 493,
+      "stars": 495,
       "language": "HTML",
       "url": "https://github.com/wanghao-SunSky/cs329z-chinese"
     },
     {
       "name": "aa1143/NamiAgent",
       "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
-      "stars": 329,
+      "stars": 340,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiAgent"
     },
     {
       "name": "aa1143/NamiGPT",
       "desc": "零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTorch, step by step",
-      "stars": 181,
+      "stars": 182,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiGPT"
     },
@@ -1206,7 +1237,7 @@
     {
       "name": "zhuangzhaoyeye/llm_course",
       "desc": "写给算法工程师的大模型课程：34 课，每课从一个问题出发，用具体数字把机制从头算一遍",
-      "stars": 32,
+      "stars": 33,
       "language": "HTML",
       "url": "https://github.com/zhuangzhaoyeye/llm_course"
     }
