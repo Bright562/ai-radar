@@ -1,0 +1,34 @@
+name: daily-digest
+
+on:
+  schedule:
+    - cron: "30 23 * * *"   # UTC 23:30 = 北京时间 07:30
+  workflow_dispatch: {}      # 手动触发按钮
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 生成今日 digest
+        run: python pipeline/run.py
+
+      - name: 提交数据变更
+        run: |
+          git config user.name "ai-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "今天没有新内容，跳过提交"
+          else
+            git commit -m "digest: $(date -u +%F)"
+            git push
+          fi

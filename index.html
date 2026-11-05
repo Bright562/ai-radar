@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>AI 雷达</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <div class="brand"><span class="brand-mark"><i></i></span>AI 雷达</div>
+      <div class="top-right">
+        <span class="live" id="live-dot"></span>
+        <span id="updated-at">加载中…</span>
+        <a id="back-today" href="/" class="back" hidden>回到今天</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-text">
+        <h1 id="headline">今天 AI 圈发生了什么</h1>
+        <p id="subline">正在读取数据…</p>
+      </div>
+      <div class="chips" id="chips" role="group" aria-label="按方向筛选"></div>
+    </section>
+
+    <div class="grid">
+      <section class="panel" id="news" aria-label="今日要闻"></section>
+      <aside class="side">
+        <section class="panel" id="jobs" aria-label="岗位雷达"></section>
+        <section class="panel" id="companies" aria-label="大厂动态"></section>
+        <section class="panel" id="models" aria-label="模型动向"></section>
+        <section class="panel" id="repos" aria-label="开源风向"></section>
+        <section class="panel" id="learning" aria-label="学习资源"></section>
+      </aside>
+    </div>
+
+    <p class="foot" id="foot"></p>
+  </main>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1220 @@
+{
+  "schema": 2,
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T00:25:33+08:00",
+  "generator": "ai-radar pipeline 0.2 (zero-token)",
+  "stats": {
+    "fetched": 1646,
+    "kept": 50,
+    "droppedIrrelevant": 113,
+    "droppedBlacklist": 0,
+    "droppedOld": 1483,
+    "droppedDuplicate": 0,
+    "sourcesOk": 12,
+    "sourcesFailed": 1,
+    "jobsAuto": 12,
+    "repos": 8
+  },
+  "news": [
+    {
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "publishedAt": "2026-11-04T14:37:22+00:00",
+      "summary": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI. 1) What AI subscriptions are you personally paying for? (Claude, ChatGPT/Codex, Cursor, etc) - Which tiers? - Have you purchased multiple subscriptions from the same prov",
+      "source": "Hacker News",
+      "id": "793baf0e54",
+      "relevance": 82,
+      "category": "model",
+      "tags": [
+        "Agentic"
+      ]
+    },
+    {
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+      "url": "http://www.geekpark.net/news/373427",
+      "publishedAt": "2026-11-04T08:28:02+08:00",
+      "summary": "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送 11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。 这次开放的是开发者测试版，正式版计划于 12 月推出。首批支持 iPhone 15 Pro 系列、iPhone 16 及后续机型，以及 iPhone Air 和 iPhone Duo；WWDC 2026 发布的新版 Siri AI 暂未包含在内。（来源：快科技） 腾讯 12.8 亿用户蝉联中国互联网第一，绿泡泡月活破 1.5 亿，手游 top10 独占 8 款 11 月 3 日，Qu",
+      "source": "极客公园",
+      "id": "7bb8e4a7cd",
+      "relevance": 82,
+      "category": "model",
+      "tags": [
+        "ChatGPT"
+      ]
+    },
+    {
+      "title": "​传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
+      "url": "http://www.geekpark.net/news/373252",
+      "publishedAt": "2026-11-02T08:27:02+08:00",
+      "summary": "苹果 CEO：不会为了做 AI 而做产品 苹果 CEO 约翰&middot;特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩护。过去几年，外界常认为苹果在 AI 赛道落后，尤其是苹果推迟推出更强版本的 Siri，该功能直到今年夏天才正式上线。 特努斯是苹果资深高管，9 月初正式出任 CEO。他承认「每个人都有自己的看法」，但坚称：「我对我们现在所处的阶段很满意。」 特努斯补充，苹果一定会在新产品中运用人工智能，但他表示：「我们不想为了做 AI 而推出 AI。如果我们做得好，用户不会去思考这个功能到底是 AI 实现的，还是传统软件实现的。重点在于，我们是否打造出用户真正喜爱的产品。」（来源：环球市场播报） OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准 11 月 1 日消息，OpenAI、谷歌、微软以及 Anthropic 近日宣布将采用一项新标准",
+      "source": "极客公园",
+      "id": "827d91bf40",
+      "relevance": 59,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "OpenAI says ChatGPT is catching up to Google in search",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+      "publishedAt": "2026-11-03T13:38:47-05:00",
+      "summary": "In many circles, \"Ask Chat\" has replaced \"Google it,\" and that's reflected in a new announcement from OpenAI: the volume of search queries run through ChatGPT now equals 20 percent of the volume run through Google. Adam Fry, OpenAI's consumer product lead for ChatGPT, made the announcement at a press event on Monday. He said […]",
+      "source": "The Verge AI",
+      "id": "662bf89dbf",
+      "relevance": 56,
+      "category": "model",
+      "tags": [
+        "OpenAI",
+        "ChatGPT"
+      ]
+    },
+    {
+      "title": "GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨",
+      "url": "https://www.ifanr.com/1687285?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-03T07:22:57+00:00",
+      "summary": "我「编程」我自己 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "022fd19b58",
+      "relevance": 53,
+      "category": "model",
+      "tags": [
+        "GPT",
+        "Qwen"
+      ]
+    },
+    {
+      "title": "早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token",
+      "url": "https://www.ifanr.com/1687477?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-04T00:26:05+00:00",
+      "summary": "· GPT 爆改 Qwen 权重，团队测试数学成绩提升约 6 倍 · 盗用 AI 平台算力，上海一男子获刑三年 · 中兴否认出售手机业务传闻 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "fc831246b0",
+      "relevance": 52,
+      "category": "model",
+      "tags": [
+        "千问"
+      ]
+    },
+    {
+      "title": "心言巴布「Bubbo 1」：一台机器人，如何成为家人",
+      "url": "http://www.geekpark.net/news/373399",
+      "publishedAt": "2026-11-03T15:11:52+08:00",
+      "summary": "头图来源：心言机器人 2026 年 10 月 29 日，心言机器人正式发布具身家庭智能体「巴布（Bubbo 1）」。 这台毛绒外形的机器人，基于心言自研的 Bubbo OS，主打「伙伴式交互」：它不是一台等人发号施令的家电，而是一个会主动走近、主动回应的家庭成员。产品即日起在京东等官方渠道发售，售价 9499 元，前 1000 名订购者可享 7999 元。 在心言机器人创始人、Bubbo 1 首席设计师任永亮看来， 「 技术决定体验的下限，交互决定体验的上限。 」 过去的 AI，是你不开口它就不在的工具；而巴布要做的，是从「外部」视角搭起一个 Family Agent&mdash;&mdash; 识别家里的每一个人，也关注他们之间的关系。 为此，它在身上装了 13 类、26 个传感器，用 6 个自由度和两块表情屏理解复杂情感，再靠记忆、多模态感知和分级对话，给出有「延迟感、呼吸感、边界感」",
+      "source": "极客公园",
+      "id": "2cfd79fb4b",
+      "relevance": 51,
+      "category": "agent",
+      "tags": []
+    },
+    {
+      "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份",
+      "url": "http://www.geekpark.net/news/373358",
+      "publishedAt": "2026-11-03T08:40:51+08:00",
+      "summary": "Anthropic 更新 IPO 招股书：第三季度营收近 170 亿美元，算力承诺达 8954 亿美元 11 月 2 日，Anthropic 向美国证券交易委员会提交更新后的 S-1 招股文件，首次补充截至今年 9 月底的第三季度财务数据。 Anthropic 第三季度营收达到 169.6 亿美元，较第二季度增长 47%，但增速低于第二季度的 144%。公司第三季度营业亏损为 5.67 亿美元，而第二季度曾实现 9.74 亿美元营业利润。 与此同时，Anthropic 披露约 8954 亿美元的 AI 基础设施相关支出承诺，涉及亚马逊、谷歌等合作伙伴。公司警告，部分算力供应依赖第三方融资，如果相关资金出现问题，可能影响交付时间和成本。（来源：Reuters） Meta 调整 VR 硬件优先级：将更多资源转向可穿戴设备和 AI 业务，降低消费级 VR 硬件优先级 11 月 2 日消息，Met",
+      "source": "极客公园",
+      "id": "d4af622fb6",
+      "relevance": 50,
+      "category": "model",
+      "tags": [
+        "Grok"
+      ]
+    },
+    {
+      "title": "Heimstaden is changing residential real estate management with AI",
+      "url": "https://openai.com/index/heimstaden",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "summary": "Discover how Heimstaden uses OpenAI’s ChatGPT Enterprise and Codex to transform property management, cut costs, and empower employees across Europe.",
+      "source": "OpenAI News",
+      "id": "08b710f1e7",
+      "relevance": 46,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+      "url": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T11:02:35+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "cef65b38f7",
+      "relevance": 45,
+      "category": "embodied",
+      "tags": [
+        "具身智能"
+      ]
+    },
+    {
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "publishedAt": "2026-11-03T22:41:03+00:00",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from.",
+      "source": "TechCrunch AI",
+      "id": "f901cc10a3",
+      "relevance": 43,
+      "category": "model",
+      "tags": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "publishedAt": "2026-11-02T22:14:50+00:00",
+      "summary": "RSI is the point at which AI grows so good at training itself that it spawns a dramatic acceleration of AI capabilities. To the AI doomers, RSI represents the cataclysm from which there is no return.",
+      "source": "TechCrunch AI",
+      "id": "55dd7e97ce",
+      "relevance": 43,
+      "category": "model",
+      "tags": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "Claude’s new rules against game cloning won’t stop the AI copying boom",
+      "url": "https://arstechnica.com/ai/2026/11/claudes-new-rules-against-game-cloning-wont-stop-the-ai-copying-boom/",
+      "publishedAt": "2026-11-02T18:05:31+00:00",
+      "summary": "The tsunami of imitators is way bigger than any one model maker can stem.",
+      "source": "Ars Technica AI",
+      "id": "778dbacaae",
+      "relevance": 43,
+      "category": "model",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "title": "当 Agent 成为数据库新用户，腾讯云如何解决“未知”的难题？",
+      "url": "https://www.infoq.cn/article/TeOb9MgqfeLOoNdxtMH2?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T22:00:23+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "fb0d6a1b69",
+      "relevance": 40,
+      "category": "agent",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "title": "Uber 总裁跳槽 OpenAI！曾掌舵谷歌、Snap 公关，Brockman 亲自发文欢迎",
+      "url": "https://www.infoq.cn/article/mcHCe07TQ08mEZtqcWi1?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T14:02:24+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "73e1143454",
+      "relevance": 40,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "硬氪首发丨快手系AI芯片公司凌川科技完成10亿元B轮融资，3D芯片已回片，明年规模出货",
+      "url": "https://36kr.com/p/4054776980378758?f=rss",
+      "publishedAt": "",
+      "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪获悉，人工智能芯片公司「凌川科技」近日完成10亿元B轮融资，本轮融资将主要用于下一代芯片研发与量产及全球市场拓展。 本轮由亦庄国投屹唐盛和基金、启明创投、朝晖资本联合领投，知名投资机构国泰海通开元、华控投资、国寿长三角科创基金、北工投资、建信（北京）投资、沛坤资本、香港科技园创投基金、鼎晖百孚、金舵投资、厦门恒兴、铭时资本，产业投资方石溪资本、龙芯创投、安徽文旅投参与投资，老股东顺禧基金、水木投资集团、九智资本持续追加。 「凌川科技」由北京市人工智能基金与快手集团共同发起设立，前身为快手集团的异构计算与芯片事业部，专注于智能视频与生成式视频等多模态大模型的底层算力。 公司创始人、董事长兼CEO刘凌志为上海交通大学博士、华盛顿大学博士后，曾任快手集团副总裁及华为、英特尔等核心技术管理岗，于2018年起从零到一搭建了快手异构计算和芯片团队，是兼具学术深度",
+      "source": "36氪",
+      "id": "3120a2a7ab",
+      "relevance": 38,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "谷歌 Data Agent Kit 正式发布：安全防护分为 Skill 与 IAM",
+      "url": "https://www.infoq.cn/article/UtKS9EofSoyd2P7Otx7e?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T20:01:56+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "878f1a2248",
+      "relevance": 37,
+      "category": "agent",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "publishedAt": "2026-11-04T14:30:00+00:00",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "source": "OpenAI News",
+      "id": "3a06f84c0f",
+      "relevance": 37,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "publishedAt": "2026-11-02T15:30:00+00:00",
+      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "source": "OpenAI News",
+      "id": "de4cf53f9d",
+      "relevance": 37,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "publishedAt": "2026-11-02T00:00:00+00:00",
+      "summary": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "source": "OpenAI News",
+      "id": "598c6194c0",
+      "relevance": 37,
+      "category": "aitools",
+      "tags": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "publishedAt": "2026-11-04T10:10:27+00:00",
+      "summary": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Google claims to disconnect them from your account when human-reviewed, they explicitly warn not to enter confidential inform",
+      "source": "Hacker News",
+      "id": "150a39b9eb",
+      "relevance": 34,
+      "category": "model",
+      "tags": [
+        "Gemini"
+      ]
+    },
+    {
+      "title": "Preparing our next security sprint to harden OpenAI",
+      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
+      "publishedAt": "2026-11-02T18:00:00+00:00",
+      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
+      "source": "OpenAI News",
+      "id": "262cfa35f4",
+      "relevance": 34,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "publishedAt": "2026-11-02T00:00:00+00:00",
+      "summary": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "source": "OpenAI News",
+      "id": "ff138f709a",
+      "relevance": 34,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+      "url": "https://www.qbitai.com/2026/11/507586.html",
+      "publishedAt": "2026-11-04T10:08:38+00:00",
+      "summary": "仅激活3B参数，十项基准全线提升！",
+      "source": "量子位",
+      "id": "68d6e2cfb5",
+      "relevance": 33,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "Alphabet豪掷150亿美元扩建马来西亚AI数据中心",
+      "url": "https://36kr.com/newsflashes/4055396228289666?f=rss",
+      "publishedAt": "",
+      "summary": "谷歌母公司Alphabet表示，计划投资150亿美元，扩大位于马来西亚的AI数据中心和传统云计算相关业务，凸显出史无前例的人工智能应用热潮正在推动AI算力资源需求以及数字化基础设施需求加速增长。据了解，马来西亚已经成为东南亚主要的数据中心枢纽，吸引了甲骨文、亚马逊、阿里巴巴集团和字节跳动等公司。（财联社）",
+      "source": "36氪",
+      "id": "75f3cef5c5",
+      "relevance": 32,
+      "category": "company",
+      "tags": []
+    },
+    {
+      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+      "url": "https://www.qbitai.com/2026/11/507574.html",
+      "publishedAt": "2026-11-04T08:59:57+00:00",
+      "summary": "一场别开生面的具身智能科技盛宴",
+      "source": "量子位",
+      "id": "a7cbab617b",
+      "relevance": 30,
+      "category": "embodied",
+      "tags": [
+        "具身智能"
+      ]
+    },
+    {
+      "title": "拿下近亿美元融资后，他们造了个开放动态真实世界的「行动伙伴」",
+      "url": "http://www.geekpark.net/news/373424",
+      "publishedAt": "2026-11-03T19:54:26+08:00",
+      "summary": "作者｜苏子华 编辑｜郑玄 博尔赫斯 写过一则著名的寓言。一个帝国的制图师们绘制了一张与领土等大的地图，精确到每一寸土地、每一条河流。后代人发现这张地图毫无用处，把它弃置在荒野中，任其腐烂。 真正在一个地方走路的人，靠的从来不是一张一比一的图纸，而是脚底的感觉、眼睛的判断，以及走错了再调整的能力。 具身智能行业正在上演这则寓言的现实版。 过去两年，人形机器人学会了跳舞、翻跟头、弹钢琴。但一个略显尴尬的事实是，这些编排的动作，大多是提前反复排练，且发生在受控的封闭环境里。如果放在现实社会的开放环境中，这些机器人该怎么办，它们到底能帮你干什么？ 费莫一科技 （PHYMI）试图回答这个命题。成立初期便完成近亿美元种子轮融资，由 IDG 资本领投，云启资本、滴滴出行、复星锐正、耀途资本、禾赛科技跟投。融资消息仅公布一个月后，它便推出首款行动伙伴。 行动伙伴 Sagi｜图片来源：PHYMI 10 月 ",
+      "source": "极客公园",
+      "id": "042b3807b4",
+      "relevance": 30,
+      "category": "embodied",
+      "tags": []
+    },
+    {
+      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T19:53:34+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "fa8cdcff92",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "月烧 1.5 万亿 token，年烧 1.32 亿美元？Cursor 工程师的账单，凡人只能仰望",
+      "url": "https://www.infoq.cn/article/q9iebpvFozfy4bgCYUyE?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T15:48:18+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "16bcb26ae8",
+      "relevance": 28,
+      "category": "aitools",
+      "tags": [
+        "Cursor"
+      ]
+    },
+    {
+      "title": "Pierre Computer is being acquired by OpenAI",
+      "url": "https://twitter.com/pierrecomputer/status/2117999036175188183",
+      "publishedAt": "2026-11-04T15:21:21+00:00",
+      "summary": "Article URL: https://twitter.com/pierrecomputer/status/2117999036175188183 Comments URL: https://news.ycombinator.com/item?id=50366863 Points: 24 # Comments: 6",
+      "source": "Hacker News",
+      "id": "bac6032ee6",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "Claude 开始拒绝抄游戏，但可能已经太晚了",
+      "url": "https://www.ifanr.com/1687508?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-04T04:34:29+00:00",
+      "summary": "惟创意与热爱不可辜负 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "b4d9308ee7",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "Claude"
+      ]
+    },
+    {
+      "title": "Anthropic is still grappling with the economics of compute",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "publishedAt": "2026-11-03T17:07:01+00:00",
+      "summary": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
+      "source": "TechCrunch AI",
+      "id": "2437af63b2",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "Anthropic"
+      ]
+    },
+    {
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "publishedAt": "2026-11-03T08:00:00+00:00",
+      "summary": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "source": "OpenAI News",
+      "id": "a2357e701f",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "publishedAt": "2026-11-03T00:00:00+00:00",
+      "summary": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "source": "OpenAI News",
+      "id": "3d509e27ba",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ]
+    },
+    {
+      "title": "当AI不再「夸夸其谈」：决策模型爆红，物理世界需要端侧「快判断」",
+      "url": "https://36kr.com/p/4055330063766663?f=rss",
+      "publishedAt": "",
+      "summary": "9月中旬，一家名叫TypeSafeAI的初创公司发布了一个叫Jev的模型。它不写文章，不聊天，甚至不输出一段完整的句子。它做的事只有一件：把输入归入预设的选项，返回一个是/否、一个评分、一个概率。就是这样一款“不会说话”的模型，上线数周用户破百万，财富500强中约三分之一的企业开始使用，24天内估值从约2亿美元飙到75亿美元。 它带出了一个迅速被行业共识的新品类名字：决策模型。OpenAI两周内跟进Decisions API，AWS、微软、Cloudflare相继入场，不到一个月涌现出十余款同类产品。决策模型的快速兴起，反映出人工智能产业正在发生一项重要变化：模型的价值评价，正在从内容生成质量进一步延伸至决策的准确性、响应速度与执行成本。 OmAI联汇CEO兼首席科学家赵天成指出，很多场景不需要夸夸其谈地生成内容，而需要一连串连续、快速、可度量的决策。“大语言模型其实也能做很多决策， 但决",
+      "source": "36氪",
+      "id": "e38aeb67fb",
+      "relevance": 28,
+      "category": "devtools",
+      "tags": []
+    },
+    {
+      "title": "AI教AI开车！百度首次披露Apollo World世界模型，让无人驾驶突破“不可能三角”",
+      "url": "https://www.infoq.cn/article/tIt75FRqU2hwy4eWrOIu?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-03T21:26:32+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "7d7caa8c98",
+      "relevance": 27,
+      "category": "embodied",
+      "tags": []
+    },
+    {
+      "title": "Token 暴涨 5000 倍之后，企业 Agent 落地还卡在哪里？",
+      "url": "https://www.infoq.cn/article/VUmIUJ0ST9xIlPoViXmz?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T21:56:58+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "3b24179b2a",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "url": "https://www.qbitai.com/2026/11/507533.html",
+      "publishedAt": "2026-11-04T02:49:02+00:00",
+      "summary": "长视频记忆精度飙升，问答时延最高降97%",
+      "source": "量子位",
+      "id": "c7fb864905",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "Agent"
+      ]
+    },
+    {
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "publishedAt": "2026-11-03T17:01:49+00:00",
+      "summary": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "source": "DeepMind Blog",
+      "id": "7b04a568c5",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "Agentic"
+      ]
+    },
+    {
+      "title": "构建面向 Agentic 推理的下一代 LLM 推理引擎",
+      "url": "https://www.infoq.cn/article/YwAayF1ylWb7oN4P0lyC?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-03T15:40:16+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "e2de3c5598",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "Agentic"
+      ]
+    },
+    {
+      "title": "“AI+咖啡”改写产业链：新消费场景下的降本增效与青年机会",
+      "url": "https://36kr.com/p/4054786040026244?f=rss",
+      "publishedAt": "",
+      "summary": "随着城市节奏加快，咖啡愈发成为年轻人的日常刚需，日常之外，年轻人对咖啡的期待愈发多元，他们开始为空间氛围、风味探索和社交表达买单，线下咖啡的竞争焦点也从便利转向体验。从平价高频到体验创新，线下咖啡场景正在经历深刻的重构。与此同时，AI技术正加速进入咖啡产业链，被改变的不仅是出品效率，更引发了岗位能力、培训体系与青年就业方向的连锁反应。 10月31日下午，由鄞州区发展和改革局、36氪主办的“AiPartner带着AI上前线——宁波咖啡生活周场景创新交流会”在云创浙理青年国度成功举办，活动现场采用“双圆桌”形式展开探讨。第一场圆桌聚焦新消费场景下的产业链变化与青年机会，来自云创蔚来集团、美刻AI、宁波勇诚资产管理有限公司、陆汇集团的嘉宾们共同探讨了在新消费场景下“AI+咖啡”进入产业链如何推动产业降本增效、实现场景落地，以及如何挖掘青年创业就业的新机遇。 1. 降本增效：AI赋能线下商业的底层",
+      "source": "36氪",
+      "id": "5b4ed0c794",
+      "relevance": 24,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "实测腾讯Hy4：我用它复刻《王者荣耀》，WorkBuddy 真能接大活了",
+      "url": "https://www.ifanr.com/1687613?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-04T08:37:32+00:00",
+      "summary": "国产开源模型的竞争白热化时刻 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "2cb5159930",
+      "relevance": 23,
+      "category": "company",
+      "tags": []
+    },
+    {
+      "title": "早报｜苹果第四财季营收增长12%，服务收入再创新高/《影之刃零》72小时销量突破400万套/曝三星Fold9回归屏下摄像头",
+      "url": "https://www.ifanr.com/1687189?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-03T00:17:09+00:00",
+      "summary": "· 曝下一代触屏 MacBook Pro 将换新模具 · OpenAI 推出电网保护计划，拟让未来园区在用电紧张时降载 · DeepSeek Harness 加入创作者模式，可用对话制作插件 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "75c12f071b",
+      "relevance": 23,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "Letting users trust their own MCP clients, without opening a phishing hole",
+      "url": "https://streamvessel.com/blog/mcp-trusted-redirect-uris",
+      "publishedAt": "2026-11-04T15:30:57+00:00",
+      "summary": "Article URL: https://streamvessel.com/blog/mcp-trusted-redirect-uris Comments URL: https://news.ycombinator.com/item?id=50367004 Points: 8 # Comments: 1",
+      "source": "Hacker News",
+      "id": "cfea5628a6",
+      "relevance": 22,
+      "category": "agent",
+      "tags": [
+        "MCP"
+      ]
+    },
+    {
+      "title": "Linux内核也能造了？Codex 11天写出13.9万行新内核，Rocky Linux 10跑起来了",
+      "url": "https://www.infoq.cn/article/OiyNEtFwV05opvsLTcvK?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-04T15:30:50+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "b4f69889c3",
+      "relevance": 22,
+      "category": "aitools",
+      "tags": [
+        "Codex"
+      ]
+    },
+    {
+      "title": "LifeVal",
+      "url": "https://openai.com/index/lifeval",
+      "publishedAt": "2026-11-02T09:00:00+00:00",
+      "summary": "Introducing LifeVal, a benchmark measuring how well AI helps people complete everyday tasks, from finding childcare to managing finances and government paperwork.",
+      "source": "OpenAI News",
+      "id": "ed4b582536",
+      "relevance": 22,
+      "category": "rank",
+      "tags": []
+    },
+    {
+      "title": "豆包工作接入抖音生活服务经营等官方插件",
+      "url": "https://36kr.com/newsflashes/4055439067993217?f=rss",
+      "publishedAt": "",
+      "summary": "11月4日，豆包工作宣布接入抖音生活服务经营、巨量本地推、TikTok for Business三款官方插件。据介绍，完成相应账户授权后，用自然语言查询门店数据、做经营复盘、拿建议，减少报表搬运和重复整理，也无需在多个后台之间反复切换。（界面）",
+      "source": "36氪",
+      "id": "3d8a32d980",
+      "relevance": 22,
+      "category": "model",
+      "tags": [
+        "豆包"
+      ]
+    },
+    {
+      "title": "Google will let schools skip AI tools, but they have to give up search, too",
+      "url": "https://arstechnica.com/ai/2026/11/google-will-let-schools-skip-ai-tools-but-they-have-to-give-up-search-too/",
+      "publishedAt": "2026-11-03T17:54:43+00:00",
+      "summary": "Google will offer schools AI tools that purportedly don't give away the answers.",
+      "source": "Ars Technica AI",
+      "id": "b121628aeb",
+      "relevance": 21,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "Apple restricts dating apps and AI companions to users 18 and up",
+      "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+      "publishedAt": "2026-11-03T15:38:27+00:00",
+      "summary": "Apple's new App Store rules will require 18+ ratings for dating apps and AI companions that offer sexual or romantic content.",
+      "source": "TechCrunch AI",
+      "id": "f9c0c715ee",
+      "relevance": 21,
+      "category": "model",
+      "tags": []
+    },
+    {
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "publishedAt": "2026-11-03T12:00:00+00:00",
+      "summary": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "source": "OpenAI News",
+      "id": "26c6032e1d",
+      "relevance": 20,
+      "category": "model",
+      "tags": []
+    }
+  ],
+  "models": [
+    {
+      "id": "gpt",
+      "name": "GPT",
+      "vendor": "OpenAI",
+      "positioning": "通用旗舰 · 多模态",
+      "status": "updated",
+      "latest": "GPT-5.2",
+      "highlights": "综合能力第一梯队；Pro 版面向高难度任务",
+      "note": "Pro 版 $10.50/$84",
+      "contextWindow": "400K（Pro 版）",
+      "openSource": false,
+      "officialUrl": "https://platform.openai.com/docs/pricing",
+      "pricing": [
+        {
+          "model": "gpt-5.2",
+          "currency": "USD",
+          "input": 1.75,
+          "output": 14
+        },
+        {
+          "model": "gpt-5.2-pro",
+          "currency": "USD",
+          "input": 10.5,
+          "output": 84,
+          "note": "400K 上下文"
+        }
+      ],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "GPT",
+        "OpenAI",
+        "ChatGPT"
+      ],
+      "todayCount": 11
+    },
+    {
+      "id": "gemini",
+      "name": "Gemini",
+      "vendor": "Google DeepMind",
+      "positioning": "超长上下文 · 多模态",
+      "status": "updated",
+      "latest": "Gemini 3 Pro",
+      "highlights": "1M 上下文 + 批量约半价，长文档场景性价比最高",
+      "note": "批量接口 ≤200K 提示约半价",
+      "contextWindow": "1M",
+      "openSource": false,
+      "officialUrl": "https://ai.google.dev/pricing",
+      "pricing": [
+        {
+          "model": "gemini-3-pro",
+          "currency": "USD",
+          "input": 2,
+          "output": 12,
+          "note": "≤200K 提示批量价 $1/$6"
+        }
+      ],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "Gemini",
+        "DeepMind"
+      ],
+      "todayCount": 1
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "vendor": "Anthropic",
+      "positioning": "代码 · Agent",
+      "status": "updated",
+      "latest": "Opus 4.5",
+      "highlights": "编码与 Agent 场景公认最强梯队；系列支持 1M 上下文",
+      "note": "价格以官网为准",
+      "contextWindow": "最高 1M",
+      "openSource": false,
+      "officialUrl": "https://www.anthropic.com/pricing",
+      "pricing": [],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "Claude",
+        "Anthropic"
+      ],
+      "todayCount": 6
+    },
+    {
+      "id": "grok",
+      "name": "Grok",
+      "vendor": "xAI",
+      "positioning": "实时信息 · 推理",
+      "status": "updated",
+      "latest": "Grok 4.7",
+      "highlights": "接入 X 实时信息流；500K 上下文，超 200K 价格上浮约 10%",
+      "note": "2026-09-21 发布",
+      "contextWindow": "500K",
+      "openSource": false,
+      "officialUrl": "https://docs.x.ai/developers/pricing",
+      "pricing": [
+        {
+          "model": "grok-4.7",
+          "currency": "USD",
+          "input": 2.2,
+          "output": 6.6,
+          "cacheHitInput": 0.55,
+          "note": "200K 以上提示价格阶梯上浮"
+        }
+      ],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "Grok",
+        "xAI"
+      ],
+      "todayCount": 1
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "vendor": "深度求索",
+      "positioning": "开源 · 高性价比",
+      "status": "updated",
+      "latest": "DeepSeek-V4 Pro / Flash",
+      "highlights": "开源权重 + 全行业最低价档；峰谷定价空闲再省一半",
+      "note": "2026-08-17 调价引入峰谷定价（高峰 09:00-12:00 / 14:00-18:00）",
+      "contextWindow": "128K",
+      "openSource": true,
+      "officialUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "pricing": [
+        {
+          "model": "deepseek-v4-pro",
+          "currency": "CNY",
+          "input": 9,
+          "output": 27,
+          "cacheHitInput": 0.3,
+          "note": "高峰时段价，空闲约半价"
+        },
+        {
+          "model": "deepseek-v4-flash",
+          "currency": "CNY",
+          "input": 2,
+          "output": 9,
+          "note": "空闲时段再减半"
+        }
+      ],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "DeepSeek",
+        "深度求索"
+      ],
+      "todayCount": 0
+    },
+    {
+      "id": "glm",
+      "name": "智谱 GLM",
+      "vendor": "智谱 AI",
+      "positioning": "中文 · 开源 · 编码订阅",
+      "status": "updated",
+      "latest": "GLM-5.2",
+      "highlights": "中文与工具调用强；Coding Plan 订阅成为编程主力之一",
+      "note": "GLM-4.7-Flash 免费；Coding Plan V2 价 Lite ¥118/月 起",
+      "contextWindow": "200K",
+      "openSource": true,
+      "officialUrl": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "pricing": [
+        {
+          "model": "glm-5.2",
+          "currency": "CNY",
+          "input": 8,
+          "output": 28
+        },
+        {
+          "model": "glm-4.7-flash",
+          "currency": "CNY",
+          "input": 0,
+          "output": 0,
+          "note": "免费"
+        }
+      ],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "智谱",
+        "GLM"
+      ],
+      "todayCount": 0
+    },
+    {
+      "id": "kimi",
+      "name": "Kimi",
+      "vendor": "月之暗面",
+      "positioning": "长上下文 · 开源",
+      "status": "updated",
+      "latest": "Kimi K3",
+      "highlights": "约 2.8 万亿参数、1M 上下文，权重已开源；输出价格偏高",
+      "note": "API 兼容 OpenAI SDK",
+      "contextWindow": "1M",
+      "openSource": true,
+      "officialUrl": "https://www.kimi.com/help/kimi-api/api-pricing",
+      "pricing": [
+        {
+          "model": "kimi-k3",
+          "currency": "CNY",
+          "input": 20,
+          "output": 100,
+          "cacheHitInput": 2
+        },
+        {
+          "model": "kimi-k2.7-code",
+          "currency": "CNY",
+          "input": 6.5,
+          "output": 27,
+          "cacheHitInput": 1.3
+        }
+      ],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "Kimi",
+        "月之暗面"
+      ],
+      "todayCount": 0
+    },
+    {
+      "id": "qwen",
+      "name": "通义 Qwen",
+      "vendor": "阿里巴巴",
+      "positioning": "开源系列 · 全尺寸",
+      "status": "updated",
+      "latest": "Qwen 开源系列",
+      "highlights": "开源生态覆盖最全；国行苹果 AI 合作方，落地场景多",
+      "note": "API 走阿里云百炼，价格以百炼定价页为准",
+      "contextWindow": "1M（部分型号）",
+      "openSource": true,
+      "officialUrl": "https://help.aliyun.com/zh/model-studio/models",
+      "pricing": [],
+      "asOf": "2026-11-05",
+      "matchKeywords": [
+        "通义",
+        "Qwen",
+        "千问"
+      ],
+      "todayCount": 2
+    }
+  ],
+  "jobs": [
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "AI协作工具产品客户端研发高级工程师岗位",
+      "location": "深圳",
+      "tags": [
+        "社招",
+        "AI"
+      ],
+      "what": "1.负责腾讯AI网盘跨平台核心产品跨平台核心产品功能的全链路研发与迭代，保障 Web 端、桌面客户端（Windows/Mac）的功能一致性与极致用户体验； 2.负责腾讯AI网盘跨平台核心产品智能化场景的 AI Agent 开发与工程化落地。结合大语言模型（LLM）、RAG（检索增",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2109972727027904512",
+      "postedAt": "2026年10月13日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "AI技术型产品运营",
+      "location": "深圳",
+      "tags": [
+        "社招",
+        "AI"
+      ],
+      "what": "1.智能社群管理（万人级）： 负责搭建与维护社群运营 Agent，实现万人社群的自动化答疑、活跃引导及违规监控，确保社群 7x24 小时高质量运转； 2.内容生产与宣发提效： 开发专门针对业务场景的内容宣发智能体（Content Agent），通过 AI 辅助产出高质量文案、海报",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2104460194154201088",
+      "postedAt": "2026年10月09日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "Marvis高级前端开发工程师",
+      "location": "深圳",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责 Marvis AI Agent 产品桌面端的架构设计与开发工作； 2.负责独立模块，与各方紧密协作，参与需求分析、方案设计、开发交付与迭代优化，推动项目落地； 3.持续优化桌面端性能，提升应用响应速度和稳定性，确保良好的用户体验； 4.关注前端和 AI 技术发展趋势，结",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2094609259022172160",
+      "postedAt": "2026年09月02日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "《无畏契约》-前端开发工程师-（AI & 创新互动方向）",
+      "location": "深圳",
+      "tags": [
+        "社招",
+        "AI"
+      ],
+      "what": "1.多端体验与AI营销迭代：负责线上游戏官网、活动页、小程序及 AI 驱动的个性化营销/互动模块 的开发与维护，保障跨设备（PC/移动）流畅度与体验一致性； 2.线下沉浸式与AIGC互动开发：负责营销及电竞等线下场景的创新体验开发，结合 AIGC、视觉互动及智能音/视频 等前沿技",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2088182151676870656",
+      "postedAt": "2026年10月13日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "基模生产平台QA（深圳/北京）",
+      "location": "深圳",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责基础模型生产平台质量保障工作，设计并落地覆盖模型训练、部署、推理、评估等流程的准确性、稳定性测试方案； 2.建设自动化平台/工具，测试过程高度自动化，持续沉淀可复用的用例资产与质量基线； 3.面向 Agent CLI 等形态的产品能力开展端到端测试，保障使用场景下的可靠性",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2092600134906064896",
+      "postedAt": "2026年09月20日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "大数据产品经理（深圳/北京）",
+      "location": "深圳",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责数据 Agent 方向产品规划，面向数据开发、数据分析、数据治理、数据运维等场景，设计智能化产品能力； 2.梳理用户在找数、取数、写 SQL、建任务、查血缘、排障、指标理解等场景中的痛点，推动 Agent 化解决方案落地； 3.设计自然语言驱动的数据工作流，包括意图理解、",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2013806539382611968",
+      "postedAt": "2026年10月20日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "微信-大模型(Agent)应用开发后台工程师",
+      "location": "北京",
+      "tags": [
+        "社招",
+        "AI"
+      ],
+      "what": "1.负责微信智能体应用的后端架构设计与核心系统开发，构建支持复杂任务规划、工具调用与多轮决策的智能体引擎； 2.设计和实现高性能、高可用的智能体Agent系统、多轮对话引擎及多模态交互管道，支撑亿级用户的高并发、低延迟访问； 3.探索和落地智能体领域的先进工程实践，包括但不限于智",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2037392065205268480",
+      "postedAt": "2026年10月12日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "微信基础-大模型应用开发工程师",
+      "location": "北京",
+      "tags": [
+        "社招",
+        "AI"
+      ],
+      "what": "1.负责微信生态内大模型智能应用的后端架构设计与核心系统开发； 2.设计和实现高性能、高可用的Agent系统、长上下文对话引擎及多模态交互管道，支撑亿级用户的高并发、低延迟访问； 3.探索和落地大模型领域的先进工程实践，包括但不限于智能体（Agent）工作流、模型微调、推理优化与",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2110621118984531968",
+      "postedAt": "2026年10月22日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "微信小店-全栈开发工程师-交易基建方向",
+      "location": "广州",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责电商相关基建的开发工作，涵盖客服、售后、物流等模块； 2.主动推动团队技术基建的持续迭代和优化，完善团队AI Agent基建，提升团队研效。",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2077293041282105344",
+      "postedAt": "2026年10月14日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "微信小程序-前端开发工程师-开发者方向",
+      "location": "广州",
+      "tags": [
+        "社招"
+      ],
+      "what": "1. 负责小程序开发者生态 & 服务商相关项目的前端开发工作 2. 负责 AI 技术与小程序开发生态结合的相关工作，通过 AI 给开发者和商家提效、赋能 3. 参与技术基建，持续优化研发效能，提升团队工程效率",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=1891443603608215552",
+      "postedAt": "2026年10月08日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "微信小程序-跨端渲染引擎开发工程师",
+      "location": "广州",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责小程序跨端渲染引擎的开发维护工作； 2.负责基于 harness engineering 代码迁移工具，探索 AI Coding 开发范式。",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2011338495888613376",
+      "postedAt": "2026年10月28日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
+      "role": "微信支付-全栈开发工程师",
+      "location": "深圳",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责规划与构建高性能、高可用的前端智能研发效能平台，保障平台流畅运行与优质体验，适配多终端使用场景； 2.设计与维护平台前端架构，提供工业级开发工具能力，覆盖代码补全、语法校验、AI辅助编码、实时调试等核心研发场景； 3.持续优化平台交互体验与运行性能，定位并解决使用过程中的",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2098669037675528192",
+      "postedAt": "2026年10月29日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "字节跳动",
+      "team": "Flow / 豆包",
+      "role": "AI 应用前端工程师",
+      "location": "北京",
+      "tags": [
+        "React",
+        "流式渲染",
+        "Agent 编排"
+      ],
+      "what": "对话类产品的交互层：流式输出、多模态消息流、Agent 调试面板",
+      "url": "",
+      "sample": true
+    },
+    {
+      "company": "阿里巴巴",
+      "team": "通义 / 夸克",
+      "role": "前端开发工程师（AI 方向）",
+      "location": "杭州",
+      "tags": [
+        "多模态交互",
+        "RAG 展示",
+        "性能优化"
+      ],
+      "what": "搜索与对话融合的前端体验：长文本渲染、引用溯源、答案卡片",
+      "url": "",
+      "sample": true
+    },
+    {
+      "company": "腾讯",
+      "team": "混元 / 元宝",
+      "role": "AI 产品前端工程师",
+      "location": "深圳",
+      "tags": [
+        "可视化",
+        "工具调用",
+        "跨端"
+      ],
+      "what": "模型应用平台的前端：编排画布、评测看板、插件生态",
+      "url": "",
+      "sample": true
+    },
+    {
+      "company": "宇树科技",
+      "team": "软件部",
+      "role": "Web 前端工程师",
+      "location": "杭州",
+      "tags": [
+        "WebGL",
+        "实时数据",
+        "控制面板"
+      ],
+      "what": "机器人遥操作与状态监控的 Web 端：低延迟视频流、3D 状态可视化",
+      "url": "",
+      "sample": true
+    }
+  ],
+  "repos": [
+    {
+      "name": "ccch1mneyyy/dsh-Go",
+      "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "stars": 9180,
+      "language": "Dart",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "topic": "llm"
+    },
+    {
+      "name": "wangzan101/Mika",
+      "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "stars": 6543,
+      "language": "Kotlin",
+      "url": "https://github.com/wangzan101/Mika",
+      "topic": "llm"
+    },
+    {
+      "name": "modelflare-ai/AnyModelBot",
+      "desc": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla",
+      "stars": 2696,
+      "language": "Python",
+      "url": "https://github.com/modelflare-ai/AnyModelBot",
+      "topic": "llm"
+    },
+    {
+      "name": "sahenjp/RustXNG",
+      "desc": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
+      "stars": 813,
+      "language": "Rust",
+      "url": "https://github.com/sahenjp/RustXNG",
+      "topic": "llm"
+    },
+    {
+      "name": "jackwener/DSH-Android",
+      "desc": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+      "stars": 811,
+      "language": "Kotlin",
+      "url": "https://github.com/jackwener/DSH-Android",
+      "topic": "llm"
+    },
+    {
+      "name": "looplj/reveric",
+      "desc": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
+      "stars": 617,
+      "language": "Dart",
+      "url": "https://github.com/looplj/reveric",
+      "topic": "agent"
+    },
+    {
+      "name": "langchain-ai/design-agent",
+      "desc": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep",
+      "stars": 558,
+      "language": "JavaScript",
+      "url": "https://github.com/langchain-ai/design-agent",
+      "topic": "agent"
+    },
+    {
+      "name": "aa1143/NamiAgent",
+      "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
+      "stars": 329,
+      "language": "Python",
+      "url": "https://github.com/aa1143/NamiAgent",
+      "topic": "agent"
+    }
+  ],
+  "learning": [
+    {
+      "name": "wanghao-SunSky/cs329z-chinese",
+      "desc": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Mark",
+      "stars": 493,
+      "language": "HTML",
+      "url": "https://github.com/wanghao-SunSky/cs329z-chinese"
+    },
+    {
+      "name": "aa1143/NamiAgent",
+      "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
+      "stars": 329,
+      "language": "Python",
+      "url": "https://github.com/aa1143/NamiAgent"
+    },
+    {
+      "name": "aa1143/NamiGPT",
+      "desc": "零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTorch, step by step",
+      "stars": 181,
+      "language": "Python",
+      "url": "https://github.com/aa1143/NamiGPT"
+    },
+    {
+      "name": "justxor/deepseek-local-guide-ru",
+      "desc": "🐋 Полный гайд на русском: как установить и запустить DeepSeek локально (V4, R1) на ПК, Mac и сервере — Ollama, llama.cpp",
+      "stars": 175,
+      "language": "Shell",
+      "url": "https://github.com/justxor/deepseek-local-guide-ru"
+    },
+    {
+      "name": "zhuangzhaoyeye/llm_course",
+      "desc": "写给算法工程师的大模型课程：34 课，每课从一个问题出发，用具体数字把机制从头算一遍",
+      "stars": 32,
+      "language": "HTML",
+      "url": "https://github.com/zhuangzhaoyeye/llm_course"
+    }
+  ],
+  "notes": {
+    "modelsAsOf": "2026-11-05",
+    "jobsSource": "腾讯招聘官网自动抓取 + 手动维护(data/jobs.manual.json)；Boss/智联无公开接口暂不支持",
+    "llmLayer": "未启用；后续接入 LLM 后每条会多一个 why 字段（对前端意味着什么）",
+    "extErrors": []
+  }
+}

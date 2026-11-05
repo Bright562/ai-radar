@@ -1,0 +1,19 @@
+{
+  "_comment": "信息源白名单：只从这里抓取。加一行就多一个源；enabled: false 表示暂停。抓取失败的源会跳过并计入 stats.sourcesFailed，不影响其它源。",
+  "sources": [
+    { "name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh", "enabled": true },
+    { "name": "36氪", "url": "https://www.36kr.com/feed", "lang": "zh", "enabled": true },
+    { "name": "极客公园", "url": "https://www.geekpark.net/rss", "lang": "zh", "enabled": true },
+    { "name": "少数派", "url": "https://sspai.com/feed", "lang": "zh", "enabled": true },
+    { "name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "lang": "zh", "enabled": true },
+    { "name": "爱范儿", "url": "https://www.ifanr.com/feed", "lang": "zh", "enabled": true },
+    { "name": "Hacker News", "url": "https://hnrss.org/frontpage", "lang": "en", "enabled": true },
+    { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "lang": "en", "enabled": true },
+    { "name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "lang": "en", "enabled": true },
+    { "name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "lang": "en", "enabled": true },
+    { "name": "Ars Technica AI", "url": "https://arstechnica.com/ai/feed/", "lang": "en", "enabled": true },
+    { "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "lang": "en", "enabled": true },
+    { "name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml", "lang": "en", "enabled": true },
+    { "name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "lang": "zh", "enabled": false, "note": "RSS 入口目前返回 HTML，恢复后改回 true" }
+  ]
+}

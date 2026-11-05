@@ -1,0 +1,46 @@
+{
+  "_comment": "岗位种子（'图'层）：目前手动维护。sample: true 的条目会在页面上标'示例'。以后可以接自动化，但招聘站反爬严重，先手动最省事。每次编辑后重跑 python pipeline/run.py 让 digest.json 更新。",
+  "updatedAt": "2026-11-04",
+  "jobs": [
+    {
+      "company": "字节跳动",
+      "team": "Flow / 豆包",
+      "role": "AI 应用前端工程师",
+      "location": "北京",
+      "tags": ["React", "流式渲染", "Agent 编排"],
+      "what": "对话类产品的交互层：流式输出、多模态消息流、Agent 调试面板",
+      "url": "",
+      "sample": true
+    },
+    {
+      "company": "阿里巴巴",
+      "team": "通义 / 夸克",
+      "role": "前端开发工程师（AI 方向）",
+      "location": "杭州",
+      "tags": ["多模态交互", "RAG 展示", "性能优化"],
+      "what": "搜索与对话融合的前端体验：长文本渲染、引用溯源、答案卡片",
+      "url": "",
+      "sample": true
+    },
+    {
+      "company": "腾讯",
+      "team": "混元 / 元宝",
+      "role": "AI 产品前端工程师",
+      "location": "深圳",
+      "tags": ["可视化", "工具调用", "跨端"],
+      "what": "模型应用平台的前端：编排画布、评测看板、插件生态",
+      "url": "",
+      "sample": true
+    },
+    {
+      "company": "宇树科技",
+      "team": "软件部",
+      "role": "Web 前端工程师",
+      "location": "杭州",
+      "tags": ["WebGL", "实时数据", "控制面板"],
+      "what": "机器人遥操作与状态监控的 Web 端：低延迟视频流、3D 状态可视化",
+      "url": "",
+      "sample": true
+    }
+  ]
+}

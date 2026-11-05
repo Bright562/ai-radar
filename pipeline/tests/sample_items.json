@@ -1,0 +1,14 @@
+[
+  { "title": "开源代码模型在部分基准上追平闭源一线，权重同步放出", "url": "https://example.com/n1", "publishedAt": "2026-11-04T07:12:00+08:00", "summary": "新开源代码模型发布，权重托管在 Hugging Face，工具调用能力明显增强。", "source": "机器之心" },
+  { "title": "DeepSeek 更新开源权重，API 价格继续下探", "url": "https://example.com/n2", "publishedAt": "2026-11-04T06:48:00+08:00", "summary": "DeepSeek 发布新版本，推理成本下降，开发者反馈工具调用更稳定。", "source": "量子位" },
+  { "title": "宇树科技发布新款人形机器人，支持遥操作与二次开发", "url": "https://example.com/n3", "publishedAt": "2026-11-04T09:30:00+08:00", "summary": "宇树 Unitree 新品开放开发者 SDK，遥控面板与低延迟视频回传为标配。", "source": "36氪" },
+  { "title": "字节跳动 AI 应用团队扩招，JD 新增 Agent 编排与效果评估", "url": "https://example.com/n4", "publishedAt": "2026-11-03T18:30:00+08:00", "summary": "大厂 AI 岗位关键词变化：从框架熟练度转向 Agent 行为定义与评估能力。", "source": "36氪" },
+  { "title": "OpenAI 更新多模态推理模型，价格保持不变", "url": "https://example.com/n5", "publishedAt": "2026-11-03T22:05:00+08:00", "summary": "GPT 系列小版本更新，多模态输入理解增强，API 价格无变化。", "source": "TechCrunch AI" },
+  { "title": "浏览器内置 AI API 继续推进，页面可直接调用本地小模型", "url": "https://example.com/n6", "publishedAt": "2026-11-03T21:00:00+08:00", "summary": "WebGPU 与内置模型 API 进展：前端做端侧推理的工程活越来越多。", "source": "Hacker News" },
+  { "title": "多智能体框架发布新版本，工具调用稳定性提升", "url": "https://example.com/n7", "publishedAt": "2026-11-03T15:40:00+08:00", "summary": "Agent 框架更新：MCP 支持更完整，调试体验改善。", "source": "Hacker News" },
+  { "title": "智谱发布 GLM 新版本，中文工具调用增强", "url": "https://example.com/n8", "publishedAt": "2026-11-03T11:20:00+08:00", "summary": "GLM 旗舰更新，中文场景 Function Calling 通过率提升，Flash 模型保持免费。", "source": "机器之心" },
+  { "title": "人形机器人公司完成新一轮融资，加速量产交付", "url": "https://example.com/n9", "publishedAt": "2026-11-02T10:00:00+08:00", "summary": "具身智能赛道融资动态：量产线扩建，招聘需求集中在软件与仿真。", "source": "量子位" },
+  { "title": "某明星宣布恋情，粉丝吵翻", "url": "https://example.com/n10", "publishedAt": "2026-11-04T08:00:00+08:00", "summary": "娱乐八卦内容，用于测试黑名单过滤，不应出现在结果里。", "source": "娱乐号" },
+  { "title": "某地发生命案警方通报", "url": "https://example.com/n11", "publishedAt": "2026-11-04T08:00:00+08:00", "summary": "社会新闻内容，用于测试黑名单过滤，不应出现在结果里。", "source": "都市报" },
+  { "title": "今天天气不错适合出门", "url": "https://example.com/n12", "publishedAt": "2026-11-04T08:00:00+08:00", "summary": "无关内容，用于测试相关度阈值过滤，不应出现在结果里。", "source": "生活频道" }
+]
