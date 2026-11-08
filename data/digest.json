@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "date": "2026-11-07",
-  "generatedAt": "2026-11-07T10:56:52+08:00",
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T10:34:41+08:00",
   "generator": "ai-radar pipeline 0.2 (zero-token)",
   "stats": {
     "fetched": 1658,
-    "kept": 61,
+    "kept": 50,
     "droppedIrrelevant": 106,
     "droppedBlacklist": 0,
-    "droppedOld": 1491,
+    "droppedOld": 1502,
     "droppedDuplicate": 0,
     "sourcesOk": 12,
     "sourcesFailed": 1,
@@ -16,17 +16,6 @@
     "repos": 8
   },
   "news": [
-    {
-      "title": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一；英伟达显卡订单排长队，中国客户预计只能拿到 1%；字节限制员工使用个人 AI｜极客早知道",
-      "url": "http://www.geekpark.net/news/373494",
-      "publishedAt": "2026-11-05T08:45:25+08:00",
-      "summary": "Apple 智能国行上线，苹果大涨超 6% 重返美股市值第一 11 月 4 日，Apple 智能伴随 iOS 27.3 的 Developer Beta 向中国大陆用户开放测试，并计划于 12 月随 iOS 27.3 正式版推出。与此同时，苹果也确认与阿里巴巴达成合作，将千问接入 Siri、写作工具及视觉智能，让中国用户能够通过系统直接调用国内大模型的能力。 不过，这一次上线的并不是完整版 Apple 智能。首批功能主要包括实时翻译、写作工具、视觉智能、照片消除、智绘表情、通知摘要等，而苹果此前展示的新一代 Siri AI，以及 WWDC26 公布的部分下一代 AI 能力，仍然不在此次更新范围内。 当日，苹果 (AAPL.US) 大涨超 6%，报 353.05 美元，总市值再度突破 5 万亿美元，重返美股市值第一。(来源：格隆汇) OpenAI 升级 ChatGPT 图片能力，支持直接生成",
-      "source": "极客公园",
-      "id": "0e81ab36cc",
-      "relevance": 91,
-      "category": "model",
-      "tags": []
-    },
     {
       "title": "Claude Code 产品负责人Cut Wu 官宣加入 OpenAI",
       "url": "https://www.infoq.cn/article/cDERcarozbrsCBNs5sWM?utm_source=rss&utm_medium=article",
@@ -70,17 +59,6 @@
       ]
     },
     {
-      "title": "早报｜苹果收紧员工Token预算/手机越卖越贵，全球手机出货量降19%/雷军：小米机器人在工厂「实习」8小时",
-      "url": "https://www.ifanr.com/1687750?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "publishedAt": "2026-11-05T00:15:59+00:00",
-      "summary": "· 彭博调查：69% 中国受访者至少等到明年才换手机 · ChatGPT 新增 GIF 生成，可调播放速度、逐帧修改 · 近七成汽车经销商试用 AI，部分已设智能体专员 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "source": "爱范儿",
-      "id": "8d787e467c",
-      "relevance": 67,
-      "category": "model",
-      "tags": []
-    },
-    {
       "title": "Merge builds product and business tools with OpenAI technology",
       "url": "https://openai.com/index/merge-builds-with-openai",
       "publishedAt": "2026-11-05T08:00:00+00:00",
@@ -94,17 +72,17 @@
       ]
     },
     {
-      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
-      "url": "https://www.qbitai.com/2026/11/507967.html",
-      "publishedAt": "2026-11-06T02:00:11+00:00",
-      "summary": "11月 5 日，腾讯宣布因 Hy4 调用激增，WorkBuddy 已进行十倍扩容",
-      "source": "量子位",
-      "id": "275687e80f",
-      "relevance": 60,
-      "category": "agent",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "publishedAt": "2026-11-07T20:45:32+00:00",
+      "summary": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 191 # Comments: 131",
+      "source": "Hacker News",
+      "id": "5186d80b7e",
+      "relevance": 56,
+      "category": "model",
       "tags": [
-        "开源模型",
-        "Agent"
+        "Claude",
+        "Claude Code"
       ]
     },
     {
@@ -122,16 +100,16 @@
       ]
     },
     {
-      "title": "派早报：腾讯发布混元 Hy4 正式版，Google 调整 K-12 教育 AI 政策等",
-      "url": "https://sspai.com/post/118498",
-      "publishedAt": "2026-11-05T08:16:27+08:00",
-      "summary": "少数派的近期动态全新设计复古设备鼠标垫上架，会员可使用点数兑换。前往选购iPhone少数派共创配件上新，自由选择保护、充电、线缆和支架组合。欢迎选购你可能错过的文章国行Apple智能上手：这些功能已经 ... 查看全文",
-      "source": "少数派",
-      "id": "2e2ee958cc",
-      "relevance": 52,
-      "category": "model",
+      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "url": "http://www.geekpark.net/news/373642",
+      "publishedAt": "2026-11-07T11:31:37+08:00",
+      "summary": "头图来源：腾讯云 过去一年，智能体是 AI 行业最受关注的方向之一。 从查资料、写文档到处理日常办公事务，桌面办公智能体完成了第一轮普及，办公提效的价值已经成为行业共识。但当 AI 进一步走向企业核心业务，搭出一个智能体不难，难的是让它真正跑进业务流程，适配复杂的系统、权限与规则，持续产出可量化的经营价值。 在腾讯云副总裁吴永坚看来，未来企业级智能体的核心赛道，对话式的桌面办公 Agent 和服务经营的 Service Agent 会是两个长期并行的赛道。大模型提供了理解与推理能力，但想让 AI 真正参与业务经营，还需要一套能够打通系统、管好权限、支撑长期稳定运行的企业级平台。 在 2026 腾讯全球数字生态大会企业级 Agent 产业实践专场上，腾讯云 ADP 宣布完成全生命周期产品升级，同时推出 FDE 交付方法论与生态共建体系，试图回答的正是这一问题：当办公场景的提效已经形成共识，要",
+      "source": "极客公园",
+      "id": "91c4071a76",
+      "relevance": 53,
+      "category": "agent",
       "tags": [
-        "混元"
+        "Agent"
       ]
     },
     {
@@ -161,17 +139,6 @@
       ]
     },
     {
-      "title": "谷歌发布 ML Drift：为各类 GPU 加速端侧 AI 推理",
-      "url": "https://www.infoq.cn/article/hHzARIJTeqoqYpjNKEuq?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-05T13:00:00+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "9669c61e6e",
-      "relevance": 45,
-      "category": "devtools",
-      "tags": []
-    },
-    {
       "title": "成都具身智能公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
       "url": "https://36kr.com/p/4052696726328452?f=rss",
       "publishedAt": "",
@@ -182,6 +149,19 @@
       "category": "embodied",
       "tags": [
         "具身智能"
+      ]
+    },
+    {
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "publishedAt": "2026-11-06T16:48:06-05:00",
+      "summary": "Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowing down. That's according to a new report published Thursday by the AI safety research organization METR, following an 11-week investigation […]",
+      "source": "The Verge AI",
+      "id": "8879475e62",
+      "relevance": 43,
+      "category": "model",
+      "tags": [
+        "Anthropic"
       ]
     },
     {
@@ -272,45 +252,6 @@
       ]
     },
     {
-      "title": "谷歌用 Gemini 4 Argon 一夜优化 ADK 代码库的 20 万行代码",
-      "url": "https://www.infoq.cn/article/u4fAoAH5vZPCV4TVqAcO?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-05T11:00:00+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "634db549fd",
-      "relevance": 40,
-      "category": "model",
-      "tags": [
-        "Gemini"
-      ]
-    },
-    {
-      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
-      "url": "https://www.qbitai.com/2026/11/507834.html",
-      "publishedAt": "2026-11-05T09:37:40+00:00",
-      "summary": "走向“智能体化世界模型”。",
-      "source": "量子位",
-      "id": "d4df5bef32",
-      "relevance": 40,
-      "category": "agent",
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
-      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053",
-      "publishedAt": "2026-11-06T22:50:43+00:00",
-      "summary": "Article URL: https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053 Comments URL: https://news.ycombinator.com/item?id=50399569 Points: 79 # Comments: 35",
-      "source": "Hacker News",
-      "id": "54d4f685c5",
-      "relevance": 39,
-      "category": "model",
-      "tags": [
-        "ChatGPT"
-      ]
-    },
-    {
       "title": "AI 时代没有标准答案的问题，我们面对面聊",
       "url": "http://www.geekpark.net/news/373636",
       "publishedAt": "2026-11-06T20:09:13+08:00",
@@ -358,19 +299,6 @@
       "category": "model",
       "tags": [
         "GPT"
-      ]
-    },
-    {
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "publishedAt": "2026-11-04T14:30:00+00:00",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "source": "OpenAI News",
-      "id": "3a06f84c0f",
-      "relevance": 37,
-      "category": "model",
-      "tags": [
-        "OpenAI"
       ]
     },
     {
@@ -424,43 +352,6 @@
       ]
     },
     {
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "url": "https://openai.com/index/franklin-templeton",
-      "publishedAt": "2026-11-05T00:00:00+00:00",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "source": "OpenAI News",
-      "id": "c0d7b08082",
-      "relevance": 34,
-      "category": "model",
-      "tags": [
-        "OpenAI"
-      ]
-    },
-    {
-      "title": "UpCodes (YC S17) is hiring SDR's to sell AI compliance software",
-      "url": "https://up.codes/careers?utm_source=HN",
-      "publishedAt": "2026-11-06T17:03:33+00:00",
-      "summary": "Article URL: https://up.codes/careers?utm_source=HN Comments URL: https://news.ycombinator.com/item?id=50395043 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "id": "a29884804e",
-      "relevance": 33,
-      "category": "job",
-      "tags": []
-    },
-    {
-      "title": "OpenAI：将继续推进其美国数据中心扩张计划",
-      "url": "https://36kr.com/newsflashes/4058954305049481?f=rss",
-      "publishedAt": "",
-      "summary": "OpenAI首席财务官萨拉·弗莱尔(Sarah Friar)周五表示，尽管本周民主党中期选举引发了对AI基础设施进行更严格审查的担忧，但公司将继续推进其美国数据中心扩张计划。由于担心民主党横扫中期选举可能会减缓对AI繁荣至关重要的设施的建设，周四美国股市蒸发了约2.5万亿美元，投资者正在权衡芯片、云和网络行业的影响，这些行业一直是支出狂潮的最大受益者。不过，有迹象表明，尽管遭到越来越多的反对，科技巨头仍致力于数据中心的扩张计划。谷歌周四表示，将投资170亿美元在怀俄明州建立其首个数据中心。（第一财经）",
-      "source": "36氪",
-      "id": "68a86b110b",
-      "relevance": 33,
-      "category": "model",
-      "tags": [
-        "OpenAI"
-      ]
-    },
-    {
       "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
       "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
       "publishedAt": "2026-11-06T18:44:20+00:00",
@@ -485,17 +376,15 @@
       "tags": []
     },
     {
-      "title": "I Toured Unitree's Factory. I'm More Bullish on the West",
-      "url": "https://josef.cn/blog/unitree",
-      "publishedAt": "2026-11-07T01:05:16+00:00",
-      "summary": "Article URL: https://josef.cn/blog/unitree Comments URL: https://news.ycombinator.com/item?id=50400597 Points: 33 # Comments: 18",
-      "source": "Hacker News",
-      "id": "f38a17de3a",
+      "title": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
+      "url": "http://www.geekpark.net/news/373649",
+      "publishedAt": "2026-11-08T08:57:46+08:00",
+      "summary": "收购 EA 之后，银湖资本与沙特公共投资基金据报出价 250 亿美元收购 Unity 据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金&mdash;&mdash;公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，Unity 正在认真考虑这一报价，并已聘请一家投资银行提供咨询。 据路透社援引未具名知情人士的消息报道，由美国私募股权公司银湖资本（Silver Lake Partners）与沙特阿拉伯主权财富基金&mdash;&mdash;公共投资基金（PIF）组成的投资者财团，已向 Unity Software 提出收购要约，对这家公司的估值约为 250 亿美元。据悉，Unity 正在认真考虑这一报价，并已聘请一家投资银行提供咨",
+      "source": "极客公园",
+      "id": "5c775e6b89",
       "relevance": 30,
-      "category": "embodied",
-      "tags": [
-        "Unitree"
-      ]
+      "category": "model",
+      "tags": []
     },
     {
       "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
@@ -507,6 +396,19 @@
       "relevance": 30,
       "category": "model",
       "tags": []
+    },
+    {
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "url": "http://www.geekpark.net/news/373643",
+      "publishedAt": "2026-11-07T11:35:36+08:00",
+      "summary": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统综合解决方案。面对同一家客户，不同项目会有不同的群，测试、路试、投产任何一个环节出了问题，消息一条条蹦出来：哪个项目、哪个软件、报了什么故障代码、出现什么报错。 他得把这些碎片按不同的数个维度整合起来，所属项目、软件版本、车辆配置、测试工况、",
+      "source": "极客公园",
+      "id": "08ccfe539a",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "豆包"
+      ]
     },
     {
       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
@@ -522,19 +424,6 @@
       ]
     },
     {
-      "title": "Anthropic IPO buyers see valuation as low as $1.1T",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-06/anthropic-ipo-valuation-expectations-pressured-after-ai-rout",
-      "publishedAt": "2026-11-06T16:54:36+00:00",
-      "summary": "https://epyhia.com/anthropic-ipo-valuation-talks-drop-to-1-3... Comments URL: https://news.ycombinator.com/item?id=50394906 Points: 246 # Comments: 499",
-      "source": "Hacker News",
-      "id": "28c2d038c1",
-      "relevance": 28,
-      "category": "model",
-      "tags": [
-        "Anthropic"
-      ]
-    },
-    {
       "title": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
       "url": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
       "publishedAt": "2026-11-05T21:39:40+00:00",
@@ -545,19 +434,6 @@
       "category": "model",
       "tags": [
         "ChatGPT"
-      ]
-    },
-    {
-      "title": "OpenAI is stepping back from NDAs for data center projects",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
-      "publishedAt": "2026-11-05T19:37:56-05:00",
-      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions […]",
-      "source": "The Verge AI",
-      "id": "85f398082d",
-      "relevance": 28,
-      "category": "model",
-      "tags": [
-        "OpenAI"
       ]
     },
     {
@@ -587,6 +463,17 @@
       ]
     },
     {
+      "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
+      "url": "https://www.qbitai.com/2026/11/508236.html",
+      "publishedAt": "2026-11-07T03:31:44+00:00",
+      "summary": "中国版cosmos再交卷",
+      "source": "量子位",
+      "id": "fdeed09ac9",
+      "relevance": 27,
+      "category": "embodied",
+      "tags": []
+    },
+    {
       "title": "AI 狂烧 2000亿美元，谷歌全球启动“自愿买断”计划：最高补偿12个月工资",
       "url": "https://www.infoq.cn/article/vMSj216sQUhmeDH4H0G7?utm_source=rss&utm_medium=article",
       "publishedAt": "2026-11-06T08:00:00+00:00",
@@ -604,17 +491,6 @@
       "summary": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
       "source": "OpenAI News",
       "id": "b58fee4edb",
-      "relevance": 26,
-      "category": "model",
-      "tags": []
-    },
-    {
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "publishedAt": "2026-11-05T02:00:00+00:00",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "source": "OpenAI News",
-      "id": "f935675761",
       "relevance": 26,
       "category": "model",
       "tags": []
@@ -655,12 +531,12 @@
       "tags": []
     },
     {
-      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
-      "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-06T07:14:48+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "a562dedfae",
+      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "url": "https://www.qbitai.com/2026/11/508174.html",
+      "publishedAt": "2026-11-06T09:25:59+00:00",
+      "summary": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
+      "source": "量子位",
+      "id": "d99d79c284",
       "relevance": 25,
       "category": "agent",
       "tags": [
@@ -668,12 +544,25 @@
       ]
     },
     {
-      "title": "从RSI、Agent、Physical AI到整个系统栈，2026 奇点智能技术大会最新日程公布！",
-      "url": "https://www.qbitai.com/2026/11/508143.html",
-      "publishedAt": "2026-11-06T06:43:14+00:00",
-      "summary": "11 月 20—21 日，2026 奇点智能技术大会将在北京万达文华酒店举行。",
+      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+      "url": "https://www.qbitai.com/2026/11/508170.html",
+      "publishedAt": "2026-11-06T09:21:51+00:00",
+      "summary": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
       "source": "量子位",
-      "id": "1d49d99a8b",
+      "id": "e7f4cbc712",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "智能体"
+      ]
+    },
+    {
+      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-06T07:14:48+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "a562dedfae",
       "relevance": 25,
       "category": "agent",
       "tags": [
@@ -688,41 +577,6 @@
       "source": "TechCrunch AI",
       "id": "9d6202c034",
       "relevance": 25,
-      "category": "model",
-      "tags": []
-    },
-    {
-      "title": "Dropbox acquires Tigris Data for $350M to bolster its AI infrastructure",
-      "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
-      "publishedAt": "2026-11-05T15:19:05+00:00",
-      "summary": "The deal is expected to support the development of DBX Agent Cloud, a new storage platform aimed at developers building AI models and agents.",
-      "source": "TechCrunch AI",
-      "id": "6dad7a604d",
-      "relevance": 25,
-      "category": "model",
-      "tags": []
-    },
-    {
-      "title": "北京：支持超节点服务器、AI终端、超级智能体、量子计算云平台、下一代移动通信等新技术新产品",
-      "url": "https://36kr.com/newsflashes/4059085316166784?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，北京经济技术开发区管理委员会印发《北京经济技术开发区关于加快建设开源开放信创产业高地的若干措施》的通知。其中提到， 鼓励软硬件上下游企业开展生态结盟、联合适配攻关，打造标杆应用场景。充分发挥应用牵引作用，支持企业联合用户单位开展集成创新，“串珠成链”形成一体化解决方案，推动产品及服务向复杂、关键业务场景拓展。支持超节点服务器、AI终端、超级智能体、量子计算云平台、下一代移动通信等新技术新产品，开展首试首用、中试验证服务。根据技术创新性、场景示范性、应用推广性、生态协同情况等，给予最高3000万元支持。",
-      "source": "36氪",
-      "id": "17b51a7e27",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "智能体"
-      ]
-    },
-    {
-      "title": "AI应用加速渗透，内容产业迎价值重估",
-      "url": "https://36kr.com/newsflashes/4059017079296903?f=rss",
-      "publishedAt": "",
-      "summary": "近期，人工智能（AI）应用端不断催化，内容产业商业化进程进一步提速。短剧、游戏、出版与IP等多个领域均出现积极变化，AI技术正加速渗透内容产业链。业内人士认为，随着多模态大模型和视频生成技术持续迭代，内容生产效率与商业模式创新有望同步推进，内容产业投资逻辑正迎来重构。（中证报）",
-      "source": "36氪",
-      "id": "3657a895b4",
-      "relevance": 24,
       "category": "model",
       "tags": []
     },
@@ -764,6 +618,17 @@
       "tags": [
         "MCP"
       ]
+    },
+    {
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "publishedAt": "2026-11-07T10:43:45-05:00",
+      "summary": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its offices are empty, \"a hollow gray shell […]",
+      "source": "The Verge AI",
+      "id": "73be1ddc7f",
+      "relevance": 21,
+      "category": "company",
+      "tags": []
     },
     {
       "title": "China reportedly recruited AI exec to spy on Jensen Huang",
@@ -811,7 +676,7 @@
         "OpenAI",
         "ChatGPT"
       ],
-      "todayCount": 17
+      "todayCount": 12
     },
     {
       "id": "gemini",
@@ -839,7 +704,7 @@
         "Gemini",
         "DeepMind"
       ],
-      "todayCount": 3
+      "todayCount": 2
     },
     {
       "id": "claude",
@@ -859,7 +724,7 @@
         "Claude",
         "Anthropic"
       ],
-      "todayCount": 5
+      "todayCount": 6
     },
     {
       "id": "grok",
@@ -1253,7 +1118,7 @@
     {
       "name": "ccch1mneyyy/dsh-Go",
       "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "stars": 13036,
+      "stars": 14516,
       "language": "Dart",
       "url": "https://github.com/ccch1mneyyy/dsh-Go",
       "topic": "llm"
@@ -1261,7 +1126,7 @@
     {
       "name": "wangzan101/Mika",
       "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "stars": 7416,
+      "stars": 7617,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "topic": "llm"
@@ -1269,7 +1134,7 @@
     {
       "name": "modelflare-ai/AnyModelBot",
       "desc": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla",
-      "stars": 2728,
+      "stars": 2734,
       "language": "Python",
       "url": "https://github.com/modelflare-ai/AnyModelBot",
       "topic": "llm"
@@ -1277,63 +1142,63 @@
     {
       "name": "N1nEmAn/sapper-v2",
       "desc": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defe",
-      "stars": 1492,
+      "stars": 1532,
       "language": "Python",
       "url": "https://github.com/N1nEmAn/sapper-v2",
       "topic": "llm"
     },
     {
-      "name": "sahenjp/RustXNG",
-      "desc": "Self-hosted metasearch and grounding engine for AI agents, based on SearXNG. Rust, JSON API, optional page text.",
-      "stars": 871,
-      "language": "Rust",
-      "url": "https://github.com/sahenjp/RustXNG",
+      "name": "Sandflow-ai/sand3d",
+      "desc": "3D modeling in Python, built for LLMs.",
+      "stars": 1069,
+      "language": "HTML",
+      "url": "https://github.com/Sandflow-ai/sand3d",
       "topic": "llm"
     },
     {
       "name": "looplj/reveric",
       "desc": "Agent Native 一站式 AI 小说，短剧桌面创作工作台",
-      "stars": 704,
+      "stars": 714,
       "language": "Dart",
       "url": "https://github.com/looplj/reveric",
       "topic": "agent"
     },
     {
-      "name": "langchain-ai/design-agent",
-      "desc": "Open-source design agent: on-brand stills, decks, diagrams, charts and motion graphics from a chat thread, built on Deep",
-      "stars": 585,
-      "language": "JavaScript",
-      "url": "https://github.com/langchain-ai/design-agent",
-      "topic": "agent"
-    },
-    {
       "name": "aa1143/NamiAgent",
       "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
-      "stars": 395,
+      "stars": 412,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiAgent",
       "topic": "agent"
+    },
+    {
+      "name": "FlashCat-Jordan/Flashduck",
+      "desc": "闪猫造物Flashduck — an open-source ESP32-S3 desktop duck robot with six servos, a single animated eye, wide-stance walking a",
+      "stars": 174,
+      "language": "C",
+      "url": "https://github.com/FlashCat-Jordan/Flashduck",
+      "topic": "robotics"
     }
   ],
   "learning": [
     {
       "name": "wanghao-SunSky/cs329z-chinese",
       "desc": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Mark",
-      "stars": 503,
+      "stars": 506,
       "language": "HTML",
       "url": "https://github.com/wanghao-SunSky/cs329z-chinese"
     },
     {
       "name": "aa1143/NamiAgent",
       "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
-      "stars": 395,
+      "stars": 412,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiAgent"
     },
     {
       "name": "aa1143/NamiGPT",
       "desc": "零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTorch, step by step",
-      "stars": 195,
+      "stars": 200,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiGPT"
     },
@@ -1345,11 +1210,11 @@
       "url": "https://github.com/fujc683/gpt-image-2-6-commercial-use"
     },
     {
-      "name": "fujc683/gpt-image-2-6-mcp-server",
-      "desc": "Use GPT Image 2.6 from Claude, Cursor and VS Code via MCP.",
+      "name": "fujc683/gpt-image-2-6-text-rendering",
+      "desc": "Prompt patterns for legible in-image text with GPT Image 2.6.",
       "stars": 102,
       "language": "",
-      "url": "https://github.com/fujc683/gpt-image-2-6-mcp-server"
+      "url": "https://github.com/fujc683/gpt-image-2-6-text-rendering"
     }
   ],
   "notes": {
