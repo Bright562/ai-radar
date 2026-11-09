@@ -109,7 +109,7 @@ def _parse_iso(s: str):
         return None
 
 
-def process(raw_items: list, cfg: dict):
+def process(raw_items: list, cfg: dict, max_keep: int = 120):
     """原始条目 → (入选新闻, 统计)。相关度降序。"""
     default_days = cfg.get("maxAgeDays", 3)
     now = now_cn()
@@ -141,7 +141,7 @@ def process(raw_items: list, cfg: dict):
 
     scored.sort(key=lambda x: x.get("publishedAt") or "", reverse=True)  # 时间新→旧
     scored.sort(key=lambda x: -x["relevance"])  # 稳定排序：相关度优先，同分内保持时间序
-    kept = dedupe(scored)[:120]
+    kept = dedupe(scored)[:max_keep]
 
     stats = {
         "fetched": len(raw_items),
