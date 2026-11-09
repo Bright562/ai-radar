@@ -286,7 +286,6 @@ function renderArchive() {
   if (!state.history.length) { box.innerHTML = ""; return; }
   const cur = state.digest ? state.digest.date : "";
   const fmtD = (d) => `${+d.slice(5, 7)}月${+d.slice(8, 10)}日`;
-  const first = state.history[state.history.length - 1];
 
   const totalPages = Math.ceil(state.history.length / ARCHIVE_PAGE_SIZE);
   if (state.page >= totalPages) state.page = 0;
@@ -303,7 +302,7 @@ function renderArchive() {
   tabs.push(`<button type="button" class="${state.showStub ? "page-tab on muted" : "page-tab muted"}" data-page="stub">更早 · 无存档</button>`);
 
   const chips = state.showStub
-    ? `<div class="empty">这一页还没有存档：系统 ${fmtD(first)} 才开始记录，更早的日期不存在、也没法补。<br>每天自动 +1，这些格子以后会自动填上。</div>`
+    ? `<div class="empty">这一页还没有存档：更早的内容各信息源已经不再保留，抓不到、也没法补。<br>每天自动 +1，这些格子以后会自动填上。</div>`
     : pageDates.map((d) => {
         const cls = d === cur ? "date-chip on" : "date-chip";
         return `<a class="${cls}" href="?d=${d}" title="${d}">${fmtD(d)}</a>`;
