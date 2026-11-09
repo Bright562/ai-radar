@@ -26,7 +26,7 @@ const FILTERS = [
   { id: "devtools", label: "前端工程" },
 ];
 
-const state = { digest: null, filter: "all", showAll: false, isHistory: false, history: [], keepDays: 30 };
+const state = { digest: null, filter: "all", showAll: false, isHistory: false, history: [], keepDays: 45 };
 const PREVIEW_COUNT = 30;
 
 /* 大厂动态：从今日新闻流按公司聚合，match 为标题/摘要匹配词 */
@@ -288,7 +288,7 @@ function renderArchive() {
   }).join("");
   box.innerHTML = `<div class="archive-head">
       <span>往期存档</span>
-      <span class="archive-note">保留最近 ${state.keepDays} 天 · 现有 ${state.history.length} 天可回看，错过几天也补得回来</span>
+      <span class="archive-note">现有 ${state.history.length} 天可回看 · 每天自动 +1，最多保留 ${state.keepDays} 天</span>
     </div>
     <div class="date-list">${chips}</div>`;
 }

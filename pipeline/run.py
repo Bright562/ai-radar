@@ -24,7 +24,7 @@ MODELS_PATH = ROOT / "data" / "models.json"
 JOBS_PATH = ROOT / "data" / "jobs.manual.json"
 OUT_PATH = ROOT / "data" / "digest.json"
 HISTORY_DIR = ROOT / "data" / "history"
-HISTORY_KEEP_DAYS = 30  # 存档保留天数：错过几天也能回看
+HISTORY_KEEP_DAYS = 45  # 存档保留天数：错过几天也能回看（用户要求至少半个月，留 3 倍余量）
 
 
 def collect(sources: list):
