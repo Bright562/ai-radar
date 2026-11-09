@@ -1,5 +1,5 @@
 {
-  "_comment": "信息源白名单：只从这里抓取。加一行就多一个源；enabled: false 表示暂停。抓取失败的源会跳过并计入 stats.sourcesFailed，不影响其它源。",
+  "_comment": "信息源白名单：只从这里抓取。加一行就多一个源；enabled: false 表示暂停。抓取失败的源会跳过并计入 stats.sourcesFailed，不影响其它源。type=html 的源没有 RSS，靠 parse 里的正则解析新闻列表页；maxAgeDays 可单独放宽时间窗（官网更新慢）。",
   "sources": [
     { "name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh", "enabled": true },
     { "name": "36氪", "url": "https://www.36kr.com/feed", "lang": "zh", "enabled": true },
@@ -7,6 +7,8 @@
     { "name": "少数派", "url": "https://sspai.com/feed", "lang": "zh", "enabled": true },
     { "name": "InfoQ 中文", "url": "https://www.infoq.cn/feed", "lang": "zh", "enabled": true },
     { "name": "爱范儿", "url": "https://www.ifanr.com/feed", "lang": "zh", "enabled": true },
+    { "name": "雷峰网", "url": "https://www.leiphone.com/feed", "lang": "zh", "enabled": true, "timeout": 30 },
+    { "name": "cnBeta", "url": "https://www.cnbeta.com.tw/backend.php", "lang": "zh", "enabled": true },
     { "name": "Hacker News", "url": "https://hnrss.org/frontpage", "lang": "en", "enabled": true },
     { "name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "lang": "en", "enabled": true },
     { "name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "lang": "en", "enabled": true },
@@ -14,6 +16,35 @@
     { "name": "Ars Technica AI", "url": "https://arstechnica.com/ai/feed/", "lang": "en", "enabled": true },
     { "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "lang": "en", "enabled": true },
     { "name": "DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml", "lang": "en", "enabled": true },
+    {
+      "name": "宇树科技官网",
+      "url": "https://www.unitree.com/cn/news",
+      "lang": "zh",
+      "type": "html",
+      "maxAgeDays": 45,
+      "official": true,
+      "enabled": true,
+      "parse": {
+        "item": "<a href=\"(?P<url>/cn/news/\\d+)\"[^>]*>(?P<block>.*?)</a>",
+        "title": "<p class=\"title\"[^>]*>(?P<title>[^<]+)</p>",
+        "date": "<p class=\"date\"[^>]*>(?P<date>\\d{4}-\\d{2}-\\d{2})</p>"
+      },
+      "note": "官网新闻中心没有 RSS，按页面结构解析；改版时只改这里的三条正则"
+    },
+    {
+      "name": "智元机器人官网",
+      "url": "https://www.agibot.com/news",
+      "lang": "en",
+      "type": "html",
+      "maxAgeDays": 45,
+      "official": true,
+      "enabled": true,
+      "parse": {
+        "item": "<a href=\"(?P<url>/article/[^\"]+)\" title=\"(?P<title>[^\"]+)\"[^>]*>(?P<block>.*?)</a>",
+        "date": "class=\"time\">(?P<date>\\d{4}-\\d{2}-\\d{2})<"
+      },
+      "note": "智元官网只有英文版新闻页，无 RSS；中文报道由量子位/雷峰网/36氪等覆盖"
+    },
     { "name": "机器之心", "url": "https://www.jiqizhixin.com/rss", "lang": "zh", "enabled": false, "note": "RSS 入口目前返回 HTML，恢复后改回 true" }
   ]
 }

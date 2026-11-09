@@ -111,10 +111,14 @@ def _parse_iso(s: str):
 
 def process(raw_items: list, cfg: dict):
     """原始条目 → (入选新闻, 统计)。相关度降序。"""
-    cutoff = now_cn() - timedelta(days=cfg.get("maxAgeDays", 3))
+    default_days = cfg.get("maxAgeDays", 3)
+    now = now_cn()
     scored, blocked_ct, low_ct, old_ct = [], 0, 0, 0
     for item in raw_items:
         # 时间窗：太旧的丢弃（没有日期的保留，宁滥勿缺由相关度兜底）
+        # 官网新闻中心更新慢，源可单独指定更长的窗口（sources.json 的 maxAgeDays）
+        days = item.get("maxAgeDays") or default_days
+        cutoff = now - timedelta(days=days)
         dt = _parse_iso(item.get("publishedAt") or "")
         if dt and dt < cutoff:
             old_ct += 1
@@ -127,6 +131,8 @@ def process(raw_items: list, cfg: dict):
             low_ct += 1
             continue
         item = dict(item)
+        item.pop("maxAgeDays", None)  # 抓取期的窗口参数，不写进数据契约
+        item.pop("official", None)    # 官网来源标记，官网动态单独成栏
         item["id"] = hashlib.sha1(item["url"].encode("utf-8")).hexdigest()[:10]
         item["relevance"] = round(rel)
         item["category"] = cat

@@ -152,6 +152,32 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px 24px 26px; }
 .j-what { font-size: 11.5px; color: var(--dim); margin-top: 3px; line-height: 1.55; }
 .job .tags { margin-top: 6px; }
 
+/* ---------- 官网动态 ---------- */
+#official .co-item {
+  display: flex; align-items: baseline; gap: 7px;
+  -webkit-line-clamp: unset; overflow: visible;
+  border-top: 1px solid var(--line); padding: 6px 0; font-size: 11.5px;
+}
+#official .co-item:first-of-type { border-top: 0; padding-top: 2px; }
+.o-src { flex: none; font-size: 10px; color: var(--amber); }
+.o-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.o-date { flex: none; font-size: 10px; color: var(--faint); font-variant-numeric: tabular-nums; }
+
+/* ---------- 往期存档 ---------- */
+.archive { margin-top: 18px; padding: 14px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.archive:empty { display: none; }
+.archive-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 10px; }
+.archive-head > span:first-child { font-size: 12.5px; font-weight: 500; letter-spacing: 0.02em; }
+.archive-note { font-size: 10.5px; color: var(--faint); }
+.date-list { display: flex; flex-wrap: wrap; gap: 6px; }
+.date-chip {
+  padding: 3px 9px; border-radius: 999px; border: 1px solid var(--line-2);
+  font-size: 11.5px; color: var(--dim); background: var(--surface-2);
+  font-variant-numeric: tabular-nums;
+}
+.date-chip:hover { color: var(--text); border-color: var(--acc); text-decoration: none; }
+.date-chip.on { background: var(--acc-soft); border-color: var(--acc); color: var(--acc); }
+
 /* ---------- 底部 ---------- */
 .foot { margin: 16px 2px 0; text-align: center; font-size: 11px; color: var(--faint); }
 

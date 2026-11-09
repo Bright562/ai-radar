@@ -26,7 +26,7 @@ const FILTERS = [
   { id: "devtools", label: "前端工程" },
 ];
 
-const state = { digest: null, filter: "all", showAll: false, isHistory: false };
+const state = { digest: null, filter: "all", showAll: false, isHistory: false, history: [], keepDays: 30 };
 const PREVIEW_COUNT = 30;
 
 /* 大厂动态：从今日新闻流按公司聚合，match 为标题/摘要匹配词 */
@@ -75,9 +75,11 @@ function render() {
   renderNews();
   renderJobs();
   renderCompanies();
+  renderOfficial();
   renderModels();
   renderRepos();
   renderLearning();
+  renderArchive();
   renderFoot();
 }
 
@@ -243,6 +245,19 @@ function renderCompanies() {
   box.innerHTML = `<div class="panel-head"><span class="panel-title">大厂动态</span><span class="panel-more">来自今日新闻流</span></div>${html}`;
 }
 
+function renderOfficial() {
+  const d = state.digest;
+  const box = $("#official");
+  if (!box) return;
+  if (!d) { box.innerHTML = `<div class="panel-head"><span class="panel-title">官网动态</span></div><div class="empty">…</div>`; return; }
+  const rows = (d.official || []).map((o) => `<a class="co-item" href="${esc(o.url)}" target="_blank" rel="noopener">
+      <span class="o-src">${esc(o.source.replace(/官网$/, ""))}</span><span class="o-title">${esc(o.title)}</span>
+      <span class="o-date">${o.publishedAt ? esc(o.publishedAt.slice(5, 10)) : ""}</span>
+    </a>`).join("");
+  const head = `<div class="panel-head"><span class="panel-title">官网动态</span><span class="panel-more">宇树 / 智元 新闻中心</span></div>`;
+  box.innerHTML = rows ? head + rows : `${head}<div class="empty">官网暂无新发布</div>`;
+}
+
 function renderRepos() {
   const d = state.digest;
   const box = $("#repos");
@@ -259,6 +274,23 @@ function renderLearning() {
   const rows = (d.learning || []).map((r) => repoRowHtml({ ...r, meta: "教程 · 近三周新发布" })).join("");
   const empty = `<div class="empty">暂无新的高星 AI 教程</div>`;
   box.innerHTML = `<div class="panel-head"><span class="panel-title">学习资源</span><span class="panel-more">GitHub AI 教程</span></div>${rows || empty}`;
+}
+
+function renderArchive() {
+  const box = $("#archive");
+  if (!box) return;
+  if (!state.history.length) { box.innerHTML = ""; return; }
+  const cur = state.digest ? state.digest.date : "";
+  const chips = state.history.map((d) => {
+    const [, m, dd] = d.split("-");
+    const cls = d === cur ? "date-chip on" : "date-chip";
+    return `<a class="${cls}" href="?d=${d}" title="${d}">${+m}月${+dd}日</a>`;
+  }).join("");
+  box.innerHTML = `<div class="archive-head">
+      <span>往期存档</span>
+      <span class="archive-note">保留最近 ${state.keepDays} 天 · 现有 ${state.history.length} 天可回看，错过几天也补得回来</span>
+    </div>
+    <div class="date-list">${chips}</div>`;
 }
 
 function renderFoot() {
@@ -286,10 +318,24 @@ function renderError(err) {
   $("#models").innerHTML = `<div class="panel-head"><span class="panel-title">模型动向</span></div><div class="empty">等待数据</div>`;
   $("#repos").innerHTML = `<div class="panel-head"><span class="panel-title">开源风向</span></div><div class="empty">等待数据</div>`;
   $("#learning").innerHTML = `<div class="panel-head"><span class="panel-title">学习资源</span></div><div class="empty">等待数据</div>`;
+  $("#official").innerHTML = `<div class="panel-head"><span class="panel-title">官网动态</span></div><div class="empty">等待数据</div>`;
+  $("#archive").innerHTML = "";
   $("#foot").textContent = `加载失败：${err.message}`;
 }
 
 /* ---------- 入口 ---------- */
+
+async function loadHistoryIndex() {
+  try {
+    const res = await fetch("data/history/index.json", { cache: "no-store" });
+    if (!res.ok) return;
+    const idx = await res.json();
+    state.history = (idx.dates || []).slice(0, 40);
+    if (idx.keepDays) state.keepDays = idx.keepDays;
+  } catch (_) {
+    /* 没有索引就只显示今天，不影响主视图 */
+  }
+}
 
 async function load() {
   const d = new URLSearchParams(location.search).get("d");
@@ -300,6 +346,7 @@ async function load() {
     if (!res.ok) throw new Error(`HTTP ${res.status}（${url}）`);
     state.digest = await res.json();
     document.title = state.isHistory ? `AI 雷达 · ${state.digest.date}` : "AI 雷达";
+    await loadHistoryIndex();
     render();
   } catch (err) {
     renderError(err);

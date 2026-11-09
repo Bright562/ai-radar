@@ -4,6 +4,10 @@
 > 过滤掉八卦与社会新闻，生成一份面向「前端开发者转 AI 方向」的个人情报看板。
 > **零 token、零 API key、零服务器成本。**
 
+### 👉 在线看板：<https://bright562.github.io/ai-radar/>
+
+手机浏览器直接打开即可（"添加到主屏幕"后就是一个 App）；回看往期用 `?d=2026-11-08`。
+
 | 桌面端 | 移动端 |
 | --- | --- |
 | ![桌面端](docs/screenshots/desktop.png) | ![移动端](docs/screenshots/mobile.png) |
@@ -12,7 +16,9 @@
 
 - **真正的自动化管道**：GitHub Actions 每天 07:30 定时执行，抓取 → 过滤 → 生成静态数据 → 自动提交，全程无人值守；
 - **零 token 架构**：抓取、过滤、去重全部用 Python 标准库完成，不调用任何大模型 API——先验证"用户是否真的每天看"，再决定在哪里花钱，这是刻意的成本设计；
-- **定向信息过滤**：白名单打分（9 个方向）+ 黑名单拦截 + 字符二元组 Jaccard 去重 + 时间窗，把每天 1600+ 条原始信息收敛为 50 条左右的高相关信息，"没有消息也是一种消息"；
+- **定向信息过滤**：白名单打分（9 个方向）+ 黑名单拦截 + 字符二元组 Jaccard 去重 + 时间窗，把每天 1800+ 条原始信息收敛为 50 条左右的高相关信息，"没有消息也是一种消息"；
+- **官网直连**：宇树科技、智元机器人的新闻中心没有 RSS，用可配置正则直接解析列表页（站点改版只改配置里的三条正则），官网动态单独成栏——具身智能公司的一手发布不会漏；
+- **不会丢历史**：每天存一份 `data/history/<日期>.json`，页面底部「往期存档」可回看最近 30 天，错过几天照样补得回来；
 - **真实岗位抓取**：通过腾讯招聘官网公开接口自动拉取前端岗位（实习优先排序），并对 Boss 直聘等无公开接口的反爬渠道给出务实的降级方案，而不是硬碰反爬；
 - **单一数据契约**：`digest.json` 是全系统唯一的数据契约，网页只是它的一个视图——为未来的桌面通知端（Tauri）预留了 `?d=<日期>` 深链协议；
 - **响应式设计**：桌面三栏 / 移动单列自适应，"添加到主屏幕"后即是一个手机 App。
@@ -43,7 +49,15 @@
 | 图 | 模型快照（旗舰/价格/上下文）、岗位、开源、教程 | 公开接口 + 人工月度核对 | 天/月 |
 | 判 | "对前端意味着什么" | **未启用**（路线图里的 LLM 层） | 接入后自动 |
 
-页面板块：今日要闻 · 岗位雷达 · 大厂动态 · 模型动向 · 开源风向 · 学习资源。
+页面板块：今日要闻 · 岗位雷达 · 大厂动态 · 官网动态（宇树/智元）· 模型动向 · 开源风向 · 学习资源 · 往期存档。
+
+## 往期存档
+
+每天的数据都会存一份 `data/history/<日期>.json`，页面底部「往期存档」列出最近 30 天，
+点日期即可回看；直接访问 `?d=2026-11-08` 也能打开指定日期。
+
+存档在每天跑完管道后自动清理到 30 份（`pipeline/run.py` 里的 `HISTORY_KEEP_DAYS`），
+同时生成 `data/history/index.json` 供页面读取——所以 "前一天没看" 不会导致丢失。
 
 ## 快速开始
 
@@ -75,10 +89,34 @@ python pipeline/run.py --fixture
 
 效果验证：`python pipeline/run.py --fixture`，样例数据里故意混了八卦/社会新闻，应全部被滤掉。
 
+## 信息源（17 个）
+
+| 类型 | 源 |
+| --- | --- |
+| 中文科技/AI | 量子位、36氪、极客公园、少数派、InfoQ 中文、爱范儿、雷峰网、cnBeta |
+| 英文 AI | Hacker News、TechCrunch AI、The Verge AI、VentureBeat AI、Ars Technica AI、OpenAI News、DeepMind Blog |
+| 公司官网（无 RSS） | 宇树科技新闻中心、智元机器人新闻中心 |
+
 ## 怎么加信息源
 
-编辑 `pipeline/config/sources.json`，加一行 RSS 即可。单个源失败不影响其它源，
-会记进页面底部的"失败"计数；长期失败的可以 `enabled: false` 暂停。
+RSS 源：在 `pipeline/config/sources.json` 加一行 `url` 即可。
+
+没有 RSS 的列表页（公司官网等）：加 `"type": "html"` 和 `parse` 三条正则——
+`item`（每条新闻块，至少要捕获 `url`）、`title`、`date`，站点改版只改这里，不用动代码：
+
+```json
+{
+  "name": "某公司官网", "url": "https://example.com/news", "type": "html",
+  "maxAgeDays": 45, "official": true,
+  "parse": {
+    "item": "<a href=\"(?P<url>/news/\\d+)\"[^>]*>(?P<block>.*?)</a>",
+    "title": "<p class=\"title\"[^>]*>(?P<title>[^<]+)</p>",
+    "date": "<p class=\"date\"[^>]*>(?P<date>\\d{4}-\\d{2}-\\d{2})</p>"
+  }
+}
+```
+
+单个源失败不影响其它源，会记进页面底部的"失败"计数；长期失败的可以 `enabled: false` 暂停。
 
 ## 部署（GitHub Pages，免费）
 
@@ -97,8 +135,9 @@ schtasks /create /tn "ai-radar" /tr "python C:\<路径>\ai-radar\pipeline\run.py
 
 | 文件 | 谁写 | 说明 |
 | --- | --- | --- |
-| `data/digest.json` | 管道自动 | 每日一次，网页读它（schema 2：news/models/jobs/repos/learning） |
-| `data/history/<日期>.json` | 管道自动 | 存档，`?d=2026-11-04` 可回看 |
+| `data/digest.json` | 管道自动 | 每日一次，网页读它（schema 2：news/models/jobs/repos/learning/official） |
+| `data/history/<日期>.json` | 管道自动 | 按天存档，保留 30 天，`?d=2026-11-04` 回看 |
+| `data/history/index.json` | 管道自动 | 存档日期索引，页面「往期存档」读它 |
 | `data/models.json` | **人工** | 模型快照：旗舰型号、代表能力、价格/上下文，每月核对（页面上有 asOf 日期） |
 | `data/jobs.manual.json` | **人工** | 手动补充的岗位（Boss/智联等无公开接口的渠道） |
 

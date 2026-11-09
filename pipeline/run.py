@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).parent))
 
 from build_digest import build, now_cn  # noqa: E402
-from fetcher import fetch_url, parse_feed  # noqa: E402
+from fetcher import fetch_url, parse_feed, parse_html_list  # noqa: E402
 from fetchers_extra import fetch_github_repos, fetch_learning, fetch_tencent_jobs  # noqa: E402
 from filter import load_config, process  # noqa: E402
 
@@ -24,6 +24,7 @@ MODELS_PATH = ROOT / "data" / "models.json"
 JOBS_PATH = ROOT / "data" / "jobs.manual.json"
 OUT_PATH = ROOT / "data" / "digest.json"
 HISTORY_DIR = ROOT / "data" / "history"
+HISTORY_KEEP_DAYS = 30  # 存档保留天数：错过几天也能回看
 
 
 def collect(sources: list):
@@ -31,7 +32,18 @@ def collect(sources: list):
     raw, failures = [], []
 
     def fetch_one(src):
-        return parse_feed(fetch_url(src["url"], timeout=src.get("timeout", 15)), src["name"])
+        text = fetch_url(src["url"], timeout=src.get("timeout", 15))
+        if src.get("type") == "html":  # 没有 RSS 的官网新闻页
+            items = parse_html_list(text, src["url"], src["parse"], src["name"])
+        else:
+            items = parse_feed(text, src["name"])
+        if src.get("maxAgeDays"):
+            for it in items:
+                it["maxAgeDays"] = src["maxAgeDays"]
+        if src.get("official"):
+            for it in items:
+                it["official"] = True
+        return items
 
     with ThreadPoolExecutor(max_workers=10) as pool:
         futures = {pool.submit(fetch_one, s): s for s in sources}
@@ -45,6 +57,43 @@ def collect(sources: list):
                 failures.append({"source": src["name"], "error": str(e)[:120]})
                 print(f"  [skip] {src['name']}: {str(e)[:80]}")
     return raw, failures
+
+
+def pick_official(raw: list, per_source: int = 4) -> list:
+    """官网新闻中心的最新动态：不走时间窗过滤，单独成栏（官网更新慢，几个月一条也正常）。
+    按来源轮流取，避免更新勤的那家把另一家挤掉。"""
+    by_src = {}
+    for it in raw:
+        if it.get("official"):
+            by_src.setdefault(it["source"], []).append(it)
+    picked = []
+    for items in by_src.values():
+        items.sort(key=lambda x: x.get("publishedAt") or "", reverse=True)
+        picked.extend(items[:per_source])
+    picked.sort(key=lambda x: x.get("publishedAt") or "", reverse=True)
+    return [{
+        "title": it["title"],
+        "url": it["url"],
+        "publishedAt": it.get("publishedAt") or "",
+        "source": it["source"],
+    } for it in picked]
+
+
+def save_history(digest: dict):
+    """按天存档 + 只保留最近 N 天 + 生成日期索引（网页「往期」读它）。"""
+    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+    (HISTORY_DIR / f"{digest['date']}.json").write_text(
+        json.dumps(digest, ensure_ascii=False), encoding="utf-8")
+    files = sorted(HISTORY_DIR.glob("20*.json"), reverse=True)
+    for old in files[HISTORY_KEEP_DAYS:]:
+        old.unlink()
+    dates = [f.stem for f in sorted(HISTORY_DIR.glob("20*.json"), reverse=True)]
+    (HISTORY_DIR / "index.json").write_text(json.dumps({
+        "dates": dates,
+        "keepDays": HISTORY_KEEP_DAYS,
+        "updatedAt": now_cn().isoformat(timespec="seconds"),
+    }, ensure_ascii=False, indent=2), encoding="utf-8")
+
 
 
 def main():
@@ -98,19 +147,19 @@ def main():
 
     stats["jobsAuto"] = len(jobs_auto)
     stats["repos"] = len(repos)
-    digest = build(news, models, jobs_auto + manual_jobs, stats, repos, learning)
+    official = pick_official(raw)
+    stats["official"] = len(official)
+    digest = build(news, models, jobs_auto + manual_jobs, stats, repos, learning, official)
     digest["notes"]["extErrors"] = ext_errors
 
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(digest, ensure_ascii=False, indent=2), encoding="utf-8")
-    HISTORY_DIR.mkdir(parents=True, exist_ok=True)
-    (HISTORY_DIR / f"{digest['date']}.json").write_text(
-        json.dumps(digest, ensure_ascii=False), encoding="utf-8")
+    save_history(digest)
 
     print(f"[done] {digest['date']} 入选 {stats['kept']} 条 "
           f"(丢弃: 不相关 {stats['droppedIrrelevant']} / 黑名单 {stats['droppedBlacklist']} / "
           f"过期 {stats['droppedOld']} / 重复 {stats['droppedDuplicate']})")
-    print(f"[done] 写入 {OUT_PATH.relative_to(ROOT)}")
+    print(f"[done] 写入 {OUT_PATH.relative_to(ROOT)}，存档保留 {HISTORY_KEEP_DAYS} 天")
 
 
 if __name__ == "__main__":

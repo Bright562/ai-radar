@@ -23,7 +23,7 @@ def attach_model_news(models: list, news: list) -> None:
 
 
 def build(news: list, models: list, jobs: list, stats: dict, repos: list = None,
-          learning: list = None) -> dict:
+          learning: list = None, official: list = None) -> dict:
     now = now_cn()
     models = [dict(m) for m in models]
     attach_model_news(models, news)
@@ -38,6 +38,7 @@ def build(news: list, models: list, jobs: list, stats: dict, repos: list = None,
         "jobs": jobs,
         "repos": repos or [],
         "learning": learning or [],
+        "official": official or [],
         "notes": {
             "modelsAsOf": next((m.get("asOf") for m in models if m.get("asOf")), None),
             "jobsSource": "腾讯招聘官网自动抓取 + 手动维护(data/jobs.manual.json)；Boss/智联无公开接口暂不支持",

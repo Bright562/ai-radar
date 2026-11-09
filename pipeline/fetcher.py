@@ -1,9 +1,10 @@
-"""抓取模块：下载并解析 RSS / Atom 源（仅用 Python 标准库，零依赖）。"""
+"""抓取模块：下载并解析 RSS / Atom 源，以及没有 RSS 的新闻列表页（仅用标准库，零依赖）。"""
 import gzip
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 
 UA = "ai-radar/0.1 (personal news dashboard)"
@@ -104,6 +105,42 @@ def parse_feed(xml_text: str, source_name: str):
                 "summary": summary,
                 "source": source_name,
             })
+    return items
+
+
+def parse_html_list(html_text: str, base_url: str, spec: dict, source_name: str):
+    """解析「没有 RSS」的新闻列表页（官网新闻中心等）。
+
+    spec 全在 sources.json 里，站点改版时只改正则、不动代码：
+      item  —— 每条新闻的外层块，必须含命名组 url，可选 title/block
+      title —— 可选，从块内再提一次标题（用于链接本身没有 title 的站点）
+      date  —— 可选，从块内提发布日期
+    """
+    items, seen = [], set()
+    for m in re.finditer(spec["item"], html_text, re.S):
+        groups = m.groupdict()
+        block = groups.get("block") or m.group(0)
+        url = (groups.get("url") or "").strip()
+        title = groups.get("title") or ""
+        if spec.get("title"):
+            t = re.search(spec["title"], block, re.S)
+            title = t.group("title") if t else ""
+        date = ""
+        if spec.get("date"):
+            d = re.search(spec["date"], block, re.S)
+            date = (_parse_date(_clean(d.group("date"))) or "") if d else ""
+        title = _clean(title)
+        url = urljoin(base_url, url)
+        if not title or not url or url in seen:
+            continue
+        seen.add(url)
+        items.append({
+            "title": title,
+            "url": url,
+            "publishedAt": date,
+            "summary": "",
+            "source": source_name,
+        })
     return items
 
 
