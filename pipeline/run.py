@@ -17,6 +17,7 @@ from build_digest import build, now_cn  # noqa: E402
 from fetcher import fetch_url, parse_feed, parse_html_list  # noqa: E402
 from fetchers_extra import fetch_github_repos, fetch_learning, fetch_tencent_jobs  # noqa: E402
 from filter import load_config, process  # noqa: E402
+from translate import has_cjk, translate_texts  # noqa: E402
 
 SOURCES_PATH = ROOT / "pipeline" / "config" / "sources.json"
 KEYWORDS_PATH = ROOT / "pipeline" / "config" / "keywords.json"
@@ -149,6 +150,31 @@ def main():
     stats["repos"] = len(repos)
     official = pick_official(raw)
     stats["official"] = len(official)
+
+    # 英文自动中译：中文为主、英文原文保留在页面上（零 token，走公开翻译接口；
+    # 失败时 titleZh/summaryZh 留空，页面回落英文原文，不阻塞管道）
+    try:
+        todo = {}
+        for n in news:
+            if not has_cjk(n["title"]):
+                todo.setdefault(n["title"])
+            if n.get("summary") and not has_cjk(n["summary"]):
+                todo.setdefault(n["summary"])
+        for o in official:
+            if not has_cjk(o["title"]):
+                todo.setdefault(o["title"])
+        pairs = translate_texts(list(todo)[:80])
+        for n in news:
+            n["titleZh"] = pairs.get(n["title"], "")
+            n["summaryZh"] = pairs.get(n["summary"], "") if n.get("summary") else ""
+        for o in official:
+            o["titleZh"] = pairs.get(o["title"], "")
+        stats["translated"] = sum(1 for v in pairs.values() if v)
+        print(f"[translate] 英文中译 {stats['translated']} 条")
+    except Exception as e:  # noqa: BLE001
+        stats["translated"] = 0
+        print(f"[translate] 翻译失败，全部回落英文: {str(e)[:80]}")
+
     digest = build(news, models, jobs_auto + manual_jobs, stats, repos, learning, official)
     digest["notes"]["extErrors"] = ext_errors
 

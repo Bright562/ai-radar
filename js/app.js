@@ -119,15 +119,18 @@ function matchFilterFor(f, cat) {
 
 function newsItemHtml(n) {
   const tags = (n.tags || []).map((t) => `<span>${esc(t)}</span>`).join("");
+  const title = n.titleZh || n.title;
+  const enLine = n.titleZh ? `<div class="title-en">${esc(n.title)}</div>` : "";
+  const sum = n.summaryZh || n.summary;
   return `<article class="news">
     <div class="meta">
       <span class="src">${esc(n.source)}</span><span>·</span><span>${fmtTime(n.publishedAt)}</span>
       <span class="cat">${CATEGORY_LABEL[n.category] || esc(n.category)}</span>
       <span class="rel" title="相关度 ${n.relevance}/100">${n.relevance}</span>
     </div>
-    <a class="title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a>
-    ${n.why ? `<p class="why"><span class="k">↳ 对前端</span> ${esc(n.why)}</p>` : ""}
-    ${n.summary && !n.why ? `<p class="sum">${esc(n.summary)}</p>` : ""}
+    <a class="title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(title)}</a>
+    ${enLine}
+    ${sum && !n.why ? `<p class="sum">${esc(sum)}</p>` : ""}
     ${tags ? `<div class="tags">${tags}</div>` : ""}
   </article>`;
 }
@@ -251,7 +254,7 @@ function renderOfficial() {
   if (!box) return;
   if (!d) { box.innerHTML = `<div class="panel-head"><span class="panel-title">官网动态</span></div><div class="empty">…</div>`; return; }
   const rows = (d.official || []).map((o) => `<a class="co-item" href="${esc(o.url)}" target="_blank" rel="noopener">
-      <span class="o-src">${esc(o.source.replace(/官网$/, ""))}</span><span class="o-title">${esc(o.title)}</span>
+      <span class="o-src">${esc(o.source.replace(/官网$/, ""))}</span><span class="o-title">${esc(o.titleZh || o.title)}</span>
       <span class="o-date">${o.publishedAt ? esc(o.publishedAt.slice(5, 10)) : ""}</span>
     </a>`).join("");
   const head = `<div class="panel-head"><span class="panel-title">官网动态</span><span class="panel-more">宇树 / 智元 新闻中心</span></div>`;
@@ -281,6 +284,11 @@ function renderArchive() {
   if (!box) return;
   if (!state.history.length) { box.innerHTML = ""; return; }
   const cur = state.digest ? state.digest.date : "";
+  const first = state.history.length ? state.history[state.history.length - 1] : "";
+  const firstLabel = first ? `${+first.slice(5, 7)}月${+first.slice(8, 10)}日` : "";
+  const note = firstLabel
+    ? `从 ${firstLabel} 开始记录，更早的日期没有存档 · 每天自动 +1，攒满 ${state.keepDays} 天后滚动更新`
+    : "";
   const chips = state.history.map((d) => {
     const [, m, dd] = d.split("-");
     const cls = d === cur ? "date-chip on" : "date-chip";
@@ -288,7 +296,7 @@ function renderArchive() {
   }).join("");
   box.innerHTML = `<div class="archive-head">
       <span>往期存档</span>
-      <span class="archive-note">现有 ${state.history.length} 天可回看 · 每天自动 +1，最多保留 ${state.keepDays} 天</span>
+      <span class="archive-note">现有 ${state.history.length} 天可回看${note ? " · " + note : ""}</span>
     </div>
     <div class="date-list">${chips}</div>`;
 }

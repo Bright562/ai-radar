@@ -141,6 +141,9 @@ main { max-width: 1240px; margin: 0 auto; padding: 20px 24px 26px; }
 .repo-meta { font-size: 10px; color: var(--faint); margin-top: 2px; }
 .m-foot .today { margin-left: auto; color: var(--amber); font-variant-numeric: tabular-nums; }
 
+.news .title { display: block; }
+.title-en { font-size: 11px; color: var(--faint); line-height: 1.5; margin-top: 1px; }
+
 /* ---------- 岗位卡片 ---------- */
 .job { padding: 9px 0; border-top: 1px solid var(--line); }
 .job:first-of-type { border-top: 0; padding-top: 2px; }
