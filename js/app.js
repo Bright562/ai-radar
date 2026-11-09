@@ -26,8 +26,9 @@ const FILTERS = [
   { id: "devtools", label: "前端工程" },
 ];
 
-const state = { digest: null, filter: "all", showAll: false, isHistory: false, history: [], keepDays: 45 };
+const state = { digest: null, filter: "all", showAll: false, isHistory: false, history: [], keepDays: 45, page: 0, showStub: false };
 const PREVIEW_COUNT = 30;
+const ARCHIVE_PAGE_SIZE = 7; // 存档页标：一页 7 天
 
 /* 大厂动态：从今日新闻流按公司聚合，match 为标题/摘要匹配词 */
 const COMPANIES = [
@@ -284,21 +285,48 @@ function renderArchive() {
   if (!box) return;
   if (!state.history.length) { box.innerHTML = ""; return; }
   const cur = state.digest ? state.digest.date : "";
-  const first = state.history.length ? state.history[state.history.length - 1] : "";
-  const firstLabel = first ? `${+first.slice(5, 7)}月${+first.slice(8, 10)}日` : "";
-  const note = firstLabel
-    ? `从 ${firstLabel} 开始记录，更早的日期没有存档 · 每天自动 +1，攒满 ${state.keepDays} 天后滚动更新`
-    : "";
-  const chips = state.history.map((d) => {
-    const [, m, dd] = d.split("-");
-    const cls = d === cur ? "date-chip on" : "date-chip";
-    return `<a class="${cls}" href="?d=${d}" title="${d}">${+m}月${+dd}日</a>`;
-  }).join("");
+  const fmtD = (d) => `${+d.slice(5, 7)}月${+d.slice(8, 10)}日`;
+  const first = state.history[state.history.length - 1];
+
+  const totalPages = Math.ceil(state.history.length / ARCHIVE_PAGE_SIZE);
+  if (state.page >= totalPages) state.page = 0;
+  const pageDates = state.history.slice(state.page * ARCHIVE_PAGE_SIZE, (state.page + 1) * ARCHIVE_PAGE_SIZE);
+
+  // 页标：每页 7 天，新→旧；末尾固定一个「更早」页，点开就能看到为什么没有更早的数据
+  const tabs = [];
+  for (let i = 0; i < state.history.length; i += ARCHIVE_PAGE_SIZE) {
+    const ds = state.history.slice(i, i + ARCHIVE_PAGE_SIZE);
+    const p = Math.floor(i / ARCHIVE_PAGE_SIZE);
+    const cls = !state.showStub && p === state.page ? "page-tab on" : "page-tab";
+    tabs.push(`<button type="button" class="${cls}" data-page="${p}">${fmtD(ds[ds.length - 1])} – ${fmtD(ds[0])}</button>`);
+  }
+  tabs.push(`<button type="button" class="${state.showStub ? "page-tab on muted" : "page-tab muted"}" data-page="stub">更早 · 无存档</button>`);
+
+  const chips = state.showStub
+    ? `<div class="empty">这一页还没有存档：系统 ${fmtD(first)} 才开始记录，更早的日期不存在、也没法补。<br>每天自动 +1，这些格子以后会自动填上。</div>`
+    : pageDates.map((d) => {
+        const cls = d === cur ? "date-chip on" : "date-chip";
+        return `<a class="${cls}" href="?d=${d}" title="${d}">${fmtD(d)}</a>`;
+      }).join("");
+
   box.innerHTML = `<div class="archive-head">
       <span>往期存档</span>
-      <span class="archive-note">现有 ${state.history.length} 天可回看${note ? " · " + note : ""}</span>
+      <span class="archive-note">现有 ${state.history.length} 天可回看 · 每天自动 +1，攒满 ${state.keepDays} 天后滚动更新</span>
     </div>
+    <div class="page-tabs">${tabs.join("")}</div>
     <div class="date-list">${chips}</div>`;
+
+  box.querySelectorAll(".page-tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (btn.dataset.page === "stub") {
+        state.showStub = true;
+      } else {
+        state.showStub = false;
+        state.page = +btn.dataset.page;
+      }
+      renderArchive();
+    });
+  });
 }
 
 function renderFoot() {
