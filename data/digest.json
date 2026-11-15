@@ -1,14 +1,14 @@
 {
   "schema": 2,
-  "date": "2026-11-14",
-  "generatedAt": "2026-11-14T11:24:19+08:00",
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T10:52:47+08:00",
   "generator": "ai-radar pipeline 0.2 (zero-token)",
   "stats": {
     "fetched": 1874,
-    "kept": 84,
-    "droppedIrrelevant": 260,
+    "kept": 73,
+    "droppedIrrelevant": 255,
     "droppedBlacklist": 1,
-    "droppedOld": 1529,
+    "droppedOld": 1545,
     "droppedDuplicate": 0,
     "sourcesOk": 16,
     "sourcesFailed": 1,
@@ -18,23 +18,6 @@
     "translated": 0
   },
   "news": [
-    {
-      "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
-      "url": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
-      "publishedAt": "2026-11-14T00:28:11+00:00",
-      "summary": "Article URL: https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 54 # Comments: 35",
-      "source": "Hacker News",
-      "id": "da51afadad",
-      "relevance": 99,
-      "category": "model",
-      "tags": [
-        "Claude",
-        "Anthropic",
-        "Claude Code"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
     {
       "title": "刚刚，豆包工作官宣接入 Kimi、DeepSeek，AI 模型自由来了",
       "url": "https://www.ifanr.com/1689176?utm_source=rss&utm_medium=rss&utm_campaign=",
@@ -115,19 +98,6 @@
       "summaryZh": ""
     },
     {
-      "title": "苹果突然永久关闭官方「支持社区」；字节即将推出个人 AI 助手；华为新品牌星芒 OSTA 曝光 | 极客早知道",
-      "url": "http://www.geekpark.net/news/373839",
-      "publishedAt": "2026-11-12T08:39:27+08:00",
-      "summary": "苹果官方社区即将永久关闭 11 月 11 日，苹果官网突然宣布，Apple 支持社区将于 2026 年 11 月 20 日永久关闭。即日起，社区将不再接受新帖子，并转为只读模式。用户仍可前往官方 Apple 支持网站，获取值得信赖的指导和帮助。 苹果公告称，我们衷心感谢各位社区成员一直以来贡献宝贵的时间和专业知识，帮助其他用户解决 Apple 产品使用中遇到的问题。（来源：新浪科技） 消息称字节跳动发力智能体赛道，计划推出类似 Meta Muse 的 AI 助手 11 月 11 日消息，据彭博社报道，字节跳动计划在未来几周内推出一款类似 Meta Muse 的 AI 助手，巩固其在 AI 视频生成领域的领先优势。字节跳动希望借此加快追赶美国顶尖 AI 实验室的步伐，目标是在未来三年左右缩小双方差距。 知情人士透露，字节跳动联合创始人张一鸣近日在一次面向 AI 团队的全员会议上，向研究人员、",
-      "source": "极客公园",
-      "id": "d42513c8cd",
-      "relevance": 64,
-      "category": "company",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
       "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
       "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
       "publishedAt": "2026-11-14T00:50:00+08:00",
@@ -175,35 +145,6 @@
       "summaryZh": ""
     },
     {
-      "title": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
-      "url": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
-      "publishedAt": "2026-11-11T18:16:40+00:00",
-      "summary": "Latest example of the AI boom’s circular financing comes as AI trade wobbles.",
-      "source": "Ars Technica AI",
-      "id": "d48e4f7a31",
-      "relevance": 62,
-      "category": "model",
-      "tags": [
-        "OpenAI",
-        "Anthropic"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "飞行汽车登上 Web Summit 主舞台, 中国科技公司在欧洲讲了一个什么故事?",
-      "url": "http://www.geekpark.net/news/373838",
-      "publishedAt": "2026-11-12T07:59:57+08:00",
-      "summary": "11 月 9 日晚, 里斯本。近两万人的体育场里，一位中国创始人用中文讲起了飞行汽车。 这是 Web Summit 开幕式的主舞台。台上的人是小鹏汇天创始人赵德力, 舞台两侧停着他带来的产品:分体式飞行汽车「陆地航母」的陆行体和飞行器。据小鹏汇天介绍, 这是首个登上 Web Summit 主舞台的飞行汽车企业。 比产品本身更值得注意的, 是这次出场的方式:中文演讲, 主舞台, 面对全球创业者、投资人和监管从业者。 一场不太一样的「出海」 Web Summit 创立于 2009 年, 常被称为「科技界的奥林匹克」。马斯克、微软总裁布拉德&middot;史密斯、英国前首相布莱尔都在这里演讲过。今年的参会者来自 150 多个国家和地区, 超过 7 万人,2000 多家媒体到场。 对创业公司来说, 这里是找钱、找合作、找话语权的地方。 今年的中国面孔格外多:小米、腾讯、稀宇科技、智元机器人、宇树科",
-      "source": "极客公园",
-      "id": "b5444f89bb",
-      "relevance": 56,
-      "category": "embodied",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
       "title": "接入多款第三方模型，豆包工作也模型自由了",
       "url": "http://www.geekpark.net/news/373881",
       "publishedAt": "2026-11-12T16:24:17+08:00",
@@ -228,6 +169,21 @@
       "relevance": 45,
       "category": "embodied",
       "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "url": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "publishedAt": "2026-11-13T19:06:40-05:00",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on […]",
+      "source": "The Verge AI",
+      "id": "d46b516a4c",
+      "relevance": 43,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -290,14 +246,14 @@
       "summaryZh": ""
     },
     {
-      "title": "独家丨腾讯 AI 李牧青离职，出任 AI 公司联席 CEO",
-      "url": "https://www.leiphone.com/category/industrynews/xfpQo71RiPDWJHvS.html",
-      "publishedAt": "2026-11-13T11:43:00+08:00",
-      "summary": "雷峰网独家获悉，近日，腾讯云 AI 全球业务负责人李牧青，正式出任教育 AI 科技公司启鸣达人联席 CEO。 雷峰网了解到，李牧青本科、硕士毕业于上海交通大学，曾任 UCLA 访问学者。2016 年，他加入依图科技，主导早期 AI 产业化体系的建设，亲历「AI 四小龙」从初创走向鼎盛。 2018 年，李牧青加入腾讯优图，出任首席方案架构师，负责计算机视觉技术的落地。此后分别担任腾讯云智能总架构师、腾讯云智能副总经理、腾讯云 AI 全球业务负责人。在腾讯期间，他带领团队在二十多个行业的一线推进大模型与 AI 落地，从零搭建海外业务，推动 AI 产品与解决方案深度契合当地需求，实现本地化。 他于今年九月正式离开腾讯，随后出任教育 AI 科技公司启鸣达人联席 CEO。 一位 AI 资深从业者告诉雷峰网，90 年前后出生的李牧青，是少有完整经历过巅峰 AI 四小龙、大厂计算机视觉实验室、大模型商业",
-      "source": "雷峰网",
-      "id": "4cd725602f",
+      "title": "中金公司与蚂蚁集团达成战略合作",
+      "url": "https://36kr.com/newsflashes/4069303294546825?f=rss",
+      "publishedAt": "",
+      "summary": "11月13日，中金公司与蚂蚁集团签署战略合作协议。双方将结合中金公司投研、金融服务积累与蚂蚁集团人工智能、行业生态、客户运营优势，围绕金融大模型技术创新、AI赋能财富管理、客户全生命周期服务等开展合作。根据协议，双方重点探索AI赋能财富管理人机协同模式，打造服务与营销协同的智能体集群；共建覆盖客户全生命周期的精细化财富经营体系；围绕智能体评测基准建设，在投研研判、财务文本解析、估值建模等场景开展技术验证。中金公司王曙光、蚂蚁集团韩歆毅出席并见证签约。",
+      "source": "36氪",
+      "id": "5853038b14",
       "relevance": 42,
-      "category": "model",
+      "category": "company",
       "tags": [],
       "titleZh": "",
       "summaryZh": ""
@@ -406,19 +362,6 @@
       "summaryZh": ""
     },
     {
-      "title": "早报｜苹果支持社区将关停/曝英伟达董事会考虑罢免黄仁勋/余承东官宣华为子品牌OSTA星芒",
-      "url": "https://www.ifanr.com/1689051?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "publishedAt": "2026-11-12T00:24:22+00:00",
-      "summary": "· 余承东官宣华为子品牌 OSTA 星芒，11 月 20 日首秀 · 张雪机车第 10 万台整车在重庆下线 · 曝 Anthropic 承销商考虑上调 IPO 发行价 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "source": "爱范儿",
-      "id": "d226e529b7",
-      "relevance": 38,
-      "category": "company",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
       "title": "中国AI模型被发现英伟达Blackwell芯片“指纹” 研究推算部分训练集群规模达3000至4500颗",
       "url": "https://www.cnbeta.com.tw/articles/tech/1586310.htm",
       "publishedAt": "2026-11-13T17:22:11+00:00",
@@ -447,30 +390,15 @@
       "summaryZh": ""
     },
     {
-      "title": "AI chatbots are recommending fake retail websites, study finds",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
-      "publishedAt": "2026-11-12T13:35:54-05:00",
-      "summary": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity with a handful of shopping-related questions involving a selection of […]",
-      "source": "The Verge AI",
-      "id": "3293393520",
-      "relevance": 37,
-      "category": "model",
+      "title": "早报｜英伟达员工请愿黄仁勋回归/余承东重申华为与赛力斯分工/Microsoft 365故障延续至48小时",
+      "url": "https://www.ifanr.com/1689450?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-14T00:00:42+00:00",
+      "summary": "· 两部门公布新型储能方案，提出到 2030 年平均储能约 3 小时 · LangChain 完成 3 亿美元 C 轮融资，估值 30 亿美元 · 荣耀 700 系列定档 11 月 23 日，背屏可贴 GIF、看通知 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "78fa16f6c0",
+      "relevance": 36,
+      "category": "company",
       "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "腾讯否认“裁员50%”传闻：系AI时代资源重新调度的比喻",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1586046.htm",
-      "publishedAt": "2026-11-12T06:19:59+00:00",
-      "summary": "11月12日，针对网络流传的“腾讯将裁员50%”消息，腾讯公司公关总监张军在微博发文辟谣，称这是“纯纯的误会和谣言”。 张军还原称，在腾讯28周年Linktime线上直播中，管理层表达了加快组织变革的决心，并特别说明这与几年前“降本增效”不同——前一次相对被动、更偏“降本”，此次是面向AI时代的主动出击，更偏“增效”，鼓励一线同事积极举手向前冲，中间管理层则需变得更扁平和灵敏。 阅读全文",
-      "source": "cnBeta",
-      "id": "f622f60bb8",
-      "relevance": 37,
-      "category": "job",
-      "tags": [
-        "裁员"
-      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -484,21 +412,6 @@
       "relevance": 36,
       "category": "model",
       "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "江波龙：根据第三方公开的智能产品拆机信息，宇树机器狗等产品已采用了公司嵌入式存储",
-      "url": "https://36kr.com/newsflashes/4068188501496706?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，有投资者向江波龙提问，公司的产品有供应国内或者国外的机器人公司吗？公司除了供应特斯拉汽车的存储产品之外，还有没有供应特斯拉擎天柱机器人吗？公司有没有能适应机器人的spu方案存储产品呢？公司回答表示，公司具备较强的自研主控芯片技术，已经推出了覆盖SSD、UFS、eMMC、USB、SDCard等场景的多款自研主控芯片，搭配自研固件算法，从底层技术上赋予存储器产品更优异的性能，形成明显的技术壁垒。",
-      "source": "36氪",
-      "id": "d022c477d9",
-      "relevance": 36,
-      "category": "embodied",
-      "tags": [
-        "宇树"
-      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -561,47 +474,6 @@
       "summaryZh": ""
     },
     {
-      "title": "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」",
-      "url": "https://www.ifanr.com/1689016?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "publishedAt": "2026-11-11T11:52:16+00:00",
-      "summary": "豆包走出屏幕 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "source": "爱范儿",
-      "id": "c9ec27c815",
-      "relevance": 34,
-      "category": "model",
-      "tags": [
-        "豆包"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "美股三大指数收盘涨跌不一，闪迪跌超5%",
-      "url": "https://36kr.com/newsflashes/4068891349210249?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，11月13日收盘，美股三大指数涨跌不一，纳指跌0.91%，标普500跌0.4%，道指涨0.1%；大型科技股涨跌不一，闪迪跌超5%，英伟达跌超2%，特斯拉跌超1%，谷歌、亚马逊小幅下跌，Meta涨超2%，苹果、微软小幅上涨；热门中概股涨跌不一，爱奇艺跌超7%，蔚来跌超4%，哔哩哔哩跌超1%，小鹏集团、理想汽车、网易小幅下跌，拼多多、京东涨超1%，百度、阿里巴巴小幅上涨。",
-      "source": "36氪",
-      "id": "5cb50009a7",
-      "relevance": 34,
-      "category": "company",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-      "url": "https://atg.science/careers",
-      "publishedAt": "2026-11-13T21:01:11+00:00",
-      "summary": "Article URL: https://atg.science/careers Comments URL: https://news.ycombinator.com/item?id=50489589 Points: 0 # Comments: 0",
-      "source": "Hacker News",
-      "id": "d11365f0dd",
-      "relevance": 33,
-      "category": "job",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
       "title": "Gondola doubles revenue as its team builds more with Codex",
       "url": "https://openai.com/business/customer-stories/gondola",
       "publishedAt": "2026-11-12T12:00:00+00:00",
@@ -645,30 +517,17 @@
       "summaryZh": ""
     },
     {
-      "title": "Google DeepMind just mathematically verified key parts of Signal",
-      "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-      "publishedAt": "2026-11-11T14:08:57+00:00",
-      "summary": "The four-week project hints that AI could make formal verification far more practical.",
-      "source": "Ars Technica AI",
-      "id": "ef892408be",
-      "relevance": 31,
-      "category": "model",
-      "tags": [
-        "DeepMind"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Nvidia Allegedly Engineered Scarcity by Funding AI Startups to Buy Its GPUs",
-      "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-      "publishedAt": "2026-11-14T02:52:59+00:00",
-      "summary": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 13 # Comments: 1",
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "publishedAt": "2026-11-14T15:04:15+00:00",
+      "summary": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax Comments URL: https://news.ycombinator.com/item?id=50497589 Points: 183 # Comments: 9",
       "source": "Hacker News",
-      "id": "c6caa4d4f0",
+      "id": "ad8b3d5bdf",
       "relevance": 30,
       "category": "model",
-      "tags": [],
+      "tags": [
+        "DeepSeek"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -804,17 +663,15 @@
       "summaryZh": ""
     },
     {
-      "title": "ChatGPT Plus for veterans and servicemembers",
-      "url": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "publishedAt": "2026-11-11T08:00:00+00:00",
-      "summary": "More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers.",
-      "source": "OpenAI News",
-      "id": "80b38ea7da",
-      "relevance": 28,
-      "category": "model",
-      "tags": [
-        "ChatGPT"
-      ],
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "publishedAt": "2026-11-14T16:34:15+00:00",
+      "summary": "Some governments moved to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.",
+      "source": "TechCrunch AI",
+      "id": "075bbfb634",
+      "relevance": 27,
+      "category": "company",
+      "tags": [],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -832,12 +689,12 @@
       "summaryZh": ""
     },
     {
-      "title": "Supporting research on AI and children’s safety",
-      "url": "https://openai.com/index/children-first-declaration",
-      "publishedAt": "2026-11-12T00:00:00+00:00",
-      "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
-      "source": "OpenAI News",
-      "id": "b06379671e",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "publishedAt": "2026-11-14T17:30:00+00:00",
+      "summary": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "source": "TechCrunch AI",
+      "id": "7134e7e1ad",
       "relevance": 26,
       "category": "model",
       "tags": [],
@@ -845,15 +702,30 @@
       "summaryZh": ""
     },
     {
-      "title": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
-      "url": "http://www.geekpark.net/news/373816",
-      "publishedAt": "2026-11-11T13:23:24+08:00",
-      "summary": "作者｜Techno 之王 编辑｜靖宇 2026 年 11 月 4 日，美国中期选举结果落定后的第二天上午，OpenAI 的高管们坐到了一起。 据外媒援引知情人士的消息，他们讨论的是要不要重设 2027 年的数据中心容量预期。讨论还没有形成决定，但焦虑已经摆上了台面。 过去几个月，美国各地的大型数据中心项目接连被按下暂停键。得州前任州长 Abbott 从 8 月起冻结了数据中心的并网和空气许可，要求审计到年底；新当选的州长 Gina Hinojosa 承诺，在州议会立法保护居民之前，暂停所有新数据中心审批，而议会会期要到 2027 年 5 月才结束。 俄亥俄新州长 Amy Acton 提出有条件暂停，要求新项目承担全部电力成本、只能建在旧工业用地上；佐治亚新州长 Keisha Lance Bottoms 则准备上任后直接签行政令，暂停全州新建。 据 Tokenpost 统计， 今年 7 月到",
-      "source": "极客公园",
-      "id": "ec86284e7b",
+      "title": "GDC最新调查显示游戏从业者四成已使用AI 但逾半数持负面态度",
+      "url": "https://www.cnbeta.com.tw/articles/game/1586342.htm",
+      "publishedAt": "2026-11-14T06:34:09+00:00",
+      "summary": "游戏开发者大会（GDC）近日发布的《2026年11月游戏行业现状》调查报告显示，生成式人工智能（AI）在游戏行业内部依然引发显著分歧。该调查覆盖了超过2600名来自不同职能部门的游戏行业从业者，内容涉及行业裁员现状、离职后重新就业率以及行业未来走向等议题。 阅读全文",
+      "source": "cnBeta",
+      "id": "d7c3634e2b",
       "relevance": 26,
       "category": "model",
       "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
+      "url": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-15T09:00:00+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "6be851ddd6",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "智能体"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -931,19 +803,6 @@
       "summaryZh": ""
     },
     {
-      "title": "英伟达新任CEO为美国籍 曾在微软公司工作13年",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1586104.htm",
-      "publishedAt": "2026-11-12T15:48:58+00:00",
-      "summary": "11月12日，黄仁勋辞去总裁、首席执行官及董事会成员职务。现任执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）已同意担任临时CEO。根据公开权威资料，接替黄仁勋出任英伟达临时CEO的科莱特·克雷斯（Colette Kress）实为美国籍，并非印度裔。 阅读全文",
-      "source": "cnBeta",
-      "id": "5f25ac220a",
-      "relevance": 25,
-      "category": "company",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
       "title": "iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？| 附开通指南",
       "url": "https://www.ifanr.com/1688980?utm_source=rss&utm_medium=rss&utm_campaign=",
       "publishedAt": "2026-11-12T10:47:53+00:00",
@@ -952,34 +811,6 @@
       "id": "2171cb078f",
       "relevance": 25,
       "category": "model",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "从“搜到知识”到“理解约束”：差旅 Agent 的业务语义、偏好图谱与上下文工程实践｜AICon北京",
-      "url": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-12T10:00:00+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "c66a9c6c55",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "Agent"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "微软AI超分辨率技术Auto SR正式登陆ROG Xbox Ally掌机",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1586062.htm",
-      "publishedAt": "2026-11-12T06:29:37+00:00",
-      "summary": "微软AI驱动的超分辨率技术Auto SR现已正式登陆ROG Xbox Ally掌机，为该设备提供AI超分辨率功能。根据微软DirectX开发者博客的公告，Auto SR已结束预览阶段，正式支持ROG Xbox Ally X与Ally X20两款机型，并扩展至部分搭载AMD锐龙处理器的Windows Copilot+ PC。 阅读全文",
-      "source": "cnBeta",
-      "id": "37405e46c8",
-      "relevance": 25,
-      "category": "company",
       "tags": [],
       "titleZh": "",
       "summaryZh": ""
@@ -1060,19 +891,6 @@
       "summaryZh": ""
     },
     {
-      "title": "美股大型科技股盘前涨跌不一，英伟达涨超1%",
-      "url": "https://36kr.com/newsflashes/4068187392496512?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，亚马逊、英伟达涨超1%，特斯拉涨0.62%，谷歌涨0.97%，苹果涨0.41%，闪迪、微软跌超1%，Meta跌0.03%。",
-      "source": "36氪",
-      "id": "725cc95571",
-      "relevance": 24,
-      "category": "company",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
       "title": "Holiday Extras is rethinking what it can build with Codex",
       "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
       "publishedAt": "2026-11-12T09:30:00+00:00",
@@ -1084,6 +902,32 @@
       "tags": [
         "Codex"
       ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "微软称服务已全面恢复",
+      "url": "https://36kr.com/newsflashes/4069263558694023?f=rss",
+      "publishedAt": "",
+      "summary": "微软公司表示，其旗舰软件服务已全面恢复。此前发生的故障导致全球多地政府部门、交易员和企业的工作陷入停顿。微软网站上的服务运行状况更新显示：“所有产品均已正常运行。”对于Microsoft 365服务，微软表示，“积压的电子邮件已经处理完毕，因此该问题已得到解决。”受影响的产品包括Outlook、Teams和Copilot人工智能（AI）工具。周五，用户遭遇会议邀请收不到、网页无响应等问题。微软以往发生的服务中断很少持续超过数小时。这次故障的影响蔓延全球。据Downdetector，70多个国家的用户报告出现问题，投诉数量达到数十万起。（新浪财经）",
+      "source": "36氪",
+      "id": "9ffa6beb5e",
+      "relevance": 22,
+      "category": "model",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "英伟达两大机构投资者致信董事会：要求谨慎选择继任者 为黄仁勋回归保留可能",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1586432.htm",
+      "publishedAt": "2026-11-14T20:55:51+00:00",
+      "summary": "在黄仁勋突然辞去英伟达首席执行官职务后，围绕这家全球最大人工智能芯片公司的领导层变动，外界的关注正在迅速升温。当地时间11月13日，英伟达两家重要机构投资者向公司董事会提交联名信，要求董事会不要仓促确定新的永久首席执行官，而应采取更加审慎、充分的决策程序，并明确保留黄仁勋未来重新执掌公司的可能性。 阅读全文",
+      "source": "cnBeta",
+      "id": "e11f4e3d6b",
+      "relevance": 21,
+      "category": "company",
+      "tags": [],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -1192,15 +1036,17 @@
       "summaryZh": ""
     },
     {
-      "title": "苹果芯片掌舵人被视为英伟达潜在接班人 苏姿丰等科技高管也进入讨论名单",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1586082.htm",
-      "publishedAt": "2026-11-12T13:15:56+00:00",
-      "summary": "随着英伟达近年来在人工智能领域持续崛起，并成长为全球最具影响力的科技企业之一，关于公司未来领导层接班规划的话题正在受到业界广泛关注。最新报道称，苹果负责芯片研发业务的高级副总裁约翰尼·斯鲁吉（Johny Srouji）已成为外界讨论的潜在英伟达首席执行官人选之一。 阅读全文",
-      "source": "cnBeta",
-      "id": "4a9459665d",
-      "relevance": 21,
-      "category": "company",
-      "tags": [],
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "url": "https://www.crissyfield.de/research/lovable-en/",
+      "publishedAt": "2026-11-14T17:43:10+00:00",
+      "summary": "Article URL: https://www.crissyfield.de/research/lovable-en/ Comments URL: https://news.ycombinator.com/item?id=50499017 Points: 671 # Comments: 279",
+      "source": "Hacker News",
+      "id": "c8d55e521b",
+      "relevance": 20,
+      "category": "aitools",
+      "tags": [
+        "Lovable"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -1254,7 +1100,7 @@
         "OpenAI",
         "ChatGPT"
       ],
-      "todayCount": 10
+      "todayCount": 9
     },
     {
       "id": "gemini",
@@ -1282,7 +1128,7 @@
         "Gemini",
         "DeepMind"
       ],
-      "todayCount": 9
+      "todayCount": 8
     },
     {
       "id": "claude",
@@ -1302,7 +1148,7 @@
         "Claude",
         "Anthropic"
       ],
-      "todayCount": 4
+      "todayCount": 2
     },
     {
       "id": "grok",
@@ -1367,7 +1213,7 @@
         "DeepSeek",
         "深度求索"
       ],
-      "todayCount": 1
+      "todayCount": 2
     },
     {
       "id": "glm",
@@ -1694,17 +1540,9 @@
   ],
   "repos": [
     {
-      "name": "ccch1mneyyy/dsh-Go",
-      "desc": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "stars": 21903,
-      "language": "Dart",
-      "url": "https://github.com/ccch1mneyyy/dsh-Go",
-      "topic": "llm"
-    },
-    {
       "name": "wangzan101/Mika",
       "desc": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "stars": 8533,
+      "stars": 8629,
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "topic": "llm"
@@ -1712,7 +1550,7 @@
     {
       "name": "vercel-labs/ui",
       "desc": "A library of behaviors for agents to build the next generation of user interfaces.",
-      "stars": 3920,
+      "stars": 4595,
       "language": "TypeScript",
       "url": "https://github.com/vercel-labs/ui",
       "topic": "agent"
@@ -1720,7 +1558,7 @@
     {
       "name": "modelflare-ai/AnyModelBot",
       "desc": "🤖 Open-source, local-first alternative to Grok Bot, OpenAI dots and Claude Duet. Your own AI bots on any model: GPT, Cla",
-      "stars": 3662,
+      "stars": 3860,
       "language": "Python",
       "url": "https://github.com/modelflare-ai/AnyModelBot",
       "topic": "llm"
@@ -1728,7 +1566,7 @@
     {
       "name": "N1nEmAn/sapper-v2",
       "desc": "The first fruit of the Nüwa tree — an autonomous AI pentest legion (634-team champion, 8h unattended, 1B tokens beat 4.5",
-      "stars": 2055,
+      "stars": 2095,
       "language": "Python",
       "url": "https://github.com/N1nEmAn/sapper-v2",
       "topic": "llm"
@@ -1736,15 +1574,23 @@
     {
       "name": "Sandflow-ai/sand3d",
       "desc": "3D modeling in Python, built for LLMs.",
-      "stars": 1962,
+      "stars": 2002,
       "language": "HTML",
       "url": "https://github.com/Sandflow-ai/sand3d",
       "topic": "llm"
     },
     {
+      "name": "RunanywhereAI/trnrt",
+      "desc": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere",
+      "stars": 1586,
+      "language": "Python",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "topic": "llm"
+    },
+    {
       "name": "aa1143/NamiAgent",
       "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
-      "stars": 518,
+      "stars": 526,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiAgent",
       "topic": "agent"
@@ -1752,7 +1598,7 @@
     {
       "name": "eust-w/opengeniemaster",
       "desc": "Open-source embodied agent framework: execution, feedback, and continual improvement",
-      "stars": 371,
+      "stars": 420,
       "language": "Python",
       "url": "https://github.com/eust-w/opengeniemaster",
       "topic": "robotics"
@@ -1762,21 +1608,21 @@
     {
       "name": "wanghao-SunSky/cs329z-chinese",
       "desc": "斯坦福 Stanford CS329Z Engineering AI Agents 中文教程：面向 Python 开发者的 AI 智能体课程，19 讲与 4 项实践，涵盖 LLM、RAG、工具调用、记忆、多智能体、评测与安全。完整 Mark",
-      "stars": 593,
+      "stars": 600,
       "language": "HTML",
       "url": "https://github.com/wanghao-SunSky/cs329z-chinese"
     },
     {
       "name": "aa1143/NamiAgent",
       "desc": "零基础入门 AI Agent 的基础教程。不只是教程，也是一个能在本地跑起来的 Agent：读写文件、执行命令、MCP、长期记忆，自带网页端看清每一步。从 100 行最小循环开始，一课加一个能力，最后拆解 Claude Code、Codex",
-      "stars": 518,
+      "stars": 526,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiAgent"
     },
     {
       "name": "aa1143/NamiGPT",
       "desc": "零基础入门大模型（LLM）的基础教程：从零手写 GPT-2，一行行看懂大模型是怎么工作的 | Build GPT-2 from scratch in PyTorch, step by step",
-      "stars": 226,
+      "stars": 233,
       "language": "Python",
       "url": "https://github.com/aa1143/NamiGPT"
     },
@@ -1788,11 +1634,11 @@
       "url": "https://github.com/fujc683/gpt-image-2-6-commercial-use"
     },
     {
-      "name": "fujc683/gpt-image-2-6-text-rendering",
-      "desc": "Prompt patterns for legible in-image text with GPT Image 2.6.",
+      "name": "fujc683/gpt-image-2-6-mcp-server",
+      "desc": "Use GPT Image 2.6 from Claude, Cursor and VS Code via MCP.",
       "stars": 102,
       "language": "",
-      "url": "https://github.com/fujc683/gpt-image-2-6-text-rendering"
+      "url": "https://github.com/fujc683/gpt-image-2-6-mcp-server"
     }
   ],
   "official": [
