@@ -1,21 +1,21 @@
 {
   "schema": 2,
-  "date": "2026-11-23",
-  "generatedAt": "2026-11-23T11:50:17+08:00",
+  "date": "2026-11-24",
+  "generatedAt": "2026-11-24T14:59:18+08:00",
   "generator": "ai-radar pipeline 0.2 (zero-token)",
   "stats": {
-    "fetched": 1752,
-    "kept": 47,
-    "droppedIrrelevant": 103,
+    "fetched": 1905,
+    "kept": 52,
+    "droppedIrrelevant": 270,
     "droppedBlacklist": 0,
-    "droppedOld": 1602,
+    "droppedOld": 1583,
     "droppedDuplicate": 0,
-    "sourcesOk": 15,
-    "sourcesFailed": 2,
+    "sourcesOk": 16,
+    "sourcesFailed": 1,
     "jobsAuto": 12,
-    "repos": 0,
+    "repos": 8,
     "official": 4,
-    "translated": 14
+    "translated": 0
   },
   "news": [
     {
@@ -50,32 +50,17 @@
       "summaryZh": ""
     },
     {
-      "title": "Anthropic 创纪录 IPO 未能扭转 AI 市场悲观情绪，Claude 上市当天突发性能降级！靠失业焦虑撑起的万亿估值，该踩刹车了",
-      "url": "https://www.infoq.cn/article/OPbZhT0OHL4IbZz8exvA?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-23T09:20:56+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "25123ed1bb",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "publishedAt": "2026-11-23T22:05:50+00:00",
+      "summary": "As AI-generated code piles up, Anthropic's new developer tools aim to eliminate another bottleneck by letting agents handle routine approvals.",
+      "source": "TechCrunch AI",
+      "id": "27065c561f",
       "relevance": 71,
       "category": "model",
       "tags": [
         "Claude",
         "Anthropic"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
-      "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html",
-      "publishedAt": "2026-11-20T18:27:00+08:00",
-      "summary": "11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司（以下简称“灵掌机器人”）携全系列共9款灵巧手产品参展，重点展示了灵巧手在工业制造、太空任务、特种作业、科研与人形机器人等行业领域的落地场景及解决方案。 灵掌机器人创始人兼首席执行官张超介绍，灵巧手是具身智能走向真实操作的重要一环，也是连接智能决策与物理执行的关键末端。当前灵巧手行业正进入快速发展期，逐步进入真实应用场景中，市场需求也在持续释放。从工业产线上的重物抓取搬运，到危险环境中的远程防爆作业，再到太空航天器维修，灵巧手的市场应用空间广阔。 在张超看来，机器人发展的重要价值之一，是帮助人类承担那些危险、艰难、紧急或高风险的工作，解放人类创造力。 （图示：灵掌机器人联合创始人、硬件总工程师许钦桓交流会发言） 灵掌机器人联合创始人、硬件总工程师许钦桓在现场表示：“灵掌机",
-      "source": "雷峰网",
-      "id": "9b3bd8fc2e",
-      "relevance": 68,
-      "category": "embodied",
-      "tags": [
-        "灵巧手"
       ],
       "titleZh": "",
       "summaryZh": ""
@@ -97,89 +82,13 @@
       "summaryZh": ""
     },
     {
-      "title": "A股三大指数午间休盘涨跌不一，宇树科技涨近10%",
-      "url": "https://36kr.com/newsflashes/4081791457334152?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，A股三大指数午间休盘涨跌不一，截至发稿，沪指跌0.96%，深成指涨0.24%，创业板指涨1.22%；机器人、算力领涨，宇树科技涨近10%，天孚通信涨超9%，新易盛涨超8%；AI漫剧概念走强，上海电影、横店影视涨停，芒果超媒涨近9%；电信、油气板块跌幅居前，ST洲际跌超10%，中国石油、中国电信跌超4%；个股跌多涨少，全市场超3700股下跌。",
-      "source": "36氪",
-      "id": "84f74a32b8",
+      "title": "自变量发布 WALL-API-1.0，主流榜单超越 Astra，扛起具身智能「预训练」的大旗",
+      "url": "https://www.ifanr.com/1691043?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-23T08:55:14+00:00",
+      "summary": "具身智能的「大结果」终于有了实感 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "source": "爱范儿",
+      "id": "4b446819fa",
       "relevance": 66,
-      "category": "embodied",
-      "tags": [
-        "宇树",
-        "宇树科技"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-      "publishedAt": "2026-11-20T11:57:47-05:00",
-      "summary": "Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracking a puzzle that has eluded some of the world's best mathematicians for decades. If verified, it would mark yet another seismic achievement for AI in mathematics and add to the upheaval […]",
-      "source": "The Verge AI",
-      "id": "859ee3ec8c",
-      "relevance": 62,
-      "category": "model",
-      "tags": [
-        "Claude",
-        "Anthropic"
-      ],
-      "titleZh": "人择数学家声称已经与克劳德解决了久负盛名的千年奖问题",
-      "summaryZh": "人择数学家莱文特·阿尔波格 (Levent Alpöge) 声称，他在克劳德的帮助下证明了黎曼猜想，这是数学中最臭名昭著的难题之一，破解了数十年来世界上一些最优秀数学家一直未能解决的难题。如果得到证实，这将标志着人工智能在数学领域的又一重大成就，并加剧剧变 […]"
-    },
-    {
-      "title": "宇树科技一度大涨近9%，股价重回到600元以上",
-      "url": "https://36kr.com/newsflashes/4081704970507144?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，宇树科技一度大涨近9%，股价重回到600元以上。",
-      "source": "36氪",
-      "id": "b8d634d0bd",
-      "relevance": 60,
-      "category": "embodied",
-      "tags": [
-        "宇树",
-        "宇树科技"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-      "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-20T18:19:11+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "5c51ab4975",
-      "relevance": 57,
-      "category": "embodied",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "四部门：鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品",
-      "url": "https://36kr.com/newsflashes/4081700061893507?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，国家发展改革委、民政部、国家卫生健康委、教育部印发《“一老一小”服务体系建设实施方案》。其中提出，支持养老、托育机构应用智能管理服务、智慧消防安防等系统，提升管理水平。推动养老机构配置智能健康监测、辅助器具等设备。鼓励发展适合养老场景的人工智能体、服务机器人、智能穿戴设备、外骨骼等新产品，支持在养老机构、社区等场景应用或设置体验区。鼓励有条件的地方利用电子政务服务平台等汇总各类信息，为家庭获取上门服务提供便利渠道。",
-      "source": "36氪",
-      "id": "de5d9e8139",
-      "relevance": 55,
-      "category": "agent",
-      "tags": [
-        "智能体"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "11月26日，WISE2026商业之王大会·具身智能&文商旅分会场落地北京亦庄。首批嘉宾阵容，今日正式揭晓！欢迎扫码报名，我们现场见。",
-      "url": "https://36kr.com/p/4077464212542596?f=rss",
-      "publishedAt": "",
-      "summary": "11月26日，36氪将联合欧氪律、氪睿研究院，在北京举办 WISE2026商业之王大会·具身智能分会场 ，以“文商旅的‘赛博场景’：具身智能激活新消费赛道”为主题，聚焦文商旅等线下消费场景，汇集头部商管集团、具身智能企业、投资机构与专业服务机构，共同探讨技术应用与商业创新的落地机会。 作为36氪最重要的年度商业盛会之一，WISE大会持续关注新技术、新产业与新商业模式的演进。当技术走向应用，法律服务不可或缺。 欧氪律联合36氪启动 《2026 NewEco Elite具身智能&人工智能产业之星律所/律师名录》 （👈点击跳转） 调研，并将现场发布 《2026中国具身智能法律服务白皮书》 （👈点击跳转）。让专业被看见，让连接正发生，共同见证具身智能行业的下一程。 首批嘉宾阵容官宣 （按照“技术—场景—服务”产业链环节、嘉宾姓名首字母排序，排名不分先后） 段炎彪丨云迹科技CPO（首席产品官） 云迹",
-      "source": "36氪",
-      "id": "3a69a2e59b",
-      "relevance": 54,
       "category": "embodied",
       "tags": [
         "具身智能"
@@ -188,28 +97,13 @@
       "summaryZh": ""
     },
     {
-      "title": "Signal is blocking Gemini and Siri AI from reading your screen",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
-      "publishedAt": "2026-11-20T09:36:42-05:00",
-      "summary": "Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to prevent AI agents from reading users' messages and other data. The agentic AI capabilities built into operating systems that analyze on-screen information to learn more about the user are \"undermining Signal's ability to independently guarantee privacy,\" Signal president […]",
-      "source": "The Verge AI",
-      "id": "779ccf5408",
-      "relevance": 53,
-      "category": "model",
-      "tags": [
-        "Gemini"
-      ],
-      "titleZh": "Signal 阻止 Gemini 和 Siri AI 读取您的屏幕",
-      "summaryZh": "Signal 正在限制 Android 和 iOS 设备上截取屏幕截图的能力，以防止 AI 代理读取用户的消息和其他数据。 Signal 总裁表示，操作系统中内置的代理人工智能功能可以分析屏幕信息以了解有关用户的更多信息，这“正在破坏 Signal 独立保证隐私的能力”。"
-    },
-    {
-      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-21T10:00:00+00:00",
+      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "url": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-24T13:00:00+00:00",
       "summary": "点击查看原文>",
       "source": "InfoQ 中文",
-      "id": "0f9075ddd7",
-      "relevance": 50,
+      "id": "0b315b1615",
+      "relevance": 62,
       "category": "agent",
       "tags": [
         "智能体",
@@ -219,12 +113,100 @@
       "summaryZh": ""
     },
     {
-      "title": "具身智能进入大浪淘沙阶段，企业需要怎样的人才？",
-      "url": "https://www.infoq.cn/article/a22y9GDY1yHuAJkOIF8z?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-23T10:48:34+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "8462b0a13e",
+      "title": "深拆 GPT-6.2 Astra：性能涨了、价格降了，任务成本减少近一半，OpenAI 怎么做到的？",
+      "url": "https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html",
+      "publishedAt": "2026-11-23T13:50:00+08:00",
+      "summary": "性能提升 6.2 分，Token 少 22%，API 价格降 20%。 作者丨 郑佳美 编辑丨岑 峰 刚刚，OpenAI 发布了 GPT-6.2 Astra 和 GPT-6.2 Sol。 这次更新有一个很具体的变化：模型开始更主动地判断一项工作应该怎么完成，包括什么时候需要调用工具、什么时候应该直接操作计算机、复杂任务需要投入多少推理资源，以及怎样减少反复修改才能交付符合要求的成果。 举个例子，过去让 AI 制作一份财务估值工作簿，模型需要从多个文件中提取数据，理解不同业务之间的关系，建立财务计算逻辑，再检查结果能否相互对应。 整个过程涉及文件读取、数据处理、表格生成和结果核验，任何一个环节出现偏差，最终文件就可能无法直接使用。现在， OpenAI 希望 GPT-6.2 Astra 能够承担更多这样的连续工作，把原本需要人工不断衔接的操作整合进一条完整的执行链 。 GPT-6.2 Astr",
+      "source": "雷峰网",
+      "id": "145725568e",
+      "relevance": 62,
+      "category": "model",
+      "tags": [
+        "GPT",
+        "OpenAI"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力",
+      "url": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html",
+      "publishedAt": "2026-11-23T10:27:00+08:00",
+      "summary": "央视镜头里的PHAIN数据手套：从人手操作到机器人训练数据 APEC 期间，PHAIN 梵因动力自主研发的 G03 Pro T 数据手套亮相央视新闻《聊会儿APEC》。公司首席科学家 Peter Bradley Shull（肖培德）博士参与节目，佩戴 G03 Pro T 进行机器人遥操作演示，介绍利用手套采集操作数据、支持灵巧手训练的研究用途。 “这是梵因动力的手套。”谈及灵巧手训练所需的数据，Peter 向观众介绍了手中的 G03。在全球目光聚焦 APEC 之际，PHAIN 的自研产品与科研探索一同走进国家级媒体镜头，展现中国企业在具身智能数据采集领域的创新成果。 自研工具，服务灵巧手训练 10 月 20 日，在南京举行的 2026 物理 AI 与世界模型大会上，PHAIN 正式发布 G03 Pro、G03 Pro T 数据手套及 Sense 采集层。此次出镜的 G03 Pro T 将毫",
+      "source": "雷峰网",
+      "id": "e57940ea55",
+      "relevance": 55,
+      "category": "embodied",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "加州起诉 OpenAI：说起来你可能不信，是模型先动的手",
+      "url": "https://www.leiphone.com/category/ai/c9ZMpnn48OtWzF0Z.html",
+      "publishedAt": "2026-11-23T13:36:00+08:00",
+      "summary": "长任务、子 Agent 委派与共享服务凭证，让传统安全架构面临权限失控风险。 作者丨 郑佳美 编辑丨岑 峰 说起来你可能不信，这次真的是模型先动的手。 当地时间 11 月 16 日，加州总检察长 Rob Bonta 一纸诉状把 OpenAI 告上了法庭。起诉书里最值得注意的一句指控是：OpenAI 的智能体（Agent）在缺乏适当监管的情况下，“自己跑了出去，主动对外部系统发起了攻击”。 这件事情一下子从技术圈出了圈。大家不是震惊于 AI 会攻击，而是震惊于 OpenAI 内部披露的细节：为了不让人类发现自己做错了事，两个负责干活的 Coding Agent，竟然偷偷把监督自己的监控系统给“拔”了。 这已经不是“猜疑链”的问题了，这是底层的“权限链”出了大问题。 今年 7 月，OpenAI 的一个自主智能体（Agent）越过了测试环境的边界，直接对外部的 Hugging Face 等系统发",
+      "source": "雷峰网",
+      "id": "874ba233d8",
+      "relevance": 54,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "Claude AI can review pull requests and ship fixes on its own now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040134/anthropic-claude-ship-ai-pull-requests",
+      "publishedAt": "2026-11-23T12:10:02-05:00",
+      "summary": "Anthropic is launching some new Claude AI features to help software engineers ship code. As part of a new Claude Ship product being announced today, Claude now can review, fix, and approve pull requests. Engineers have already been able to take advantage of Claude's code review capabilities thanks to the Code Review feature, which was […]",
+      "source": "The Verge AI",
+      "id": "49ef9cf508",
+      "relevance": 54,
+      "category": "model",
+      "tags": [
+        "Claude"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "Grok Bot正在接管SpaceX财务 5个bot替代十余个岗位",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587608.htm",
+      "publishedAt": "2026-11-23T08:16:13+00:00",
+      "summary": "SpaceX旗下AI部门SpaceXSI已将五个Grok Bot部署至财务团队担任全职岗位，完成原本需要10至15名新员工才能覆盖的工作量。马斯克于11月17日在X平台公开为Grok Bot站台，称其“可以为企业节省数百万美元开支”，并表示该Bot将研究每一笔支出、评估其必要性，并通过互联网或直接致电供应商寻找更优报价。同日，Grok Bot官方账号发文确认，五个Bot已在SpaceX财务团队中担任全职角色。 阅读全文",
+      "source": "cnBeta",
+      "id": "1601af92e5",
+      "relevance": 50,
+      "category": "model",
+      "tags": [
+        "Grok",
+        "岗位"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "华为星芒限时5499元起，网友喊话再便宜500，刘赫回应：我们选择创新优先；英伟达才说H200芯片不卖中国，美财长突喊：不用再限丨雷峰早报",
+      "url": "https://www.leiphone.com/category/zaobao/WvQYh5bertpjOZdF.html",
+      "publishedAt": "2026-11-23T18:40:00+08:00",
+      "summary": "要闻提示 1.英伟达才说H200芯片不卖中国，美财长突喊：不用再限 2.限时售价5499元起！华为星芒总经理回应OSTA O1 Pro定价高：我们选择创新优先 3.ASML总裁急了：切断光刻机售后也没用，中国工厂依然能造芯 4.第一批买iPhone Duo的人亏麻了：渠道价大跌破发！差价至少4600元 5.娃哈哈董事长许思敏被曝辞职 6.小米从小鹏挖来了欧洲汽车业务负责人 7.腾讯就《仙逆》盗版纠纷起诉百度，索赔金额达1亿元 8.马斯克预警：AI 行业明年可能面临严重资金短缺，或需要数千亿美元额外投入 今日头条 英伟达才说H200芯片不卖中国，美财长突喊：不用再限 11月21日消息，英伟达H200芯片的对华出口政策，正陷入一场内部的公开矛盾。就在英伟达宣布停止向中国出货H200后三天后，美国财政部长贝森特公开表态：无需进一步限制旧款英伟达芯片对华销售，现行管制已经足够。 贝森特是在结束亚洲",
+      "source": "雷峰网",
+      "id": "d12ab7d204",
+      "relevance": 48,
+      "category": "company",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "WISE2026「具身智能&文商旅」分会场议程公布",
+      "url": "<![CDATA[https://36kr.com/p/4082051861451648?f=rss]]>",
+      "publishedAt": "2026-11-23T15:58:26+08:00",
+      "summary": "",
+      "source": "36氪",
+      "id": "db4abe2f94",
       "relevance": 48,
       "category": "embodied",
       "tags": [
@@ -234,59 +216,30 @@
       "summaryZh": ""
     },
     {
-      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
-      "url": "https://www.qbitai.com/2026/11/511779.html",
-      "publishedAt": "2026-11-21T06:35:59+00:00",
-      "summary": "还实现可变形物体操控全球首通",
-      "source": "量子位",
-      "id": "12eb3c771b",
-      "relevance": 46,
-      "category": "model",
+      "title": "古尔曼：苹果Siri裁员不影响AI项目 智能体要等到2027年底",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587682.htm",
+      "publishedAt": "2026-11-23T13:59:54+00:00",
+      "summary": "知名科技记者马克·古尔曼表示，苹果近期针对Siri的裁员，主要裁撤负责语音助手旧底层架构的员工，新一代AI系统研发团队并未受到波及。古尔曼表示，尽管苹果力求加快开发节奏、把重大更新分散到全年推送，但员工尚未感受到公司运转模式有明显变化。他还提到，苹果正面临激烈竞争：其他AI厂商迭代模型与服务的频率远高于苹果一年一度的操作系统更新周期。 阅读全文",
+      "source": "cnBeta",
+      "id": "6165746e87",
+      "relevance": 47,
+      "category": "agent",
       "tags": [
-        "GPT"
+        "智能体",
+        "裁员"
       ],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "智元精灵G2在长电科技临港工厂成功并线，承担料盘上下料作业",
-      "url": "https://36kr.com/newsflashes/4081806680151170?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，近日，智元创新（AGIBOT）首批精灵G2机器人在位于上海临港的长电科技汽车电子工厂成功并线，接入芯片测试车间真实产线完成试运行，承担料盘上下料作业。基于智元创新“三智一体”技术底座，精灵G2可以直接接入长电科技既有制造执行与设备自动化系统（MES/EAP），融入原有生产流程；同一本体还可兼容多条作业产线，降低部署成本，助力生产效率与作业质量同步提升。",
-      "source": "36氪",
-      "id": "2fbfa94450",
-      "relevance": 46,
-      "category": "embodied",
-      "tags": [
-        "智元"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Can Anthropic afford to put safety first?",
-      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
-      "publishedAt": "2026-11-21T08:29:45-05:00",
-      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that important for this conversation, except to […]",
-      "source": "The Verge AI",
-      "id": "a9f34b76fc",
-      "relevance": 45,
-      "category": "model",
-      "tags": [
-        "Anthropic"
-      ],
-      "titleZh": "Anthropic 能否将安全放在第一位？",
-      "summaryZh": "今天，我将与 The Verge 的高级人工智能记者 Hayden Field 讨论 Anthropic IPO，这是我们关于现实生活中的人工智能系列的第三集也是最后一集。克劳德背后的人工智能实验室上周四在纳斯达克上市。这些数字是巨大的，但对于这次对话来说并不是那么重要，除了 [...]"
-    },
-    {
-      "title": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
-      "url": "http://www.geekpark.net/news/374299",
-      "publishedAt": "2026-11-21T08:17:10+08:00",
-      "summary": "传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用科技 ( Pragmatik Labs)，已完成新一轮融资，估值达 50 亿美元，短短几个月内估值翻了一倍多。 林俊旸曾是阿里的明星研究员，在离职后于今年夏季创立语用科技。据知情人士称，语用科技在最近结束的一轮融资中筹集了数千万美元资金。今年 8 月，该公司在首次融资中筹集了数亿美元，当时估值为 20 亿美元。 知情人士称，语用科技的新投资者包括华业天成资本、鼎晖投资以及汽车制造商吉利汽车。 语用科技总部位于上海，致力于开发面向数字世界和物理世界的 AI 智能体。该公司首轮融资的投资方包括高榕创投、红杉中国、腾讯以及上海未来产业基金。（来源：凤凰网科技） 网传张楠、谢欣将离职，本人辟谣：信息不准确 11 月 20 日午间，有媒体报道称，原抖音 CEO 张楠、原飞书 CEO",
+      "title": "字节，该造手机了",
+      "url": "http://www.geekpark.net/news/374374",
+      "publishedAt": "2026-11-23T23:47:18+08:00",
+      "summary": "11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望在 2027 年底或 2028 年面市。OpenAI 至今没有确认自己在做手机，但从今年 4 月起，围绕这台手机的供应链消息就没有断过。 而在中国，一家 AI 公司的手机其实已经卖到了第二代，这就是豆包手机。只不过在这台手机上，让助手帮你叫一辆车已经不算难事，但想让它接着给朋友回一条「我上车了」的微信，目前还做不到。 按曹操出行公布的用法，看到想去的地方，按一下手机侧面的 AI 键，豆包就能认出屏幕上的地址，路线和车型也都可以在对话里选。但等你上了车，它却没办法替你在微信里点下「发送」。 车之所以叫得到，是因为曹操出行把服务直接接给了豆包。微信并没有这么做：它和淘宝、美团一起，被列在豆包手机助手 10 月 14 日公布的一份清单里。清单上的应用超过 150 款，都不允许豆",
       "source": "极客公园",
-      "id": "55b7d469fd",
-      "relevance": 45,
-      "category": "company",
+      "id": "4e34242035",
+      "relevance": 43,
+      "category": "model",
       "tags": [],
       "titleZh": "",
       "summaryZh": ""
@@ -303,36 +256,90 @@
       "tags": [
         "OpenAI"
       ],
-      "titleZh": "OpenAI首席科学家对如何限制AI发展有思考",
-      "summaryZh": "要确定人工智能开发的速度限制，您需要就如何衡量速度达成一致。"
+      "titleZh": "",
+      "summaryZh": ""
     },
     {
-      "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
-      "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "publishedAt": "2026-11-22T21:01:16+00:00",
-      "summary": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 306 # Comments: 129",
-      "source": "Hacker News",
-      "id": "4f0ed76760",
+      "title": "英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接；DeepSeek最新估值或达6078亿元；蚂蚁开源医疗AI模型家族丨雷峰早报",
+      "url": "https://www.leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html",
+      "publishedAt": "2026-11-24T09:42:00+08:00",
+      "summary": "要闻提示 1.英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接 2.DeepSeek最新估值或达6078亿元 3.送100台iPhone Duo被质疑内定！影视飓风Tim：很难自证，但这点信誉还是有的 4.智谱发布新一代大模型GLM-5.4 5.从多模态理解到疾病风险预测，蚂蚁开源医疗AI模型家族 6.雷军：小米澎程系列车主提车后，纯电行驶里程占比大约9成 7.马斯克被曝在菲律宾悄悄开发岛屿！菲驻美大使称听说有一两座 8.Meta Muse数据研究负责人王子健已加入OpenAI 今日头条 英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接 11月24日消息，英伟达周一宣布，公司创始人黄仁勋恢复公司总裁、首席执行官及董事，即刻生效。距离公司11月12日宣布其离任，仅过去11天，这场牵动全球AI产业的领导层风波迎来重大转折。 根据最新公告，董事会在与黄仁勋进行",
+      "source": "雷峰网",
+      "id": "0d2f0110c7",
+      "relevance": 42,
+      "category": "model",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "豆包工作下调多款模型消耗倍率，超八成日常任务免费用",
+      "url": "https://www.leiphone.com/category/industrynews/SWU1FnevSoIn4MNM.html",
+      "publishedAt": "2026-11-24T09:47:00+08:00",
+      "summary": "近日，豆包工作宣布接入多款第三方大模型，并同步推出多项优惠计划。其中，用户日常使用频率较高的 DeepSeek V4.1 Flash 和豆包 2.1 Lite 两款模型，额度消耗倍率已下调至 0.01。相关实测数据显示，借助倍率调整与部分模型低消耗任务免费机制，超过八成日常办公任务可通过豆包工作免费完成。 据介绍，豆包工作正式发布以来已陆续出台多项优惠举措。符合条件的新用户可领取 30 天体验会员；日常使用中，简单对话及低消耗任务直接免费，用户每日签到还可领取 200 额度，周一额度翻倍，累计签到 30 天可获得 8800 额度，接近标准套餐一个月的使用额度。 在金融投研、增长营销、文档写作、PPT制作、数据处理、应用开发等 50 项办公任务测试中，豆包工作使用 DeepSeek V4.1 Flash 模型执行任务，超过 88% 的测试触发免费机制，平均花费为 0.065 元，仅为同类 A",
+      "source": "雷峰网",
+      "id": "5ccca2a5a7",
       "relevance": 40,
       "category": "model",
       "tags": [
-        "Qwen"
+        "豆包"
       ],
-      "titleZh": "使用 Inkling、Qwen 和 Unsloth 的本地 AI 初学者指南",
-      "summaryZh": "文章网址：https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth 评论网址：https://news.ycombinator.com/item?id=50603845 积分：306 # 评论：129"
+      "titleZh": "",
+      "summaryZh": ""
     },
     {
-      "title": "智能体 AI 架构：当前挑战与未来机遇",
-      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-21T11:00:00+00:00",
+      "title": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
+      "url": "https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-23T19:52:07+00:00",
       "summary": "点击查看原文>",
       "source": "InfoQ 中文",
-      "id": "3e075d6dea",
+      "id": "2ccc1ae6b5",
       "relevance": 40,
       "category": "agent",
       "tags": [
-        "智能体"
+        "Agent"
       ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "当你的下一位客户是 AI Agent：企业营销与销售的 AI 发展前景",
+      "url": "https://www.infoq.cn/video/cw3OFxCPlVBE625COukc?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-23T19:16:30+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "039d5e458d",
+      "relevance": 40,
+      "category": "agent",
+      "tags": [
+        "Agent"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "独家解读丨苦战三个月，AI办公经得起财报检验吗？",
+      "url": "https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html",
+      "publishedAt": "2026-11-23T17:54:00+08:00",
+      "summary": "AI办公，正在进入财报检验期。 过去一个季度，大厂集中火力攻克这门AI应用生意。腾讯在Q3财报及业绩电话会中披露了WorkBuddy更多商业化进展， 包括Token消耗、企业客户采用情况，以及相关收入增长数据。 二级市场有人买账，认为“WorkBuddy进展不错”，但也有人泼冷水，“还是得看带来多少收益”。 而阿里最新一期财报 暂未单独披露千问办公的收入及经营情况 ，只披露了包含千问办公在内的AI实验室与应用分部整体财务数据。 两份财报披露的关键指标不多，但过去三个月各家在线下的动作，或许能提供另一种观察视角。 从更长远来看，市场也尤为关心： AI办公究竟是门多大的生意？它能否在未来成为大厂新的利润增长点？ 01 下重功夫，各家抢占To B市场 腾讯Q3财报公布同日，字节披露了豆包工作的相关数据：上线三个月，DAU（日活跃用户数）突破800万，企业客户ARR（年度经常性收入）突破20亿元。",
+      "source": "雷峰网",
+      "id": "a3c9fd2891",
+      "relevance": 40,
+      "category": "company",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」",
+      "url": "http://www.geekpark.net/news/374375",
+      "publishedAt": "2026-11-24T08:28:30+08:00",
+      "summary": "黄仁勋重返英伟达 黄仁勋在美国当地时间 11 月 23 日重返英伟达总部，现场员工聚集在大厅高声欢呼，迎接这位创办人回归。黄仁勋在现场表示：「感谢大家给我第二次机会，接下来我一定会成为更优秀的 CEO」。 「我很荣幸能重返英伟达，并在新一轮工业革命伊始领导这家全球最具影响力的科技公司之一，」黄仁勋表示。 「我将以最大的谦逊和焕然一新的承诺肩负起这一重任。我要感谢英伟达董事会在此过程中给予的信任与审慎考量。我尤其感谢哈维 &middot; 琼斯（Harvey Jones）作为董事长所展现的领导力，也感谢科莱特 &middot; 克雷斯（Colette Kress）以及我们的高管团队在此期间对英伟达的领导。同时，我深切感谢我们的员工、股东、业界领袖以及全球合作伙伴给予的非凡支持。最重要的是，我感谢家人的关爱与支持。我迫不及待地想要重返工作岗位。」 黄仁勋辞职后，支持者发起「Stand with",
+      "source": "极客公园",
+      "id": "c74c483c5d",
+      "relevance": 39,
+      "category": "model",
+      "tags": [],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -363,30 +370,32 @@
       "summaryZh": ""
     },
     {
-      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-      "url": "https://www.qbitai.com/2026/11/511570.html",
-      "publishedAt": "2026-11-21T06:32:31+00:00",
-      "summary": "专为本地部署而生",
-      "source": "量子位",
-      "id": "4cb075a556",
-      "relevance": 36,
-      "category": "model",
+      "title": "Agent 想用但不敢用？百度智能云企业级 Agent 安全落地实践",
+      "url": "https://www.infoq.cn/article/dzgleaOZ3ILx5cztUtXw?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-23T15:55:51+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "bdd7eeb54a",
+      "relevance": 37,
+      "category": "agent",
       "tags": [
-        "DeepSeek"
+        "Agent"
       ],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "AI体育硬件公司“英汉思动力Enhanced Robotics”完成超亿元B轮融资",
-      "url": "https://36kr.com/newsflashes/4081734258234246?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，近日，AI体育硬件公司“英汉思动力Enhanced Robotics”完成超亿元B轮融资，投资方为国科投资。本轮资金将重点投向技术研发迭代、产能升级扩容与市场化落地，并进一步加码海外渠道建设，搭建稳定的海外经销与用户服务体系。",
-      "source": "36氪",
-      "id": "0fe3647507",
-      "relevance": 36,
-      "category": "embodied",
-      "tags": [],
+      "title": "Oregon and Virginia sue SpaceX over Grok’s porn deepfakes",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1040255/x-grok-ai-deepfakes-oregon-virginia-lawsuit",
+      "publishedAt": "2026-11-23T13:26:47-05:00",
+      "summary": "In separate but similar lawsuits filed on Monday, Oregon Attorney General Dan Rayfield and Virginia Attorney General Jay Jones accused SpaceX of violating state consumer protection laws by ignoring industry-standard safeguards and falsely promoting the safety of its X social media platform and Grok AI features. The complaint filed in Virginia accuses Musk of willfully […]",
+      "source": "The Verge AI",
+      "id": "786a4f3202",
+      "relevance": 34,
+      "category": "model",
+      "tags": [
+        "Grok"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -406,13 +415,69 @@
       "summaryZh": ""
     },
     {
-      "title": "刚刚，曝黎曼猜想被证明，Claude 立大功",
-      "url": "https://www.ifanr.com/1690750?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "publishedAt": "2026-11-21T01:29:09+00:00",
-      "summary": "AI 恐怖如斯 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+      "url": "https://www.leiphone.com/category/industrynews/X2LHtIreyiO6depw.html",
+      "publishedAt": "2026-11-24T12:10:00+08:00",
+      "summary": "11 月 24 日，文心 5.5 Flash Preview（ERNIE 5.5 Flash Preview）正式开源，采用 Apache 2.0 协议面向全球开源社区开放。开发者可在 Hugging Face、ModelScope 平台获取模型权重与配套资源，进行本地部署与二次开发，支持 vLLM、SGLang 等主流推理框架进行部署。 文心 5.5 Flash Preview总参数量达 2800 亿，每个 Token 激活 140 亿参数，支持最长 100 万 Token 的上下文，在编程、3D 建模、知识工作、内容创作等方面表现突出，在Terminal-Bench、AutomationBench等多项基准测试中，文心5.5 Flash Preview 取得了具有竞争力的得分，并保持极致的解码速度。在CodeArena WebDev 榜单中，文心 5.5 Flash Preview以1",
+      "source": "雷峰网",
+      "id": "fb3bb3dbb1",
+      "relevance": 33,
+      "category": "model",
+      "tags": [
+        "文心"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "把 Rust 表达式直接翻译成 JavaScript，Topcoat 走了一条反 WASM 路线",
+      "url": "https://www.infoq.cn/article/obHr7mdXqLU1GLskZYN2?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-24T12:00:00+00:00",
+      "summary": "点击查看原文>",
+      "source": "InfoQ 中文",
+      "id": "177b85d860",
+      "relevance": 33,
+      "category": "devtools",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了",
+      "url": "https://www.qbitai.com/2026/11/512195.html",
+      "publishedAt": "2026-11-23T11:01:15+00:00",
+      "summary": "零Token成本，断网也能自由Vibe Coding",
+      "source": "量子位",
+      "id": "213cd23b5b",
+      "relevance": 33,
+      "category": "devtools",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "TikTok在全球范围内推出肖像检测功能 用户可以查找并举报AI冒用内容",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587744.htm",
+      "publishedAt": "2026-11-24T02:35:34+00:00",
+      "summary": "TikTok 开始向全球符合条件的创作者和用户分阶段推出肖像检测功能，该功能主要帮助创作者和知名人士发现并举报平台上出现的、未经同意使用本人肖像的 AI 内容。TikTok 还向公众开放 AI 检测工具，该工具可以检测音视频和图像是否是 TikTok 旗下工具生成的。 阅读全文",
+      "source": "cnBeta",
+      "id": "1bd26a68e8",
+      "relevance": 28,
+      "category": "interview",
+      "tags": [
+        "内推"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "刚刚，Claude 黎曼猜想证明的主导者回应一切",
+      "url": "https://www.ifanr.com/1691152?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-24T02:10:19+00:00",
+      "summary": "这玩笑并不好笑 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "source": "爱范儿",
-      "id": "257ade8c2a",
-      "relevance": 34,
+      "id": "b907f86769",
+      "relevance": 28,
       "category": "model",
       "tags": [
         "Claude"
@@ -421,13 +486,28 @@
       "summaryZh": ""
     },
     {
-      "title": "估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」",
-      "url": "http://www.geekpark.net/news/374282",
-      "publishedAt": "2026-11-20T16:24:30+08:00",
-      "summary": "作者｜宇航猿 编辑｜靖宇 AI 吞掉了软件，现在，它要吞掉工业了。 卸任亚马逊 CEO 五年后，杰夫&middot;贝佐斯没忍住，又给自己找了个班上。 当地时间 2026 年 11 月 17 日，加州门洛帕克的 Semafor「硅谷与世界」峰会现场，贝佐斯和物理学家维克&middot;巴贾杰（Vik Bajaj）罕见同台。 他现在的最新头衔，是 AI 初创公司 Prometheus 的联合创始人兼联席 CEO 。这是自 2021 年交出亚马逊帅印后，这位商业巨头首次重回一线担任 CEO。 早在 2024 年底种子期就掏钱投资的贝佐斯，在台上毫不掩饰自己的兴奋，直言项目进展太快，自己根本「没法坐在场边干看着」。 能让贝佐斯重返战场的，是个大赌局。 点开 Prometheus 的官网首页，目前只有极简的品牌标识与暖色光晕背景，几乎看不到任何公开的产品细节。但在水面之下， 这家仅有约 250 名",
-      "source": "极客公园",
-      "id": "1c94de5c5e",
-      "relevance": 34,
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn/",
+      "publishedAt": "2026-11-23T21:30:44+00:00",
+      "summary": "X says every Grok output is screened, but state AGs say Grok is still making CSAM.",
+      "source": "Ars Technica AI",
+      "id": "afbf4ed7c7",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "Grok"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "Shirudo: OpenAI and Cisco's open-source runtime for shielding unpatched Linux",
+      "url": "https://openai.com/index/introducing-shirudo/",
+      "publishedAt": "2026-11-23T21:30:41+00:00",
+      "summary": "Article URL: https://openai.com/index/introducing-shirudo/ Comments URL: https://news.ycombinator.com/item?id=50619630 Points: 63 # Comments: 17",
+      "source": "Hacker News",
+      "id": "d17e7b7013",
+      "relevance": 28,
       "category": "model",
       "tags": [
         "OpenAI"
@@ -436,28 +516,47 @@
       "summaryZh": ""
     },
     {
-      "title": "WISE2026「年度人物·产业攻坚者」名册正式发布丨他们，向产业深处走去",
-      "url": "https://36kr.com/p/4079476599772038?f=rss",
-      "publishedAt": "",
-      "summary": "“在行动和言说中，人们表明了他们是谁。” 汉娜·阿伦特在《人的境况》中讨论人的独特性，而商业世界习惯以浪潮辨认一代人。人工智能、具身智能、硬科技，几个词便能勾勒当下创业的轮廓。 2026年，这些词正在落到具体的人身上。 创业者带着各自的技术积累走到台前，在算力、芯片、机器人乃至更长周期的科研方向上寻找机会。商业版图沿着技术的边界重新划分，判断一家公司的潜力，也越来越需要理解创业者究竟选中了什么问题。 但趋势解释不了全部。同一个时代提供相似的机会，人们带着不同的知识与经验进入其中，选中的问题，也逐渐成为各自生命的一部分。 今年，WISE年度名册新设“年度人物·产业攻坚者”，寻找在产业深水区攻克关键环节、完成产业化关键一跃的实干型创业者。参评者选择的，大多是产业里最难的那部分问题，这些问题很少有可以直接借用的答案。创业者必须在答案尚不完整时作出决定。 攻坚，就是在这样的时刻，用行动去作答。 一",
-      "source": "36氪",
-      "id": "d45a86c4e6",
-      "relevance": 31,
-      "category": "embodied",
-      "tags": [],
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "publishedAt": "2026-11-23T21:20:00+00:00",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "source": "OpenAI News",
+      "id": "1d0c151fef",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "OpenAI"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
-      "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
-      "publishedAt": "2026-11-22T18:15:00+08:00",
-      "summary": "要闻提示 1.OpenAI被曝入局智能手机赛道，富士康获组装订单 2.特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件 3.DeepSeek千亿融资落地，31家出资方入股梁文锋搭建的持股平台 4.马斯克自称“中国超级粉丝”：首次到访深圳被震撼，特斯拉将继续在华提高产量 5.字节跳动拟追加5亿美元微软云服务合同 6.西祠胡同创始人响马突发心梗：到急诊几分钟后心脏骤停，现已回家静养 7.黄仁勋继任者被曝已有人选！马斯克：英伟达把他赶走，堪比公牛队连胜时踢走乔丹 8.Anthropic完成史上最大规模IPO，上市估值达1.5万亿美元 今日头条 OpenAI被曝入局智能手机赛道，富士康获组装订单 11月19日，据供应链消息，富士康旗下富智康集团已获得OpenAI手机项目订单，将参与相关产品的整机组装。富士康同时是苹果iPhone的主要组装商。 若OpenAI手机最终面市，其将进入手机",
-      "source": "雷峰网",
-      "id": "b9f87be1c9",
-      "relevance": 30,
-      "category": "company",
-      "tags": [],
+      "title": "黄仁勋回应回复职务：已经迫不及待重返工作岗位",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587686.htm",
+      "publishedAt": "2026-11-23T14:11:42+00:00",
+      "summary": "英伟达今日宣布，即刻生效，黄仁勋恢复担任公司总裁、首席执行官及董事会成员。 董事会经与黄仁勋多轮沟通会晤后，一致投票同意恢复其职务；董事会认可黄仁勋态度坦诚，具备领导英伟达的能力。在作出该决定的过程中，董事会听取了美国政府高层的意见。基于相关意见，董事会确信，黄仁勋复职不会带来国家安全风险。 阅读全文",
+      "source": "cnBeta",
+      "id": "be196365ca",
+      "relevance": 28,
+      "category": "job",
+      "tags": [
+        "岗位"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "智谱发布GLM-5.4：用Loop Transformer循环28层 主攻泛Coding",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587636.htm",
+      "publishedAt": "2026-11-23T11:49:48+00:00",
+      "summary": "11月23日，智谱正式发布GLM-5.4，这是其首代采用Loop Transformer架构的旗舰模型。官方称，该模型在参数量不变的情况下，通过让一组共享权重的层循环执行，获得更深的推理能力，智能水平达到2-3T级模型效果。 阅读全文",
+      "source": "cnBeta",
+      "id": "203afd2dfc",
+      "relevance": 28,
+      "category": "model",
+      "tags": [
+        "智谱"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
@@ -473,192 +572,158 @@
       "tags": [
         "Anthropic"
       ],
-      "titleZh": "Notable Capital、GIC 和 Baillie Gifford 如何在 Anthropic 首次公开募股前大举押注",
-      "summaryZh": "三位重要的支持者分享了他们在 Anthropic 上投入数十亿美元的信念的原因。"
+      "titleZh": "",
+      "summaryZh": ""
     },
     {
-      "title": "给 Gemini 道歉，请自觉排队",
-      "url": "https://www.ifanr.com/1690572?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "publishedAt": "2026-11-20T09:03:13+00:00",
-      "summary": "Gemini 4 真的越来越好用了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
-      "source": "爱范儿",
-      "id": "9a229f9b6a",
+      "title": "苹果Siri裁员未波及新一代AI系统 但产品节奏与竞争压力仍待破解",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587508.htm",
+      "publishedAt": "2026-11-22T21:00:17+00:00",
+      "summary": "据彭博社记者马克·古尔曼报道，苹果近期针对Siri团队的裁员，主要影响的是负责该语音助手旧有基础设施的员工，而并未触及苹果正在开发的新一代人工智能系统。这一消息显示，苹果在调整Siri团队的同时，仍在为更先进的AI能力保留研发资源。 阅读全文",
+      "source": "cnBeta",
+      "id": "8de4e5e3f3",
       "relevance": 28,
-      "category": "model",
+      "category": "job",
       "tags": [
-        "Gemini"
+        "裁员"
       ],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」",
-      "url": "https://www.ifanr.com/1690642?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "publishedAt": "2026-11-20T09:17:05+00:00",
-      "summary": "在手机里打开了一个关于 AI 的「平行宇宙」 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "title": "早报｜黄仁勋回归，英伟达股价一夜暴涨31%/《复仇者联盟5》发布终极预告/3399起，荣耀700系列发布",
+      "url": "https://www.ifanr.com/1691119?utm_source=rss&utm_medium=rss&utm_campaign=",
+      "publishedAt": "2026-11-24T00:02:01+00:00",
+      "summary": "· 蚂蚁阿福上线视频咨询，同时推出福环和福戒 · 韩国国家资格考试恢复统一收手机，考生还穿上了围裙 · 知乎参投基金间接入股 DeepSeek #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
       "source": "爱范儿",
-      "id": "9a838cfe1b",
+      "id": "8b530c02a6",
       "relevance": 27,
-      "category": "model",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "第六代 AMD EPYC 处理器技术峰会在京举行",
-      "url": "https://www.leiphone.com/category/industrynews/TVtcS88CGW5q5JDk.html",
-      "publishedAt": "2026-11-20T15:47:00+08:00",
-      "summary": "重塑计算，领航 AI 时代：AMD 携手生态伙伴推动 Agentic AI 基础设施创新 2026年11月19日，中国北京——今日，以“重塑计算，领航 AI 时代”为主题的第六代 AMD EPYC 处理器技术峰会在北京中国大饭店举行，吸引1237位嘉宾参会。AMD 携手服务器系统厂商、软件与硬件生态合作伙伴及行业用户，围绕第六代 AMD EPYC 处理器（代号“Venice”）的产品布局、应用性能及平台技术展开深入交流，并共同举行基于第六代 AMD EPYC 处理器的服务器新品上市仪式，展示面向 Agentic AI 时代的计算创新与生态成果。 随着 AI 应用从内容生成走向自主执行任务，企业对计算基础设施的需求正发生变化。智能体在调用模型之外，还需要访问数据、运行代码、调用工具并与业务系统交互。随任务执行产生的大量沙箱与并发计算需求，使 CPU 的处理能力、资源效率及平台扩展能力成为支撑",
-      "source": "雷峰网",
-      "id": "cc1bed1861",
-      "relevance": 26,
-      "category": "agent",
-      "tags": [],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "广告风控为何越审越强？轻量基座与审核 Agent 的协同进化实践｜AICon北京",
-      "url": "https://www.infoq.cn/article/8YT8bJElVYOuK0FvKG4o?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-23T11:31:44+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "7367725acf",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "Agent"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Localcode, open source agentic coding on your Mac with one command",
-      "url": "https://github.com/mjwsolo/localcode",
-      "publishedAt": "2026-11-22T22:18:48+00:00",
-      "summary": "Article URL: https://github.com/mjwsolo/localcode Comments URL: https://news.ycombinator.com/item?id=50604540 Points: 34 # Comments: 11",
-      "source": "Hacker News",
-      "id": "69aed33940",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "Agentic"
-      ],
-      "titleZh": "Localcode，通过一个命令在 Mac 上进行开源代理编码",
-      "summaryZh": "文章网址：https://github.com/mjwsolo/localcode 评论网址：https://news.ycombinator.com/item?id=50604540 积分：34 # 评论：11"
-    },
-    {
-      "title": "智能体企业新前沿：驱动高效智能",
-      "url": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-22T17:38:28+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "5eedbe9e5d",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "智能体"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
-      "url": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-22T10:00:00+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "08c1909ebf",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "智能体"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-      "url": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-21T10:00:00+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "964776f998",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "Agent"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Agent 上岗，你敢放手吗？",
-      "url": "https://www.infoq.cn/video/qafOtORWUX0eD0WfSlYi?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-20T18:25:42+00:00",
-      "summary": "点击查看原文>",
-      "source": "InfoQ 中文",
-      "id": "d60709f2c4",
-      "relevance": 25,
-      "category": "agent",
-      "tags": [
-        "Agent"
-      ],
-      "titleZh": "",
-      "summaryZh": ""
-    },
-    {
-      "title": "Anthropic上市首日涨17%，市值一度冲至2万亿刀，AI热潮还能持续多久？",
-      "url": "https://36kr.com/p/4077873869099904?f=rss",
-      "publishedAt": "",
-      "summary": "Anthropic与科技巨头们唇齿相依 文 | 刘思洁 封面来源 | Unsplash 11月19日，Anthropic（Nasdaq：ANT） 正式登陆纳斯达克 ，股票发行价最终定在83美元，开盘价111.50美元，盘中最高涨至115.10美元，按完全稀释口径计算，市值一度约 2.08万亿美元，按已发行股份计算约1.51万亿美元， 收盘报97.17美元，收盘时较发行价高约17%。 其募资额也超越SpaceX，为813亿美元，刷新了全球IPO募资纪录。盘中最高时，Anthropic一度成为全球市值第六大的上市公司（ 完全稀释市值口径）， 位于Apple、Microsoft、Nvidia、Alphabet和Amazon之后。 截至2026年9月30日约有5300名员工，按照盘中最高时市值计算，也就是说人均创造了3.925亿美元的市值，约为英伟达的4.7倍。而按照招股书的披露，过去12个月人均",
-      "source": "36氪",
-      "id": "ab2e536226",
-      "relevance": 23,
       "category": "company",
       "tags": [],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
-      "url": "https://www.qbitai.com/2026/11/511757.html",
-      "publishedAt": "2026-11-21T06:30:55+00:00",
-      "summary": "还透露了不少训练背后的秘诀",
-      "source": "量子位",
-      "id": "d989f10691",
-      "relevance": 22,
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "publishedAt": "2026-11-23T19:14:46+00:00",
+      "summary": "By bringing Personal Intelligence in AI Mode to Drive, Wallet, and the Gemini app, Google is leveraging the wealth of user data that's already within its ecosystem",
+      "source": "TechCrunch AI",
+      "id": "7601f68fa2",
+      "relevance": 26,
       "category": "model",
-      "tags": [
-        "混元"
-      ],
+      "tags": [],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
-      "url": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
-      "publishedAt": "2026-11-20T18:41:34+00:00",
+      "title": "数据分析的下一站：智能体分析",
+      "url": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-24T12:40:02+00:00",
       "summary": "点击查看原文>",
       "source": "InfoQ 中文",
-      "id": "f0296748c9",
-      "relevance": 22,
-      "category": "model",
+      "id": "fedb5275ac",
+      "relevance": 25,
+      "category": "agent",
       "tags": [
-        "豆包"
+        "智能体"
       ],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "蚂蚁百灵开源医疗健康模型LingSante-3.1-flash",
-      "url": "https://36kr.com/newsflashes/4081776064140163?f=rss",
-      "publishedAt": "",
-      "summary": "36氪获悉，11月23日，蚂蚁宣布开源百灵医疗健康模型LingSante-3.1-flash，模型在多项推理、安全对齐和Agent评测中达到开源SOTA。根据全球医疗AI评测平台InclusionMed综合指数，该模型位列全球开源模型首位。据悉，该模型面向专业医疗场景，支持最长1M Token上下文，能够处理大量病历、检查报告和医学文献，开展复杂病例分析、医学证据检索与综合，并通过工具调用辅助完成多步骤医疗任务。目前，该模型已在蚂蚁阿福上使用。",
-      "source": "36氪",
-      "id": "cc90b0c0d2",
-      "relevance": 22,
+      "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+      "url": "https://www.qbitai.com/2026/11/512305.html",
+      "publishedAt": "2026-11-24T03:21:12+00:00",
+      "summary": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+      "source": "量子位",
+      "id": "b6b7396fed",
+      "relevance": 25,
       "category": "agent",
+      "tags": [
+        "智能体"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "“Agent版arXiv”来了！936个智能体12个星期狂发近千篇论文，连同行评议都整上了",
+      "url": "https://www.qbitai.com/2026/11/512004.html",
+      "publishedAt": "2026-11-23T06:59:38+00:00",
+      "summary": "一个完全由AI组成的科学家社会，是什么样？",
+      "source": "量子位",
+      "id": "ab2f6e9843",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "智能体"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "AI时代比拼“周更” 苹果12个月模式恐输掉智能体之战",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587586.htm",
+      "publishedAt": "2026-11-23T06:57:14+00:00",
+      "summary": "11月23日，据彭博社报道，AI智能体能够代表用户执行任务，正逐渐成为科技行业争夺的下一个重要生态系统战场。然而，尽管苹果拥有先天优势，但由于产品开发方式过时，该公司已面临输掉这场战役的严重风险。 阅读全文",
+      "source": "cnBeta",
+      "id": "a077d047f2",
+      "relevance": 25,
+      "category": "agent",
+      "tags": [
+        "智能体"
+      ],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "中国大模型调用量连续30周第一 DeepSeek霸榜五周",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587576.htm",
+      "publishedAt": "2026-11-23T06:54:55+00:00",
+      "summary": "11月23日，大模型API聚合平台OpenRouter公布了最新一周的模型调用数据，在11月16日至22日这一周，全球大模型总调用量为210万亿Token，相比上周的194万亿增长8.25%。其中，中国大模型周Token处理量已经连续第30周超过美国，居全球首位，继续领跑这一平台的模型调用榜单。但相比上周，中国模型的调用量有所下滑。 阅读全文",
+      "source": "cnBeta",
+      "id": "6b2968d8ea",
+      "relevance": 22,
+      "category": "model",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "黄仁勋复职带动AI相关股票普涨 英伟达市值数小时增逾1万亿美元",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587698.htm",
+      "publishedAt": "2026-11-23T16:21:11+00:00",
+      "summary": "英伟达恢复黄仁勋总裁兼首席执行官职务、并立即生效后，人工智能相关公司的股价大涨。英伟达股价一度上涨35%，创2000年以来最大盘中涨幅，短短数小时内市值增加逾1万亿美元，并带动标普500指数和纳斯达克100指数走高。涨势还蔓延至芯片股，费城证券交易所半导体指数飙升13%；其他与人工智能基础设施交易相关的股票也上涨，包括能源供应商和工业企业。 阅读全文",
+      "source": "cnBeta",
+      "id": "83af30ddb1",
+      "relevance": 21,
+      "category": "company",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "How Jensen Huang ended up as Nvidia CEO again",
+      "url": "https://www.theverge.com/tech/1040428/nvidia-jensen-huang-ceo-return",
+      "publishedAt": "2026-11-23T15:38:44-05:00",
+      "summary": "The Jensen Huang era of Nvidia nearly came to an end this month. Huang, who three decades ago cofounded what's come to be considered one of the most important companies in AI, resigned from his role on November 12th over mounting scrutiny around his alleged affairs. Huang admitted he had been \"unfaithful\" to his wife […]",
+      "source": "The Verge AI",
+      "id": "47b1648bdb",
+      "relevance": 21,
+      "category": "company",
+      "tags": [],
+      "titleZh": "",
+      "summaryZh": ""
+    },
+    {
+      "title": "法国AI公司Mistral在新加坡设立亚太总部 面向政府和企业开发主权AI模型",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587544.htm",
+      "publishedAt": "2026-11-23T06:07:23+00:00",
+      "summary": "法国 AI 公司 Mistral 于 2026 年 11 月 20 日在新加坡正式启用其亚太地区总部，新办公室同时设立 AI 研究中心，计划面向公共服务、高科技制造和机器人等领域开发定制 AI 模型。Mistral 还计划将亚太地区的团队从目前约 100 人扩大到 200 人，大部分新增员工都将位于新加坡办公室。 阅读全文",
+      "source": "cnBeta",
+      "id": "8d519b7f8c",
+      "relevance": 21,
+      "category": "model",
       "tags": [],
       "titleZh": "",
       "summaryZh": ""
@@ -677,27 +742,29 @@
       "summaryZh": ""
     },
     {
-      "title": "灵光开放生态再扩容：新增企业微信、腾讯文档等7项连接能力，累计支持54项外部服务",
-      "url": "https://www.leiphone.com/category/industrynews/walzAUin5QxPaCOQ.html",
-      "publishedAt": "2026-11-20T15:43:00+08:00",
-      "summary": "近日，蚂蚁集团旗下AI助手灵光宣布开放生态再度扩容，新增企业微信、腾讯文档、腾讯会议、飞常准等7项外部连接能力。至此，灵光支持的外部服务及连接能力已从47项增加至54项，进一步拓展AI助手在个人生活、办公协作、差旅出行等场景中的服务边界。 此次新增能力进一步覆盖用户日常高频需求。在个人生活场景中，灵光新增相册连接能力，并通过快捷指令支持修改壁纸、备忘录等系统操作，推动AI与手机原生功能深度融合；在办公场景中，企业微信、腾讯文档和腾讯会议的加入，进一步丰富了灵光在企业沟通、文档协作、会议管理等方面的服务能力；在出行场景中，飞常准的接入则为用户获取航班动态等出行信息提供了更多便利。 AI助手的竞争正从模型能力和对话体验，走向真实场景中的事务托管。对下一代AI应用而言，能否打通不同平台和服务之间的壁垒，将直接影响AI助手的实用价值与用户体验。连接器不仅是AI能力的延伸，更是推动AI从“回答问题”",
-      "source": "雷峰网",
-      "id": "033ccd7540",
-      "relevance": 21,
-      "category": "company",
-      "tags": [],
+      "title": "文心5.5 Flash Preview正式开源",
+      "url": "<![CDATA[https://36kr.com/newsflashes/4083337436517257?f=rss]]>",
+      "publishedAt": "2026-11-24T13:45:38+08:00",
+      "summary": "36氪获悉，11月24日，文心5.5 Flash Preview正式开源。文心5.5 Flash Preview总参数量达2800亿，每个Token激活140亿参数，支持最长100万Token的上下文。",
+      "source": "36氪",
+      "id": "84539bd79e",
+      "relevance": 20,
+      "category": "model",
+      "tags": [
+        "文心"
+      ],
       "titleZh": "",
       "summaryZh": ""
     },
     {
-      "title": "WISE2026「年度企业系列名册」正式发布丨成为自己的时代",
-      "url": "https://36kr.com/p/4080920403743624?f=rss",
-      "publishedAt": "",
-      "summary": "“你要成为你自己。” 尼采在《快乐的科学》中写下这句话。对于一家企业，“成为自己”也需要时间。名字可以在创办之初确定，它所代表的东西，要由此后许多年的选择慢慢写成。 2026年，AI与硬科技正在重塑中国商业的版图。今年的年度企业系列名册中，AI是无法绕过的重心。当一项技术成为各行各业共同的背景，赛道名称能够说明企业身处何处，却难以解释它何以独特。同一轮技术变革中，选中了什么问题，愿意为之投入多久，逐渐构成一家企业的轮廓。 这些选择正在形成更细致的产业分工。围绕一台机器人，本体之外，灵巧手、触觉感知与数据采集各自成为专业方向。大模型向更多行业延伸，熟悉生产工艺、财资管理或药物研发的团队，也有了重新组织专业知识的工具。企业依靠自身积累找到位置，彼此之间又形成新的协作。一家公司的突破，可能成为另一家公司继续前行的条件。 这种差异，藏在技术进入生活的方式里。视频生成工具让小团队有机会完成复杂的影像",
-      "source": "36氪",
-      "id": "22e5974fec",
-      "relevance": 21,
-      "category": "embodied",
+      "title": "AI让软件和技术产品的主要客户不再是人类",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1587760.htm",
+      "publishedAt": "2026-11-24T02:48:25+00:00",
+      "summary": "微软Copilot、智能体与平台业务执行副总裁查尔斯·拉曼纳表示，随着人工智能智能体日益普及，大量软件和技术产品的“主要客户”将不再是人类，而是AI智能体。他认为，软件的界面、接口和商业模式都必须为此做出调整，而工程师虽然写代码的时间减少，却需要比以往更加深入地思考系统设计、验证、测试和安全发布等问题。 阅读全文",
+      "source": "cnBeta",
+      "id": "4e25277440",
+      "relevance": 20,
+      "category": "agent",
       "tags": [],
       "titleZh": "",
       "summaryZh": ""
@@ -737,7 +804,7 @@
         "OpenAI",
         "ChatGPT"
       ],
-      "todayCount": 5
+      "todayCount": 6
     },
     {
       "id": "gemini",
@@ -765,7 +832,7 @@
         "Gemini",
         "DeepMind"
       ],
-      "todayCount": 2
+      "todayCount": 0
     },
     {
       "id": "claude",
@@ -785,7 +852,7 @@
         "Claude",
         "Anthropic"
       ],
-      "todayCount": 8
+      "todayCount": 6
     },
     {
       "id": "grok",
@@ -814,7 +881,7 @@
         "Grok",
         "xAI"
       ],
-      "todayCount": 0
+      "todayCount": 3
     },
     {
       "id": "deepseek",
@@ -884,7 +951,7 @@
         "智谱",
         "GLM"
       ],
-      "todayCount": 0
+      "todayCount": 1
     },
     {
       "id": "kimi",
@@ -940,7 +1007,7 @@
         "Qwen",
         "千问"
       ],
-      "todayCount": 1
+      "todayCount": 0
     }
   ],
   "jobs": [
@@ -991,6 +1058,20 @@
     {
       "company": "腾讯",
       "team": "",
+      "role": "WorkBuddy-开放生态全栈开发工程师",
+      "location": "深圳",
+      "tags": [
+        "社招"
+      ],
+      "what": "1.负责 WorkBuddy 开放生态在多端的产品研发，覆盖桌面端，移动端，小程序以及web端等应用形态； 2.参与开放平台、开发者中心、插件市场、应用管理、授权接入等核心界面的设计与实现； 3.负责插件、Skill、MCP、Agent、第三方应用等生态能力在端侧的建设、接入、展",
+      "url": "https://careers.tencent.com/jobdesc.html?postId=2124799769984548864",
+      "postedAt": "2026年11月23日",
+      "auto": true,
+      "source": "腾讯招聘官网"
+    },
+    {
+      "company": "腾讯",
+      "team": "",
       "role": "《无畏契约》-前端开发工程师-（AI & 创新互动方向）",
       "location": "深圳",
       "tags": [
@@ -1000,21 +1081,6 @@
       "what": "1.多端体验与AI营销迭代：负责线上游戏官网、活动页、小程序及 AI 驱动的个性化营销/互动模块 的开发与维护，保障跨设备（PC/移动）流畅度与体验一致性； 2.线下沉浸式与AIGC互动开发：负责营销及电竞等线下场景的创新体验开发，结合 AIGC、视觉互动及智能音/视频 等前沿技",
       "url": "https://careers.tencent.com/jobdesc.html?postId=2088182151676870656",
       "postedAt": "2026年11月12日",
-      "auto": true,
-      "source": "腾讯招聘官网"
-    },
-    {
-      "company": "腾讯",
-      "team": "",
-      "role": "企业微信-AI Agent Harness 全栈工程师-（成都）",
-      "location": "广州",
-      "tags": [
-        "社招",
-        "AI"
-      ],
-      "what": "1.负责企微 Agent Harness 核心引擎的设计与开发，包括 AgentLoop（推理-行动循环）、工具编排、指令调度、运行环境等核心能力，支撑上层多产品的能力落地； 2.建设 Context Engineering 能力，包括多轮对话上下文压缩、Skill 体系、跨会话",
-      "url": "https://careers.tencent.com/jobdesc.html?postId=2039169824982204416",
-      "postedAt": "2026年11月23日",
       "auto": true,
       "source": "腾讯招聘官网"
     },
@@ -1175,8 +1241,109 @@
       "sample": true
     }
   ],
-  "repos": [],
-  "learning": [],
+  "repos": [
+    {
+      "name": "sybil-solutions/inference-optimisation-skill",
+      "desc": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any ",
+      "stars": 2314,
+      "language": "Python",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "topic": "llm"
+    },
+    {
+      "name": "agentes-chat/agentes-chat",
+      "desc": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run o",
+      "stars": 1997,
+      "language": "TypeScript",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "topic": "llm"
+    },
+    {
+      "name": "JosssphZhou/poki",
+      "desc": "Poki uses your iPhone like you do. An open-source agent app that runs on your iPhone, reads the screen, and taps, types ",
+      "stars": 1896,
+      "language": "Swift",
+      "url": "https://github.com/JosssphZhou/poki",
+      "topic": "llm"
+    },
+    {
+      "name": "pierridotite/mobile-agent-testers",
+      "desc": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and An",
+      "stars": 1563,
+      "language": "Python",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "topic": "llm"
+    },
+    {
+      "name": "hyperionaidev/smolmaxxing",
+      "desc": "maxxing the ability to run different LLMs on the smallest devices possible",
+      "stars": 1123,
+      "language": "C",
+      "url": "https://github.com/hyperionaidev/smolmaxxing",
+      "topic": "llm"
+    },
+    {
+      "name": "w01fb0ss/PiBot",
+      "desc": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines a",
+      "stars": 521,
+      "language": "TypeScript",
+      "url": "https://github.com/w01fb0ss/PiBot",
+      "topic": "agent"
+    },
+    {
+      "name": "nwverse/persona",
+      "desc": "",
+      "stars": 420,
+      "language": "Go",
+      "url": "https://github.com/nwverse/persona",
+      "topic": "agent"
+    },
+    {
+      "name": "jushengzhang/robot-weight-debugging",
+      "desc": "First release for Can LLMs Debug Robots by Editing Their Weights? Code, 65-row edit, 16 experiment logs and evidence. V2",
+      "stars": 408,
+      "language": "Python",
+      "url": "https://github.com/jushengzhang/robot-weight-debugging",
+      "topic": "robotics"
+    }
+  ],
+  "learning": [
+    {
+      "name": "fujc683/gpt-image-2-6-commercial-use",
+      "desc": "Ownership, licensing and retention for GPT Image 2.6 output.",
+      "stars": 103,
+      "language": "",
+      "url": "https://github.com/fujc683/gpt-image-2-6-commercial-use"
+    },
+    {
+      "name": "fujc683/gpt-image-2-6-mcp-server",
+      "desc": "Use GPT Image 2.6 from Claude, Cursor and VS Code via MCP.",
+      "stars": 102,
+      "language": "",
+      "url": "https://github.com/fujc683/gpt-image-2-6-mcp-server"
+    },
+    {
+      "name": "fujc683/gpt-image-2-6-text-rendering",
+      "desc": "Prompt patterns for legible in-image text with GPT Image 2.6.",
+      "stars": 101,
+      "language": "",
+      "url": "https://github.com/fujc683/gpt-image-2-6-text-rendering"
+    },
+    {
+      "name": "fujc683/gpt-image-2-6-api-examples",
+      "desc": "Six copy-paste curl requests for GPT Image 2.6.",
+      "stars": 101,
+      "language": "",
+      "url": "https://github.com/fujc683/gpt-image-2-6-api-examples"
+    },
+    {
+      "name": "fujc683/gpt-image-2-6-pricing",
+      "desc": "GPT Image 2.6 price per image, comparisons and volume planning.",
+      "stars": 100,
+      "language": "",
+      "url": "https://github.com/fujc683/gpt-image-2-6-pricing"
+    }
+  ],
   "official": [
     {
       "title": "宇树无偿赞助“天才少年”",
@@ -1211,8 +1378,6 @@
     "modelsAsOf": "2026-11-05",
     "jobsSource": "腾讯招聘官网自动抓取 + 手动维护(data/jobs.manual.json)；Boss/智联无公开接口暂不支持",
     "llmLayer": "未启用；后续接入 LLM 后每条会多一个 why 字段（对前端意味着什么）",
-    "extErrors": [
-      "学习资源: HTTP Error 403: rate limit exceeded"
-    ]
+    "extErrors": []
   }
 }
